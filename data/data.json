@@ -1,18 +1,37 @@
 {
     "homes":[
         {
-            "images":"image/logic.jpg",
-            "welcome":"welcome to Ecoreme Logistics Choose your path to Success",
-            "title":"Ecoreme Company",
-            "body":"Ecoreme is a detailed organization and implementation of a complex operation, refers to the overall process of managing how your resources are acquired, stored, and transported to their final destination. Logistics plays a critical role in business operations and the economy at large",
-            "clicks":"View Proceed" 
+            "id":1,
+            "images":"image/satelites.webp",
+            "title":"RECENT WATCH",
+            "body":"STARLINK MISSION",
+            "click":"REWATCH" 
         },
         {
-            "images":"image/tech.webp",
-            "welcome":"welcome to Ecoreme Technology Choose your path to Success",
-            "title":"Ecoreme Company",
-            "body":"Ecoreme technology, help in the application of scientific knowledge to the practical aims of human life or phrased, to the change and manipulation of the human environment. Ecoreme technology is applicable to conceptual knowledge to achieve practical goals, especially in a reproducible way and products resulting goods",
-           "clicks": "View Proceed"
+            "id":2,
+            "images":"image/spacelinkb.jpg",
+            "title":"RECENT LAUNCH",
+            "body":"GALILEO L13 MISSION",
+           "click": "REWATCH"
+        },
+        {
+            "id":3,
+            "images":"image/spacerocket.jpg",
+            "title":"RECENT MISSION",
+            "body":"POLARIS DAWN",
+           "click": "REWATCH"
+        },
+        {
+            "images":"image/flight.webp",
+            "title":"RECENT WATCH",
+            "body":"ADVANCING HUMAN SPACEFLIGHT",
+           "click": "LEARN MORE"
+        },
+        {
+            "images":"image/accelerate.jpg",
+            "title":"",
+            "body":"TO MAKE LIFE MULTIPLANETARY",
+           "click": "LEARN MORE"
         }
     ],
     "inputs":[

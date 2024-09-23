@@ -1,16 +1,18 @@
 import { useEffect, useState } from "react"
 import { homesFetch } from "../apiFetch/axios"
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import Input from "./Input";
+//import Input from "./Input";
 
 function Slider(){
     const [homes, setHomes] = useState([]);
     const [index, setIndex] = useState(0);
+  /*
     const [hide, setHide] = useState(false)
   
     const handleHide = () =>{
         setHide(!hide)
     }
+  */
     useEffect(() =>{
 
         homesFetch().then(json =>{
@@ -42,7 +44,7 @@ function Slider(){
     const content = <>
     
     {homes.map((home, homeIndex) => {
-          const { id, images, body, welcome, title, clicks } = home;
+          const { id, images, body, title, click } = home;
           let position = "nextSlide";
           if (homeIndex === index) {
             position = "activeSlide";
@@ -55,13 +57,11 @@ function Slider(){
           }
           return (
             <article key={id} className={position}>
-              <img src={images} alt={'imagePicture'} className="mx-auto rounded-xl opacity-20 w-full -translate-y-3" style={{height:"600px"}}/>
-              <div className="relative bottom-96 -translate-y-48">
-              <p className="text-center text-white my-3 font-bold text-6xl">{title}</p>
-              <p data-aos="fade-left" className=" text-center text-4xl hidden lg:block text-white">{welcome}</p>
-                <p className="text-center font-bold text-2xl text-white lg:hidden block">{welcome}</p>
-              <p className="w-7/12 mx-auto my-3 text-white text-xl hidden sm:block">{body}.<span className={`text-white bg-[#1a222f] mt-2 w-40 rounded-xl text-center py-2 transition-all duration-500 ease-in-out hover:bg-[#1a222f] cursor-pointer ${hide ? "hidden" : "block"}`} onClick={handleHide}>{clicks}</span></p>
-              <p className="w-7/12 mx-auto my-3 text-white block sm:hidden" style={{fontSize:"11px"}}>{body}.<span className={`text-white bg-[#1a222f] mt-2 w-40 rounded-xl text-center py-2 transition-all duration-500 ease-in-out hover:bg-[#1a222f] cursor-pointer ${hide ? "hidden" : "block"}`} onClick={handleHide}>{clicks}</span></p>
+              <img src={images} alt={'imagePicture'} className="rounded-xl opacity-40 w-full -translate-y-3" style={{height:"600px"}}/>
+              <div className="relative bottom-72 translate-x-14">
+              <p className=" text-white my-3 text-xl">{title}</p>
+              <p className="w-5/12 my-3 text-white text-5xl font-bold">{body}</p>
+              <p className={`text-white text-center border border-white mt-2 w-40 rounded-xl  py-3 transition-all duration-500 ease-in-out hover:bg-white hover:text-black cursor-pointer`}>{click}</p>
               </div>
             </article>
           );
@@ -77,9 +77,6 @@ function Slider(){
 return(
     <div className='translate-y-20 flex flex-col'> 
         {content}
-        <div className={`${hide ? "block" : "hidden"}`}>
-        <Input handleHide={handleHide} />
-        </div>
        
     </div>
 )
@@ -91,7 +88,7 @@ export default Slider
 
 <div className='wrapper'>
             <ul className='dynamic mt-3 translate-x-32 text-4xl hidden lg:block'>
-            <ol className="text-center mx-auto"><main className=" mx-auto text-center ">{welcome}</main></ol>
+            <ol className=" mx-auto"><main className=" mx-auto  ">{welcome}</main></ol>
             </ul>
     </div>
 
