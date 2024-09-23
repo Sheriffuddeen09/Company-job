@@ -46,7 +46,7 @@ function Navbar() {
               
             </button>
 
-            <div className={`block sm:hidden fixed top-0 left-0 w-full h-full bg-menu ${hide ? 'block' :'hidden'}`}> 
+            <div onClick={handleHide} className={`block sm:hidden fixed top-0 left-0 w-full h-full bg-menu ${hide ? 'block' :'hidden'}`}> 
                 <div className='gap-5 flex-col flex bg-white w-60 p-4 text-black h-full'>
                 <a href='/' className="text-black font-bold  text-sm  rounded-2xl transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer">Home</a>
                 <hr  className='bg-black w-full'/>
