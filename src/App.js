@@ -14,6 +14,12 @@ function App() {
               </div>
           
           } />
+          <Route path="/about" element={
+              <div className="overflow-hidden">
+              <Home/>
+              </div>
+          
+          } />
       </Routes>
      
     </div>
