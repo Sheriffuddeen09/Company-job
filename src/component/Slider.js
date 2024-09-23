@@ -57,15 +57,11 @@ function Slider(){
             <article key={id} className={position}>
               <img src={images} alt={'imagePicture'} className="mx-auto rounded-xl opacity-20 w-full -translate-y-3" style={{height:"600px"}}/>
               <div className="relative bottom-96 -translate-y-48">
-              <p data-aos="zoom-in" className="text-center text-white my-3 font-bold text-6xl">{title}</p>
-              
-           <div>
-            <p className=" text-center text-4xl hidden lg:block text-white">{welcome}</p>
-            
-    </div>
-                <p data-aos="fade-right" className="text-center font-bold text-2xl text-white lg:hidden block">{welcome}</p>
-              <p data-aos="fade-left" className="w-7/12 mx-auto my-3 text-white text-xl hidden sm:block">{body}.<span className={`text-white bg-[#1a222f] mt-2 w-40 rounded-xl text-center py-2 transition-all duration-500 ease-in-out hover:bg-[#1a222f] cursor-pointer ${hide ? "hidden" : "block"}`} onClick={handleHide}>{clicks}</span></p>
-              <p data-aos="zoom-in" className="w-7/12 mx-auto my-3 text-white block sm:hidden" style={{fontSize:"11px"}}>{body}.<span className={`text-white bg-[#1a222f] mt-2 w-40 rounded-xl text-center py-2 transition-all duration-500 ease-in-out hover:bg-[#1a222f] cursor-pointer ${hide ? "hidden" : "block"}`} onClick={handleHide}>{clicks}</span></p>
+              <p className="text-center text-white my-3 font-bold text-6xl">{title}</p>
+              <p data-aos="fade-left" className=" text-center text-4xl hidden lg:block text-white">{welcome}</p>
+                <p className="text-center font-bold text-2xl text-white lg:hidden block">{welcome}</p>
+              <p className="w-7/12 mx-auto my-3 text-white text-xl hidden sm:block">{body}.<span className={`text-white bg-[#1a222f] mt-2 w-40 rounded-xl text-center py-2 transition-all duration-500 ease-in-out hover:bg-[#1a222f] cursor-pointer ${hide ? "hidden" : "block"}`} onClick={handleHide}>{clicks}</span></p>
+              <p className="w-7/12 mx-auto my-3 text-white block sm:hidden" style={{fontSize:"11px"}}>{body}.<span className={`text-white bg-[#1a222f] mt-2 w-40 rounded-xl text-center py-2 transition-all duration-500 ease-in-out hover:bg-[#1a222f] cursor-pointer ${hide ? "hidden" : "block"}`} onClick={handleHide}>{clicks}</span></p>
               </div>
             </article>
           );
@@ -90,3 +86,13 @@ return(
 }
 
 export default Slider
+
+/*
+
+<div className='wrapper'>
+            <ul className='dynamic mt-3 translate-x-32 text-4xl hidden lg:block'>
+            <ol className="text-center mx-auto"><main className=" mx-auto text-center ">{welcome}</main></ol>
+            </ul>
+    </div>
+
+    */
