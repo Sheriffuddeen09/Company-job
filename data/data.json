@@ -1,0 +1,292 @@
+{
+    "homes":[
+        {
+            "images":"image/logic.jpg",
+            "welcome":"welcome to Ecoreme Logistics Choose your path to Success",
+            "title":"Ecoreme Company",
+            "body":"Ecoreme is a detailed organization and implementation of a complex operation, refers to the overall process of managing how your resources are acquired, stored, and transported to their final destination. Logistics plays a critical role in business operations and the economy at large",
+            "clicks":"View Proceed" 
+        },
+        {
+            "images":"image/tech.webp",
+            "welcome":"welcome to Ecoreme Technology Choose your path to Success",
+            "title":"Ecoreme Company",
+            "body":"Ecoreme technology, help in the application of scientific knowledge to the practical aims of human life or phrased, to the change and manipulation of the human environment. Ecoreme technology is applicable to conceptual knowledge to achieve practical goals, especially in a reproducible way and products resulting goods",
+           "clicks": "View Proceed"
+        }
+    ],
+    "inputs":[
+        {
+            "id":1,
+            "transport":"Ajman (AEAJM) United arab Emirate"
+        },
+        {
+            "id": 2,
+            "transport": "Abu Dhabi (AEAUH) United arab Emirate"
+        },
+        {
+            "id": 3,
+            "transport": " Dubia (AEDBX) United arab Emirate"
+        },
+        {
+            "id":4,
+            "transport": " Fujairah (AEFJR) United arab Emirate"
+        },
+        {
+            "id":5,
+            "transport": "Dubai (AEDXB) United arab Emirate"
+        },
+        {
+            "id":6,
+            "transport": "Ras Al Khaimah (AERKT) United"
+        },
+        {
+            "id":7,
+            "transport": "Jebel Ali (AEJEA) United arab Emirate"
+        },
+        {
+            "id":8,
+            "transport": "Abidan (CIABJ) Cote d'lvore"
+        },
+        {
+            "id":9,
+            "transport": "San-Pedro (CISPY) Cote d'lvore"
+        },
+        {
+            "id":10,
+            "transport": "Douala(CMDLA) Cameroon"
+        },
+        {
+            "id":11,
+            "transport": "Tema (GHTEM) Ghana"
+        },
+        {
+            "id":12,
+            "transport": "Takoradi (GHTKD) Ghana"
+        },
+        {
+            "id":13,
+            "transport": "Mombasa (KEMBA) Kenya"
+        },
+        {
+            "id":14,
+            "transport": "Nairobi (KENBO) Kenya"
+        },
+        {
+            "id":15,
+            "transport": "Apapa (NGAPP) Nigeria"
+        },
+        {
+            "id":16,
+            "transport": "Calabar (NGCBQ) Nigeria"
+        },
+        {
+            "id":17,
+            "transport": "Lagos (NGLOS) Nigeria"
+        },
+        {
+            "id":18,
+            "transport": "Onne (NGONN) Nigeria"
+        },
+        {
+            "id":19,
+            "transport": "Port Harcort (NGPHC) Nigeria"
+        },
+        {
+            "id":20,
+            "transport": "Tincan/Lagos (NGTIN) Nigeria"
+        },
+        {
+            "id":21,
+            "transport": "Warri (NGWAR) Nigeria"
+        },
+        {
+            "id":22,
+            "transport": "Dakar (SNDKR) Senegal"
+        }
+    ],
+    "startup":[
+        {
+            "id":1,
+            "body":"we are companies or ventures that are focused on a multiple product or service that the Company want to bring to market. we deal with entrepreneur that give the organization believe would be the solution to a long-standing problem. The problem can be industry-specific or general, but we are seeking to address an issue they feel has not been remedied satisfactorily. Ecoreme will typically begin with next to develop the organization as far as Technolog / Resources go."
+        }
+    ],
+    "logistics":[
+        {
+            "id":1,
+            "image":"image/fundament.webp",
+            "logistic":"Logistic",
+            "type":"Transport",
+            "type2":"Acquired",
+            "type3":"Stored",
+            "quality":"Time move",
+            "quality2":"Time arrive",
+            "quality3":"Online"
+        },
+        {
+            "id":1,
+            "image":"image/supply.jpg",
+            "logistic":"Logistic",
+            "type":"Transport",
+            "type2":"Acquired",
+            "type3":"Stored",
+            "quality":"Time move",
+            "quality2":"Time arrive",
+            "quality3":"Online"
+        },
+        {
+            "id":1,
+            "logistic":"Logistic",
+            "image":"image/onlinetech.jpg",
+            "type":"Transport",
+            "type2":"Acquired",
+            "type3":"Stored",
+            "quality":"Time move",
+            "quality2":"Time arrive",
+            "quality3":"Online"
+        }
+
+    ],
+    "technologys":[
+        {
+            "id":1,
+            "image":"image/logic.jpg",
+            "logistic":"Technology",
+            "type":"Knowledge",
+            "type2":"Reproducible",
+            "type3":"Phrased",
+            "quality":"Set",
+            "quality2":"Goal",
+            "quality3":"Achieve"
+        },
+        {
+            "id":1,
+            "image":"image/tech.webp",
+            "logistic":"Technology",
+            "type":"Technology",
+            "type2":"Reproducible",
+            "type3":"Phrased",
+            "quality":"Set",
+            "quality2":"Goal",
+            "quality3":"Achieve"
+        },
+        {
+            "id":1,
+            "logistic":"Technology",
+            "image":"image/feedback.jpg",
+            "type":"Technology",
+            "type2":"Reproducible",
+            "type3":"Phrased",
+            "quality":"Set",
+            "quality2":"Goal",
+            "quality3":"Achieve"
+        }
+
+    ],
+    "onelogistics":[
+        {
+            "id":1,
+            "image":"image/fundament.webp",
+            "logistic":"Logistic",
+            "type":"Transport",
+            "type2":"Acquired",
+            "type3":"Stored",
+            "quality":"Time move",
+            "quality2":"Time arrive",
+            "quality3":"Online"
+        }
+    ],
+    "twologistics":[
+        {
+            "id":1,
+            "image":"image/fundament.webp",
+            "logistic":"Logistic",
+            "type":"Transport",
+            "type2":"Acquired",
+            "type3":"Stored",
+            "quality":"Time move",
+            "quality2":"Time arrive",
+            "quality3":"Online"
+        },
+        {
+            "id":1,
+            "logistic":"Logistic",
+            "image":"image/onlinetech.jpg",
+            "type":"Transport",
+            "type2":"Acquired",
+            "type3":"Stored",
+            "quality":"Time move",
+            "quality2":"Time arrive",
+            "quality3":"Online"
+        }
+    ],
+    "onetechs":[
+        {
+            "id":1,
+            "image":"image/tech.webp",
+            "logistic":"Technology",
+            "type":"Technology",
+            "type2":"Reproducible",
+            "type3":"Phrased",
+            "quality":"Set",
+            "quality2":"Goal",
+            "quality3":"Achieve"
+        }
+    ],
+    "twotechs":[
+        {
+            "id":1,
+            "image":"image/tech.webp",
+            "logistic":"Technology",
+            "type":"Technology",
+            "type2":"Reproducible",
+            "type3":"Phrased",
+            "quality":"Set",
+            "quality2":"Goal",
+            "quality3":"Achieve"
+        },
+        {
+            "id":1,
+            "logistic":"Technology",
+            "image":"image/feedback.jpg",
+            "type":"Technology",
+            "type2":"Reproducible",
+            "type3":"Phrased",
+            "quality":"Set",
+            "quality2":"Goal",
+            "quality3":"Achieve"
+        }
+    ],
+    "logs":[
+        {
+            "dedicate":"We are Dedicated and dead serious About our business",
+            "view":"Want to view our exclusive special rates?",
+            "sign":"Sign in or create an account to view all",
+            "liner":"our available special rates for this liner.",
+            "service":"Ecoreme Provide Awesome complex operation, refers to the overall process of managing how your resources are Acquired, stored and transported to their final destination. And use own our patented system called Logistic, short for Client, Culture and Company. Our specialists are able to 'infiltrate' all company sections and analyze for areas where improvement is needed "
+        }
+    ],
+    "solutions":[
+        {
+            "image":"image/case.png",
+            "title":"Ecoreme Solutions",
+            "body":"Our patented business solutions are unique and can be incorporated into almost any type of company.",
+            "number":"Ecoreme Clients",
+            "numberBody":"Intrinsically integrate diverse action items for team building best practices. Globally supply covalent ROI via e-business markets, assertively."
+        },
+        {
+            "image":"image/dice.png",
+            "title":"Improve with Ecoreme",
+            "body":"No matter how well your business runs, there is always room for improvement, and Ecoreme are the experts for this.",
+            "number":"Ecoreme Projects",
+            "numberBody":"Intrinsically integrate diverse action items for team building best practices. Globally supply covalent ROI via e-business markets, assertively."
+        },
+        {
+            "image":"image/volume.png",
+            "title":"Ecoreme And Growth",
+            "body":"Under the wings of Ecoreme, you will witness a business growth in a short amount of time. A week is all you need.",
+             "number":"Ecoreme Solutions",
+            "numberBody":"Intrinsically integrate diverse action items for team building best practices. Globally supply covalent ROI via e-business markets, assertively."
+        }
+    ]
+}
