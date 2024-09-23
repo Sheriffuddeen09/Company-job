@@ -70,7 +70,7 @@ function Navbar() {
             </button>
             </div>
             <div onClick={handleHide} className={`block sm:hidden fixed top-0 left-0 w-full h-full bg-menu ${hide ? 'block' :'hidden'}`}> 
-                <div className='gap-5 flex-col flex bg-white w-60 p-4 text-white h-full'>
+                <div className='gap-5 flex-col flex bg-black w-60 p-4 text-white h-full'>
                 <a href='/' className="text-white font-bold  text-sm  rounded-2xl transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer p-2 flex flex-row justify-between">Home <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
 </svg>
