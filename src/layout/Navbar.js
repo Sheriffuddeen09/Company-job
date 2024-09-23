@@ -5,7 +5,7 @@ function Navbar() {
 
     const homepage = useLocation().pathname
 
-    const [hide, setHide] = useState(true)
+    const [hide, setHide] = useState(false)
     const [menu, setMenu] = useState(false)
     const handleHide = () =>{
         setHide(!hide)
