@@ -45,7 +45,7 @@ function Logistic(){
             {
                 logs.map((log) =>(
                     <div className="sm:text-center">
-                        <h1 data-aos="fade-right" className="font-bold text-center -translate-y-10 sm:translate-y-0 -mb-10 sm:mb-0 sm:text-2xl">{log.dedicate}</h1>
+                        <h1 data-aos="fade-right" className="font-bold text-center -translate-y-20 sm:translate-y-0 -mb-5 sm:mb-0 sm:text-2xl">{log.dedicate}</h1>
                         <h1 data-aos="zoom-in" className=" sm:w-8/12 my-3 p-2 mx-auto">{log.service}</h1>
                         <h1 data-aos="zoom-in" className="font-bold text-center ">{log.services}</h1>
                         <h1 data-aos="fade-right" className="text-xl text-gray-500 text-center">{log.view}</h1>

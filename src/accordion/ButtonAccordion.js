@@ -8,7 +8,7 @@ const ButtonAccordion = ({faq}) =>{
     }
 return(
     <div className="py-4 px-4 sm:px-16 bodyaccord" onClick={toggleSubmit}>
-            <div className="flex flex-row bodyaccord sm:w-full w-72 justify-between border-l-0 border-r-0 border-t-0 border border-black p-2 bg-white relative cursor-pointer">
+            <div className="flex flex-row bodyaccord sm:w-full w-64 justify-between border-l-0 border-r-0 border-t-0 border border-black p-2 bg-white relative cursor-pointer">
                 <span className="">
                 <p className="text-sm sm:text-xl">
                     {faq.title}
