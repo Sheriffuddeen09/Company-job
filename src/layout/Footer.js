@@ -85,7 +85,7 @@ return (
     <div className='inline-flex gap-1 items-center'>
             <p className=" text-white hidden sm:block">Design @ 2024 &copy;</p>
             <ul className=''>
-            <p className='text-white'>Odukoya Sheriffuddeen Olawale</p>
+            <p className='text-white'>&copy; Odukoya Sheriffuddeen Olawale</p>
             </ul>
     </div>
 <div className='hidden sm:block '>
@@ -97,7 +97,7 @@ return (
 </div>
 </div>
 <div className='sm:hidden block '>
-<div className='flex flex-row flex-wrap items-center gap-2' data-aos="fade-up">
+<div className='flex flex-row flex-wrap items-center gap-2 justify-center'>
     <img src={Face} alt="facebook" className='w-5 rounded-xl h-5 bg-white' width={20} height={20} />
     <img src={Twitter} alt="twitter" className='w-5 rounded-xl h-5' width={20} height={20} />
     <img src={whats} alt="whats" className='w-5 rounded-xl h-5' width={20} height={20} />

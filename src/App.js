@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Routes>
             <Route path="/" element={
-              <div>
+              <div className="overflow-hidden">
               <Home/>
               </div>
           

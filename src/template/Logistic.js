@@ -45,14 +45,14 @@ function Logistic(){
             {
                 logs.map((log) =>(
                     <div className="sm:text-center">
-                        <h1 className="font-bold text-center -translate-y-10 sm:translate-y-0 -mb-10 sm:mb-0 sm:text-2xl">{log.dedicate}</h1>
-                        <h1 className=" sm:w-8/12 my-3 p-2 mx-auto">{log.service}</h1>
-                        <h1 className="font-bold text-center ">{log.services}</h1>
-                        <h1 className="text-xl text-gray-500 text-center">{log.view}</h1>
-                        <h1 className="text-sm text-gray-500 text-center">{log.sign} <span className=" text-green-500">0 of</span></h1>
-                        <h1 className="text-sm text-gray-500 text-center mb-20">{log.liner}</h1>
-                        <p className="bg-green-500 w-60 p-3 rounded-sm mx-auto text-white">Create an Account</p>
-                        <p className="text-center">Already have an account? <span className="text-green-400 my-3">Sign in</span></p>
+                        <h1 data-aos="fade-right" className="font-bold text-center -translate-y-10 sm:translate-y-0 -mb-10 sm:mb-0 sm:text-2xl">{log.dedicate}</h1>
+                        <h1 data-aos="zoom-in" className=" sm:w-8/12 my-3 p-2 mx-auto">{log.service}</h1>
+                        <h1 data-aos="zoom-in" className="font-bold text-center ">{log.services}</h1>
+                        <h1 data-aos="fade-right" className="text-xl text-gray-500 text-center">{log.view}</h1>
+                        <h1 data-aos="zoom-out" className="text-sm text-gray-500 text-center">{log.sign} <span className=" text-green-500">0 of</span></h1>
+                        <h1  data-aos="fade-left" className="text-sm text-gray-500 text-center mb-20">{log.liner}</h1>
+                        <p data-aos="zoom-in" className="bg-green-500 w-60 p-3 rounded-sm mx-auto text-white">Create an Account</p>
+                        <p data-aos="flip-right" className="text-center">Already have an account? <span className="text-green-400 my-3">Sign in</span></p>
                     </div>
                 ))
             }

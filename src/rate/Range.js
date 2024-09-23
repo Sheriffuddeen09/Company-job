@@ -38,20 +38,20 @@ function Range (){
     )
 
     return (
-        <div className="lg:flex-row flex-col gap-4 items-center flex ">
+        <div className="lg:flex-row flex-col gap-4 items-center flex "  data-aos="fade-up">
     
     <div className=" md:flex-row md:items-center lg:flex-col flex-col gap-5 flex -translate-y-40 lg:translate-y-5">
                 <div className="bg-gradient-to-t from-black h-72 sm:w-72 w-60 rounded-xl 
                 justify-center items-center 
                 text-white to-green-700 flex flex-col" data-aos="fade-up">
                     <p className=" mt-6 text-center font-bold"> Durability<br /> Technology</p> 
-                    <h1 className="inline-flex text-3xl font-bold"> {contentOne}%</h1>
+                    <h1 className="inline-flex text-6xl font-bold"> {contentOne}%</h1>
                 </div> 
                 <div className="bg-white border-2 mt-4 h-72 sm:w-72 w-60 md:-translate-y-2 rounded-xl 
                 justify-center items-center 
                 text-black to-green-700 flex flex-col" data-aos="fade-up">
                 <p className="mt-6 text-center font-bold"> Logistic Availablle</p>
-                <h1 className="inline-flex text-3xl font-bold"> {contentTwo}/7</h1>
+                <h1 className="inline-flex text-6xl font-bold"> {contentTwo}/7</h1>
                 </div> 
             </div> 
             <div className=" md:flex-row md:items-center lg:flex-col flex-col gap-5 flex -translate-y-40 lg:translate-y-5">
@@ -59,13 +59,13 @@ function Range (){
                 justify-center items-center 
                 text-black to-green-700 flex flex-col" data-aos="fade-up">
                 <p className="mt-6 text-center font-bold"> Time Accurate</p>
-                <h1 className="inline-flex text-3xl font-bold"> {contentFour}B+</h1>
+                <h1 className="inline-flex text-6xl font-bold"> {contentFour}B+</h1>
                 </div> 
                 <div className="bg-gradient-to-t from-blue-300 h-72 sm:w-72 w-60 rounded-xl 
                 justify-center items-center 
                 text-black to-red-200 flex flex-col" data-aos="fade-up">
                     <p className=" mt-6 text-center font-bold"> Flexibility<br /> Technology</p> 
-                    <h1 className="inline-flex text-3xl font-bold"> {contentThree}%</h1>
+                    <h1 className="inline-flex text-6xl font-bold"> {contentThree}%</h1>
                 </div> 
                
             </div> 

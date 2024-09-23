@@ -24,7 +24,7 @@ function RangeText (){
     </>
     const content = (
 
-        <div className="bg-white rounded-xl px-12 pt-7">
+        <div className="bg-white rounded-xl px-12 pt-7"  data-aos="zoom-in">
             <h1 className="text-black my-4 sm:text-5xl text-4xl">Ecoreme Services</h1>
                 {range}
                 <button className="flex items-center sm:w-72 w-60 py-3 rounded-xl text-white  mx-auto inline-flex gap-2 -translate-x-4 sm:translate-x-0 text-1xl mt-10 mb-20 justify-center bg-green-600 rounded">

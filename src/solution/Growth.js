@@ -41,7 +41,7 @@ function Growth(){
     )
 
     const content = (
-        <div className="grid sm:grid-cols-3 grid-cols-1 justify-items-center">
+        <div className="grid sm:grid-cols-3 grid-cols-1 justify-items-center" data-aos="fade-up">
             {
                 solutions.map((solution) =>(
                     <div className="mx-auto flex-col flex">
@@ -57,7 +57,7 @@ function Growth(){
         </div>
     )
     const contents = (
-        <div className="grid sm:grid-cols-3 grid-cols-1">
+        <div className="grid sm:grid-cols-3 grid-cols-1" data-aos="zoom-out">
             {
                 solutions.map((solution) =>(
                     <div className="mx-auto flex-col flex items-center">
@@ -73,7 +73,7 @@ function Growth(){
     )
     return (
 
-        <div className="bg-white mx-5 p-7 rounded-xl">
+        <div className="bg-white mx-5 p-7 rounded-xl" data-aos="fade-right">
             {content}
             <hr />
             <div className="grid grid-cols-3 mx-auto justify-items-center mt-4 mb-5">

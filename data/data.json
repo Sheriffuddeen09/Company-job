@@ -288,5 +288,136 @@
              "number":"Ecoreme Solutions",
             "numberBody":"Intrinsically integrate diverse action items for team building best practices. Globally supply covalent ROI via e-business markets, assertively."
         }
-    ]
+    ],
+    "companys":[
+        {
+            "id":1,
+            "image":"image/dangote.png"
+        },
+        {
+            "id":2,
+            "image":"image/global.png"
+        },
+        {
+            "id":3,
+            "image":"image/tiny.png"
+        },
+        {
+            "id":1,
+            "image":"image/micro.png"
+        },
+        {
+            "id":1,
+            "image":"image/afex.png"
+        }
+    ],
+    "faqs": [
+        {
+            "id": 1,
+            "title": "What do you do at Ecoreme",
+            "body": "We provide digital freight management services to Organization's cross-border traders. Our web-based application enables you search negotiated real-time rates and comprehensive quotes. Our clients are also able to track and monitor the progress of their Stored Resources from transport to delivery, from anywhere in the world. We offer logistics and technology, pay as you go and off-dock terminal handling services, and marine insurance."
+        },
+    {
+        "id": 2,
+        "title": "Create an account",
+        "body": "Click on Create Account to initiate the Logistic and Technology process."
+    },
+    {
+        "id": 3,
+        "title": "How Your Resources are Store",
+        "body": " Log in to Ecoreme to gain access to our streamlined Logistic services, competitive rates, and outstanding customer support."
+    },
+    {
+        "id": 4,
+        "title": "Confirm your Stored / Acquired Resource.",
+        "body": "Our exceptional customer support team will promptly follow up with you and provide updates on all your Resources."
+    },
+    {
+        "id": 5,
+        "title": "Track and Monitor Resources",
+        "body": "Keep track of your Stored/Acquired in transit with our reliable tracker, allowing you to stay informed about their whereabouts."
+    }
+,
+    {
+        "id": 6,
+        "title": "How can I track my Resourses?",
+        "body": "A tracking link will be assigned to your Stored/Acquired Resources once your booking has been confirmed. With this, you are able to track the status of your order from your dashboard."
+    }
+],
+"reviews":[
+    {
+        "id":1,
+        "star":"review/stars.png",
+        "image":"review/backend.jpg",
+        "user":"Smith David",
+        "body":"Very Good service all trust them on their delivery and other service. They are Dedicate to timing in delivery to their customer. I suggest everyone to choose this courier service",
+        "icon":"review/face.png"
+    },
+    {
+        "id":2,
+        "star":"review/stars.png",
+        "image":"review/gg.jpg",
+        "user":"Paul Olive",
+        "body":"Very Good service ever",
+        "icon":"review/face.png"
+    },
+    {
+        "id":3,
+        "image":"review/python.png",
+        "star":"review/stars.png",
+        "user":"Abdul-Salam Ola",
+        "body":"I selected this vendor based on their google rating 4.5+. But honestly speaking their service deserved more than that rating.",
+        "icon":"review/face.png"
+    },
+    {
+        "id":4,
+        "image":"review/backend.jpg",
+        "star":"review/stars.png",
+        "user":"Smith David",
+        "body":"The main thing I like best about supply chain management is that it is a broad discipline and touches on many parts of a company",
+        "icon":"review/face.png"
+    },
+    {
+        "id":5,
+        "image":"review/unlimited.png",
+        "star":"review/stars.png",
+        "user":"Fawas Olatunji",
+        "body":"Ecoreme was competent in doing anything. They just stand on their trust",
+        "icon":"review/face.png"
+    },
+    {
+        "id":6,
+        "image":"review/image-1.jpeg",
+        "star":"review/stars.png",
+        "user":"Mutmainat Ojulari",
+        "body":"Ecoreme Logistics is best and professional moving company.",
+        "icon":"review/face.png"
+    }
+],
+"review":[
+    {
+        "id":1,
+        "image":"review/image-3.jpeg",
+        "star":"review/stars.png",
+        "user":"Chika Ugo",
+        "body":"There is no doubt that logistics plays a vital role in our economy and its importance is only increasing as businesses become more globalized. Without efficient logistics, it would be impossible for business to move products around the world a timely and cost-effective manner",
+        "icon":"review/face.png"
+    },
+    {
+        "id":2,
+        "star":"review/stars.png",
+        "image":"review/image-2.jpeg",
+        "user":"Elizabeth Gloria",
+        "body":"I had used the service of Ecoreme and Movers 2 weeks back to parcel my 2 wheeler from Lagos to Benin. Quiet happy with their service",
+        "icon":"review/face.png"
+    },
+    {
+        "id":3,
+        "image":"review/web.jpg",
+        "star":"review/stars.png",
+        "user":"Peter Akon",
+        "body":"Lovely service rendering",
+        "icon":"review/face.png"
+    }
+]
 }

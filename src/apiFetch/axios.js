@@ -48,3 +48,19 @@ export const solutionFetch = async () =>{
     const res = await Api.get("/solutions")
     return res.data
 }
+export const companyFetch = async () =>{
+    const res = await Api.get("/companys")
+    return res.data
+}
+export const AccordFetch = async () =>{
+    const res = await Api.get("/faqs")
+    return res.data
+}
+export const reviewsFetch = async () =>{
+    const res = await Api.get("/reviews")
+    return res.data
+}
+export const reviewFetch = async () =>{
+    const res = await Api.get("/review")
+    return res.data
+}
