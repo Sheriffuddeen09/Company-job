@@ -70,32 +70,43 @@ function Navbar() {
             </button>
             </div>
             <div onClick={handleHide} className={`block sm:hidden fixed top-0 left-0 w-full h-full bg-menu ${hide ? 'block' :'hidden'}`}> 
-                <div className='gap-5 flex-col flex bg-black w-60 p-4 text-white h-full'>
-                <a href='/' className="text-white font-bold  text-sm  rounded-2xl transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer p-2 flex flex-row justify-between">Home <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-</svg>
-</a>
-                <hr  className='bg-black w-full'/>
-                <a href='/' className="text-white font-bold  text-sm rounded-2xl transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer p-2 flex flex-row justify-between">About <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-</svg>
-</a>
-                <hr  className='bg-black'/>
-                <a href='/' className="text-white font-bold  text-sm rounded-2xl transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer p-2 flex flex-row justify-between">Logistic <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-</svg>
-</a>
-                <hr  className='bg-black'/>
-                <a href='/' className="text-white font-bold  text-sm rounded-2xl transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer p-2 flex flex-row justify-between">Technology <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-</svg>
-</a>
-                <hr  className='bg-black'/>
-                <a href='/' className="text-white font-bold  text-sm rounded-2xl transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer p-2 flex flex-row justify-between">Career <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-</svg>
-</a>
-                </div>
+            
+            <div className='gap-2 flex-col flex bg-black w-72 fixed right-0 p-4 text-black h-full text-end'>
+            <div className='flex-row justify-between flex items-center gap-2'>
+            <img src={Image} alt="logo" width={50} height={70} className='w-32'/>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" onClick={handleHide} stroke="currentColor" class="size-6 cursor-pointer text-white mt-10 relative left-0 bottom-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+            </div>
+                <Link to={'/'} className={`text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer `}>FALCON 9
+                <div className={`transition-all duration-500 ease-in-out hover:bg-[#626267] ${homepage === '/' ? 'home' : 'none'}`}> </div>
+                </Link>
+                <Link to={'/falcon'} className="text-white text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer">FALCON HEAVY
+                <div className={`${homepage === '/falcon' ? 'home' : 'none'}`}> </div>
+                </Link>
+                <Link to={'/dragon'} className="text-white text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer">DRAGON
+                <div className={`${homepage === '/dragon' ? 'home' : 'none'}`}> </div>
+                
+                </Link>
+                <Link to={'/start'} className="text-white text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer">STARTSHIP
+                <div className={`${homepage === '/start' ? 'home' : 'none'}`}> </div>
+                </Link>
+                <Link to={'/human'} className="text-white text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer">HUMAN SPACEFLIGHT
+                <div className={`${homepage === '/human' ? 'home' : 'none'}`}> </div>
+                </Link>
+                <Link to={'/ride'} className="text-white text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer">RIDESHARE
+                <div className={`${homepage === '/ride' ? 'home' : 'none'}`}> </div>
+                </Link>
+                <Link to={'/shield'} className="text-white text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer">STARSHIELD
+                <div className={`${homepage === '/shield' ? 'home' : 'none'}`}> </div>
+                </Link>
+                <Link to={'/starlink'} className="text-white text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer">STARLINK
+                <div className={`${homepage === '/starlink' ? 'home' : 'none'}`}> </div>
+                </Link>
+                <Link to={'/shop'} className="text-white text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer">SHOP
+                <div className={`${homepage === '/shop' ? 'home' : 'none'}`}> </div>
+                </Link>
+            </div>
             </div>
             </div>
             </nav>
