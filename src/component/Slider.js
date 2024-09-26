@@ -57,11 +57,11 @@ function Slider(){
           }
           return (
             <article key={id} className={position}>
-              <img src={images} alt={'imagePicture'} className="rounded-xl opacity-40 w-full -translate-y-3" style={{height:"600px"}}/>
+              <img src={images} alt={'imagePicture'} className="opacity-40 w-full -translate-y-3" style={{height:"650px"}}/>
               <div className="relative bottom-72 translate-x-3 sm:translate-x-14">
               <p className=" text-white my-3 text-xl">{title}</p>
               <p className="sm:w-5/12 my-3 text-white text-3xl sm:text-5xl font-bold">{body}</p>
-              <p className={`text-white text-center border border-white mt-2 w-40 rounded-xl  py-3 transition-all duration-500 ease-in-out hover:bg-white hover:text-black cursor-pointer`}>{click}</p>
+              <p className={`text-white text-center border-2 border-white mt-2 w-40  py-3 transition-all duration-500 ease-in-out hover:bg-white hover:text-black cursor-pointer font-bold`}>{click}</p>
               </div>
             </article>
           );

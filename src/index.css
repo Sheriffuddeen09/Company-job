@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+    .toggle-btn {
+        @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg]
+    }
+
 :root{
     --body_background: blue;
     --body_backtoggle: white;
@@ -33,16 +39,236 @@
     background-color: #17191c;
     z-index: 1000px;
   }
-  .home{
-    background-color: rgb(132, 132, 142);
-    height: 2px;
-    padding: 2px;margin-top: 4px;
-    margin-bottom: -17px;
+  .transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
   }
-  .home:hover{
-    background-color: #3a3a6d;
-    height: 2px;
-    padding: 1px;
+  .showMenu{
+    animation: showMenu 1s ease-in-out ;
+  }
+  .showrotate{
+    animation: rotate 1s ease-in-out ;
+  }
+  .showdown{
+    animation: showdown 1s ease-in-out ;
+  }
+  .showdown .span{
+    animation: bounce 0.6 ease-in-out;
+  }
+  .showdown .span:nth-child(2){
+    animation-delay: 0.1s;
+  }
+  .showdown .span:nth-child(3){
+    animation-delay: 0.2s;
+  }
+  .showdown .span:nth-child(4){
+    animation-delay: 0.3s;
+  }
+  .showdown .span:nth-child(5){
+    animation-delay: 0.4s;
+  }
+  .showdown .span:nth-child(6){
+    animation-delay: 0.5s;
+  }
+  @keyframes bounce {
+    0%,100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes showMenu {
+   from{
+    transform: translateX(260px);
+   }
+   to{
+    transform: translateX(0px);
+   }
+  }
+  @keyframes showdown {
+    from{
+     transform: scale(0);
+    }
+    to{
+     transform: scale(1);
+    }
+   }
+  @keyframes rotate {
+    from{
+     transform: rotate(45deg);
+    }
+    to{
+     transform: rotate(360deg);
+    }
+   }
+
+  .home::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    height: 1.5px;
+    width: 7%;
+    left: 8px;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    transform: scaleX(0);
+  }
+  .home:hover::after{
+    transform: scaleX(1);
+    
+  }
+  .heavy{
+    position: relative;
+  }
+  .heavy::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    height: 1.5px;
+    width: 86%;
+    left: 8px;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    transform: scaleX(0);
+  }
+  .heavy:hover::after{
+    transform: scaleX(1);
+    
+  }
+  .dragon{
+    position: relative;
+  }
+  .dragon::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    height: 1.5px;
+    width: 78%;
+    left: 8px;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    transform: scaleX(0);
+  }
+  .dragon:hover::after{
+    transform: scaleX(1);
+    
+  }
+
+  .start{
+    position: relative;
+  }
+  .start::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    height: 1.5px;
+    width: 78%;
+    left: 8px;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    transform: scaleX(0);
+  }
+  .start:hover::after{
+    transform: scaleX(1);
+    
+  }
+
+  .human{
+    position: relative;
+  }
+  .human::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    height: 1.5px;
+    width: 90%;
+    left: 8px;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    transform: scaleX(0);
+  }
+  .human:hover::after{
+    transform: scaleX(1);
+    
+  }
+  
+  .ride{
+    position: relative;
+  }
+  .ride::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    height: 1.5px;
+    width: 83%;
+    left: 8px;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    transform: scaleX(0);
+  }
+  .ride:hover::after{
+    transform: scaleX(1);
+    
+  }
+
+  .star{
+    position: relative;
+  }
+  .star::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    height: 1.5px;
+    width: 85%;
+    left: 8px;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    transform: scaleX(0);
+  }
+  .star:hover::after{
+    transform: scaleX(1);
+    
+  }
+  
+  .starlink{
+    position: relative;
+  }
+  .starlink::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    height: 1.5px;
+    width: 80%;
+    left: 8px;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    transform: scaleX(0);
+  }
+  .starlink:hover::after{
+    transform: scaleX(1);
+    
+  }
+  
+  .shop{
+    position: relative;
+  }
+  .shop::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    height: 1.5px;
+    width: 65%;
+    left: 8px;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    transform: scaleX(0);
+  }
+  .shop:hover::after{
+    transform: scaleX(1);
+    
   }
   .prev,
   .next {
@@ -162,4 +388,11 @@ top: 0;*/
 
 .roll{
   rotate: 90deg;
+}
+.hover-bg{
+  background-color: #000000b3;
+}
+.bg-line{
+  background-color: rgb(49, 48, 48);
+  height: 0.5px;
 }
