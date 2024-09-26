@@ -17,7 +17,7 @@ function Navbar() {
     return (
 
         <header className=" fixed bg-black w-full z-10  shadow-2xl sm:px-0 ">
-            <nav className='flex flex-row justify-between items-center mx-7'>
+            <nav className='flex flex-row justify-between items-center mx-2 sm:mx-7'>
               <div className='inline-flex items-center gap-2'>
                 <img src={Image} alt="logo" className='w-44 h-24'/>
             </div>
@@ -48,15 +48,15 @@ function Navbar() {
             <div>
              <div className='hidden sm:block'> 
             <button onClick={handlemenu} className=''>
-            <div 
-            class="absolute top-12 -mt-0.5 h-0.5 w-5 rounded bg-white transition-all duration-500 before:absolute before:h-0.5 before:w-5 before:-translate-x-2.5 -translate-x-12  before:-translate-y-1 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-5 after:-translate-x-2.5 after:translate-y-1 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
+            <div onClick={handlemenu}
+            class="absolute top-12 -mt-0.5 h-0.5 w-5 rounded bg-white transition-all duration-500 before:absolute before:h-0.5 before:w-5 before:-translate-x-2.5 -translate-x-8  before:-translate-y-1 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-5 after:-translate-x-2.5 after:translate-y-1 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
           </div>
             </button>
             </div>
             <div className='sm:hidden block'>
             <button onClick={handleHide}>
-            <div 
-            class="absolute top-11 -mt-0.5 h-0.5 w-5 rounded bg-white transition-all duration-500 before:absolute before:h-0.5 before:w-5 before:-translate-x-2.5 -translate-x-12  before:-translate-y-1 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-5 after:-translate-x-2.5 after:translate-y-1 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
+            <div onClick={handleHide}
+            class="absolute top-13 -mt-0.5 h-0.5 w-5 rounded bg-white transition-all duration-500 before:absolute before:h-0.5 before:w-5 before:-translate-x-2.5 -translate-x-12  before:-translate-y-1 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-5 after:-translate-x-2.5 after:translate-y-1 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
           </div>
               
             </button>
@@ -66,10 +66,10 @@ function Navbar() {
             <div className='gap-2 flex-col flex bg-black showdown w-72 fixed right-0 p-4 text-black h-full text-end'>
             <div className='flex-row justify-between flex items-center gap-2'>
             <img src={Image} alt="logo" width={50} height={70} className='w-32'/>
-        <button className='rotate-45 translate-y-2 showrotate'>
+        <button className='rotate-45 translate-y-2 showrotate onClick={handleHide}'>
 
             <div
-            class="showrotate transition-all duration-500 before:absolute before:h-0.5 before:w-4 before:-translate-x-4 before:translate-y-0 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-4 after:-translate-x-4 after:translate-y-0 after:rotate-75 before:rotate-90 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
+            class="cursor-pointer showrotate transition-all duration-500 before:absolute before:h-0.5 before:w-4 before:-translate-x-4 before:translate-y-0 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-4 after:-translate-x-4 after:translate-y-0 after:rotate-75 before:rotate-90 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
           </div>
           </button>
             </div>
@@ -108,9 +108,9 @@ function Navbar() {
             <div  onClick={handlemenu}  className={`showMenu transition-all duration-3000 ease-in-out fixed top-0 right-0 w-full h-full bg-menu ${menu ? "block" :"hidden"}`}> 
 
 <div className='gap-2 showdown flex-col transition-all duration-2000 ease-in-out flex bg-black w-80 fixed right-0 p-4 text-black h-full text-end '>
-<button className='rotate-45 relative top-4 left-36 mb-14 showrotate'>
+<button className='rotate-45 relative top-4 left-36 mb-14 showrotate' onClick={handlemenu} >
 <div
-            class="showrotate transition-all duration-500 before:absolute before:h-0.5 before:w-4 before:-translate-x-4 before:translate-y-7 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-4 after:-translate-x-4 after:translate-y-7 after:rotate-75 before:rotate-90 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
+            class="showrotate transition-all duration-500 before:absolute before:h-0.5 before:w-4 cursor-pointer before:-translate-x-4 before:translate-y-7 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-4 after:-translate-x-4 after:translate-y-7 after:rotate-75 before:rotate-90 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
           </div>
 </button>
 
