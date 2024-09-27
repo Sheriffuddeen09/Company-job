@@ -44,56 +44,68 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
   }
-  .showMenu{
-    animation: showMenu 1s ease-in-out ;
-  }
-  .showrotate{
-    animation: rotate 1s ease-in-out ;
-  }
-  .showdown{
-    animation: showdown 1s ease-in-out ;
-  }
-  .showdown .span{
-    animation: bounce 0.6 ease-in-out;
-  }
-  .showdown .span:nth-child(2){
-    animation-delay: 0.1s;
-  }
-  .showdown .span:nth-child(3){
-    animation-delay: 0.2s;
-  }
-  .showdown .span:nth-child(4){
-    animation-delay: 0.3s;
-  }
-  .showdown .span:nth-child(5){
-    animation-delay: 0.4s;
-  }
-  .showdown .span:nth-child(6){
-    animation-delay: 0.5s;
-  }
-  @keyframes bounce {
-    0%,100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-20px);
-    }
-  }
+  .hide{
+    display: none;
+    animation: hideMenu 8s ease-in-out ;
 
-  @keyframes showMenu {
-   from{
-    transform: translateX(260px);
-   }
-   to{
-    transform: translateX(0px);
-   }
   }
-  @keyframes showdown {
+  .blocked{
+    display: block;
+    animation: showMenu 0.5s ease-in-out ;
+  }
+  
+  @keyframes showMenu {
     from{
-     transform: scale(0);
+     transform: translateX(260px);
     }
     to{
-     transform: scale(1);
+     transform: translateX(0px);
+    }
+   }
+   @keyframes hideMenu {
+     from{
+      transform: translateX(-260px);
+     }
+     to{
+      transform: translateX(-126px);
+     }
+    }
+    
+  section li{
+    animation: bounce 1s ease-in-out;
+    list-style-type: none;
+  }
+  section li:nth-child(2){
+    animation-delay: 0.1s;
+  }
+  section li:nth-child(3){
+    animation-delay: 0.2s;
+  }
+  section li:nth-child(4){
+    animation-delay: 0.3s;
+  }
+  section li:nth-child(5){
+    animation-delay: 0.4s;
+  }
+  section li:nth-child(6){
+    animation-delay: 0.5s;
+  }
+  section li:nth-child(7){
+    animation-delay: 0.6s;
+  }
+  section li:nth-child(8){
+    animation-delay: 0.7s;
+  }
+  section li:nth-child(9){
+    animation-delay: 0.8s;
+  }
+  
+  @keyframes bounce {
+    from{
+     transform: translateY(-20px);
+    }
+    to{
+     transform: translateY(0px);
     }
    }
   @keyframes rotate {
