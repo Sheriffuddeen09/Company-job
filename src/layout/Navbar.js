@@ -64,72 +64,117 @@ function Navbar() {
             <div onClick={handleHide} className={`block showMenu sm:hidden fixed top-0 left-0 w-full h-full bg-menu ${hide ? 'blockdd' :'hide'}`}> 
             
             <section className='gap-2 flex-col flex bg-black w-72 fixed right-0 p-4 text-black h-full text-end'>
-            <div className='flex-row justify-between flex items-center gap-2'>
+            <div className='flex-row justify-between flex items-center gap-2 -mb-8'>
             <img src={Image} alt="logo" width={50} height={70} className='w-32'/>
-        <button className='rotate-45 translate-y-2 showrotate onClick={handleHide}'>
+        <button className='rotate-45 translate-y-2' onClick={handleHide}>
 
             <div
-            class="cursor-pointer showrotate transition-all duration-500 before:absolute before:h-0.5 before:w-4 before:-translate-x-4 before:translate-y-0 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-4 after:-translate-x-4 after:translate-y-0 after:rotate-75 before:rotate-90 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
+            class="cursor-pointer showrotate transition-all duration-500 before:absolute before:h-0.5 before:w-4 before:-translate-x-4 before:translate-y-2 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-4 after:-translate-x-4 after:translate-y-2 after:rotate-75 before:rotate-90 after:rounded after:bg-white after:transition-all after:duration-500 after:content-[''] -translate-x-2 ">
           </div>
           </button>
-            </div>
-                <Link to={'/'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out cursor-pointer `}><li>FALCON 9</li>
+            </div><li className='-mb-5'>
+                <Link to={'/'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>FALCON 9</p>
                 </Link>
                 <li className={` bg-line w-60 mx-auto `}> </li>
-
-                <Link to={'/falcon'} className="text-white text-sm text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out cursor-pointer"><li>FALCON HEAVY</li>
+                </li>
+                <li className='-mb-5'>
+                <Link to={'/heavy'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>FALCON HEAVY</p>
                 </Link>
                 <li className={` bg-line w-60 mx-auto `}> </li>
-                <Link to={'/dragon'} className="text-white text-sm text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out cursor-pointer"><li>DRAGON</li>
+                </li>             
+                <li className='-mb-5'>
+                <Link to={'/dragon'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>DRAGON</p>
                 </Link>
                 <li className={` bg-line w-60 mx-auto `}> </li>
-                <Link to={'/start'} className="text-white text-sm text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out cursor-pointer"><li>STARTSHIP</li>
+                </li>
+                <li className='-mb-5'>
+                <Link to={'/start'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>STARTSHIP</p>
                 </Link>
                 <li className={` bg-line w-60 mx-auto `}> </li>
-                <Link to={'/human'} className="text-white text-sm text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out cursor-pointer"><li>HUMAN SPACEFLIGHT</li>
+                </li>
+                <li className='-mb-5'>
+                <Link to={'/'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>HUMAN SPACEFLIGHT</p>
                 </Link>
                 <li className={` bg-line w-60 mx-auto `}> </li>
-                <Link to={'/ride'} className="text-white text-sm text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out cursor-pointer"><li>RIDESHARE</li>
+                </li>
+                <li className='-mb-5'>
+                <Link to={'/ride'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>RIDESHARE</p>
                 </Link>
                 <li className={` bg-line w-60 mx-auto `}> </li>
-                <Link to={'/shield'} className="text-white text-sm text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out cursor-pointer"><li>STARSHIELD</li>
+                </li>
+                <li className='-mb-5'>
+                <Link to={'/star'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>STARSHIELD</p>
                 </Link>
                 <li className={` bg-line w-60 mx-auto `}> </li>
-                <Link to={'/starlink'} className="text-white text-sm text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out cursor-pointer"><li>STARLINK</li>
+                </li>
+                <li className='-mb-5'>
+                <Link to={'/'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>STARLINK</p>
                 </Link>
                 <li className={` bg-line w-60 mx-auto `}> </li>
-                <Link to={'/shop'} className="text-white text-sm text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out cursor-pointer"><li>SHOP</li>
+                </li>
+                <li className='-mb-5'>
+                <Link to={'/'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>MISSION</p>
+                                </Link>
+                                <li className={` bg-line w-60 mx-auto `}> </li>
+                                </li>
+                                <li className='-mb-5'>
+                <Link to={'/launch'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>LAUNCHES</p>
+                                </Link>
+                                <li className={` bg-line w-60 mx-auto `}> </li>
+                                </li>
+                                <li className='-mb-5'>
+                <Link to={'/career'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>CAREERS</p>
+                                </Link>
+                                <li className={` bg-line w-60 mx-auto `}> </li>
+                                </li>
+                                <li className='-mb-5'>
+                <Link to={'/update'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>UPDATES</p>
+                                </Link>
+                                <li className={` bg-line w-60 mx-auto `}> </li>
+                                </li>
+                <li className='-mt-1'>
+                <Link to={'/shop'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>SHOP</p>
                 </Link>
                 <li className={` bg-line w-60 mx-auto `}> </li>
+                </li>
             </section>
             </div>
             </div>
             </nav>
             <div  onClick={handlemenu}  className={` transition-all duration-3000 ease-in-out fixed top-0 right-0 w-full h-full bg-menu ${menu ? "blocked" :"hide"}`}> 
 
-<section className='gap-2 flex-col transition-all duration-2000 ease-in-out flex bg-black w-80 fixed right-0 p-4 text-black h-full text-end '>
-<button className='rotate-45 relative top-4 left-36 mb-14 showrotate' onClick={handlemenu} >
-<div
-            class="showrotate transition-all duration-500 before:absolute before:h-0.5 before:w-4 cursor-pointer before:-translate-x-4 before:translate-y-7 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-4 after:-translate-x-4 after:translate-y-7 after:rotate-75 before:rotate-90 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
-          </div>
-</button>
+                <section className='gap-2 flex-col transition-all duration-2000 ease-in-out flex bg-black w-80 fixed right-0 p-4 text-black h-full text-end '>
+                <button className='rotate-45 relative top-4 left-36 mb-14 showrotate' onClick={handlemenu} >
+                <div
+                            class="showrotate transition-all duration-500 before:absolute before:h-0.5 before:w-4 cursor-pointer before:-translate-x-4 before:translate-y-7 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-4 after:-translate-x-4 after:translate-y-7 after:rotate-75 before:rotate-90 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
+                          </div>
+                </button>
+                <li className='-mb-5'>
+                <Link to={'/'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>MISSION</p>
+                                </Link>
+                                <li className={` bg-line w-60 mx-auto `}> </li>
+                                </li>
+                                <li className='-mb-5'>
+                <Link to={'/launch'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>LAUNCHES</p>
+                                </Link>
+                                <li className={` bg-line w-60 mx-auto `}> </li>
+                                </li>
+                                <li className='-mb-5'>
+                <Link to={'/career'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>CAREERS</p>
+                                </Link>
+                                <li className={` bg-line w-60 mx-auto `}> </li>
+                                </li>
+                                <li className='-mb-5'>
+                <Link to={'/update'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>UPDATES</p>
+                                </Link>
+                                <li className={` bg-line w-60 mx-auto `}> </li>
+                                </li>
+                                <li className='-mb-5'>
+                <Link to={'/shop'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>SHOP</p>
+                                </Link>
+                                <li className={` bg-line w-60 mx-auto `}> </li>
+                                </li>
 
-<Link to={'/'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3] -translate-x-5 hover:text-gray-600 cursor-pointer`}><li>MISSION</li>
-                </Link>
-                <li className={` bg-line w-60 mx-auto `}> </li>
-                <Link to={'/launch'} className="text-white text-sm text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3] -translate-x-5 hover:text-gray-600 cursor-pointer"><li>LAUNCHES</li>
-                </Link>
-                <li className={` bg-line w-60 mx-auto `}> </li>
-                <Link to={'/career'} className="text-white text-sm text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3] -translate-x-5 hover:text-gray-600 cursor-pointer"><li>CAREERS</li>
-                </Link>
-                <li className={` bg-line w-60 mx-auto `}> </li>
-                <Link to={'/update'} className="text-white text-sm text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3] -translate-x-5 hover:text-gray-600 cursor-pointer"><li>UPDATES</li>
-                </Link>
-                <li className={` bg-line w-60 mx-auto `}> </li>
-                <Link to={'/shop'} className="text-white text-sm text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3] -translate-x-5 hover:text-gray-600 cursor-pointer"><li>SHOP</li>
-                </Link>
-                <li className={` bg-line w-60 mx-auto `}> </li>
-               
 </section>
 </div>
         </header>
