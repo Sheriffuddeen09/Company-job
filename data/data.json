@@ -34,6 +34,18 @@
            "click": "LEARN MORE"
         }
     ],
+    "welcomes":[
+        
+        {
+            "images":"themes/theme3.jpg",
+            "welcome":"welcome to Ecoreme ",
+            "title":"Choose your path to Success",
+            "company":"Ecoreme",
+            "main":"Logistics",
+            "tech":"Technologies"
+           
+        }
+    ],
     "inputs":[
         {
             "id":1,
@@ -170,7 +182,7 @@
         {
             "id":1,
             "image":"image/logic.jpg",
-            "logistic":"Technology",
+            "logistic":"Technologies",
             "type":"Knowledge",
             "type2":"Reproducible",
             "type3":"Phrased",
@@ -181,8 +193,8 @@
         {
             "id":1,
             "image":"image/tech.webp",
-            "logistic":"Technology",
-            "type":"Technology",
+            "logistic":"Technologies",
+            "type":"Technologies",
             "type2":"Reproducible",
             "type3":"Phrased",
             "quality":"Set",
@@ -191,9 +203,9 @@
         },
         {
             "id":1,
-            "logistic":"Technology",
+            "logistic":"Technologies",
             "image":"image/feedback.jpg",
-            "type":"Technology",
+            "type":"Technologies",
             "type2":"Reproducible",
             "type3":"Phrased",
             "quality":"Set",
@@ -243,8 +255,8 @@
         {
             "id":1,
             "image":"image/tech.webp",
-            "logistic":"Technology",
-            "type":"Technology",
+            "logistic":"Technologies",
+            "type":"Technologies",
             "type2":"Reproducible",
             "type3":"Phrased",
             "quality":"Set",
@@ -256,8 +268,8 @@
         {
             "id":1,
             "image":"image/tech.webp",
-            "logistic":"Technology",
-            "type":"Technology",
+            "logistic":"Technologies",
+            "type":"Technologies",
             "type2":"Reproducible",
             "type3":"Phrased",
             "quality":"Set",
@@ -266,9 +278,9 @@
         },
         {
             "id":1,
-            "logistic":"Technology",
+            "logistic":"Technologies",
             "image":"image/feedback.jpg",
-            "type":"Technology",
+            "type":"Technologies",
             "type2":"Reproducible",
             "type3":"Phrased",
             "quality":"Set",
@@ -339,7 +351,7 @@
     {
         "id": 2,
         "title": "Create an account",
-        "body": "Click on Create Account to initiate the Logistic and Technology process."
+        "body": "Click on Create Account to initiate the Logistic and Technologies process."
     },
     {
         "id": 3,

@@ -2,16 +2,16 @@ import axios from "axios";
 
 
 const Api = axios.create({
-    //baseURL:"http://localhost:3400/"
-   baseURL:"https://next-server-qb2r.onrender.com"
+    baseURL:"http://localhost:3400/"
+   //baseURL:"https://next-server-qb2r.onrender.com"
 })
 
 export const homesFetch = async () =>{
     const res = await Api.get("/homes")
     return res.data
 }
-export const inputsFetch = async () =>{
-    const res = await Api.get("/inputs")
+export const welcomeFetch = async () =>{
+    const res = await Api.get("/welcomes")
     return res.data
 }
 export const startupFetch = async () =>{

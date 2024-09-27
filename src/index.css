@@ -310,6 +310,7 @@ article {
   opacity: 0;
   transition: var(--transition);
 }
+
 article.activeSlide {
   opacity: 1;
   transform: translateX(0);
@@ -318,6 +319,17 @@ article.lastSlide {
   transform: translateX(-100%);
 }
 article.nextSlide {
+  transform: translateX(100%);
+}
+
+main.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+main.lastSlide {
+  transform: translateX(-100%);
+}
+main.nextSlide {
   transform: translateX(100%);
 }
 
