@@ -1,6 +1,8 @@
 import { Route, Routes } from "react-router-dom"
 import Navbar from "./layout/Navbar"
 import Home from "./Home"
+import Logistics from "./Logistics"
+import Technology from "./Technology"
 function App() {
 
 
@@ -14,9 +16,15 @@ function App() {
               </div>
           
           } />
-          <Route path="/about" element={
+          <Route path="/logic" element={
               <div className="overflow-hidden">
-              <Home/>
+              <Logistics/>
+              </div>
+          
+          } />
+           <Route path="/tech" element={
+              <div className="overflow-hidden">
+              <Technology/>
               </div>
           
           } />

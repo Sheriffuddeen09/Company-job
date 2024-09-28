@@ -1,5 +1,5 @@
 import Slider from "./component/Slider"
-import RangeText from "./welcome/RangeText"
+import Ecoreme from "./welcome/Ecoreme"
 
 function Home (){
 
@@ -10,7 +10,7 @@ return (
     </div>
 
     <div className="mt-80 translate-y-3 -mb-96">
-        <RangeText />
+        <Ecoreme />
     </div>
     </div>
 )
