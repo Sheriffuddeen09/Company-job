@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom"
 import Navbar from "./layout/Navbar"
 import Home from "./Home"
 import Logistics from "./Logistics"
-import Technology from "./Technology"
 function App() {
 
 
@@ -24,7 +23,6 @@ function App() {
           } />
            <Route path="/tech" element={
               <div className="overflow-hidden">
-              <Technology/>
               </div>
           
           } />

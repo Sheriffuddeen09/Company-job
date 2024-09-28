@@ -431,8 +431,8 @@ position: relative;
 top: 0;*/
 }
 .bg-logistic{
-  background-color: rgb(0, 0, 0, .5);
-  animation: logistic 8s ease-in-out infinite ;
+  background-color: transparent;
+  animation: logistic 3s ease-in-out ;
 
 }
 
@@ -445,6 +445,7 @@ top: 0;*/
     transform: scale(1.);
   }
 }
+
 .toggle{
   background-color: rgb(132, 132, 142);
   height: 2px;
@@ -461,4 +462,19 @@ top: 0;*/
 .bg-line{
   background-color: rgb(49, 48, 48);
   height: 0.5px;
+}
+.bg-flip{
+  background-color: rgb(0, 0, 0, .9);
+}
+.flip{
+ animation: flipin 1s ease-in-out;
+}
+
+@keyframes flipin {
+  from{
+   transform: rotateY(180deg)
+  }
+  to{
+    transform: rotateY(0);
+  }
 }
