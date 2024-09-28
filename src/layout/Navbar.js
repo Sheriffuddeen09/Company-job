@@ -144,9 +144,9 @@ function Navbar() {
             <div  onClick={handlemenu}  className={` transition-all duration-3000 ease-in-out fixed top-0 right-0 w-full h-full bg-menu ${menu ? "blocked" :"hide"}`}> 
 
                 <section className='gap-2 flex-col transition-all duration-2000 ease-in-out flex bg-black w-80 fixed right-0 p-4 text-black h-full text-end '>
-                <button className='rotate-45 relative top-4 left-36 mb-14 showrotate' onClick={handlemenu} >
+                <button className='relative top-4 left-32 mb-14' onClick={handlemenu} >
                 <div
-                            class="showrotate transition-all duration-500 before:absolute before:h-0.5 before:w-4 cursor-pointer before:-translate-x-4 before:translate-y-7 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-4 after:-translate-x-4 after:translate-y-7 after:rotate-75 before:rotate-90 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
+                            class="showrotate transition-all duration-500 before:absolute before:h-0.5 before:w-4 cursor-pointer before:-translate-x-5 before:translate-y-7 before:rounded before:rotate-45  before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-4 after:-translate-x-5 after:translate-y-7 after:-rotate-45 after:rounded after:bg-white after:transition-all after:duration-500 after:content-[''] rotate-[720deg] transition-all duration-500">
                           </div>
                 </button>
                 <li className='-mb-5'>
