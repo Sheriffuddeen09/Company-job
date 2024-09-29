@@ -57,17 +57,17 @@ function Ecoreme(){
               <p className=" text-white my-3 text-center text-4xl z-10">{title}</p>
               <div className="flex flex-row flex-wrap justify-center gap-10 mt-20 ">
                 <Link to={'/logic'}>
-                <div className="p-7 text-center border-2 text-white hover:bg-white hover:text-black hover:border-black transition-all dura3on-1000 border-white rounded-xl w-80 sm:w-96 hover:bg-white hover:text-black">
+                <div className="p-7 text-center border-2 text-white hover:bg-white hover:text-black hover:border-black transition-all dura3on-1000 border-white rounded-xl w-72 sm:w-96 hover:bg-white hover:text-black">
               <p className={` text-center text-6xl mt-2 w-40  py-3 transition-all duration-500 ease-in-out cursor-pointer font-bold`}>{company}</p>
               <p className={` text-center text-4xl w-40  py-3 transition-all duration-500 ease-in-out cursor-pointer font-bold`}>{main}</p>
               </div>
               </Link>
               <div onClick={handleFlip} className={`flip cursor-pointer `}>
-              <div className={`p-7 text-center  text-white hover:bg-white hover:text-black hover:border-black transition-all duration-300 flip border-2 border-white rounded-xl w-80 sm:w-96 ${flip ? "block" : "hidden"}`}>
+              <div className={`p-7 text-center  text-white hover:bg-white hover:text-black hover:border-black transition-all duration-300 flip border-2 border-white rounded-xl w-72 sm:w-96 ${flip ? "block" : "hidden"}`}>
               <p className={` text-center text-6xl mt-2 w-40  py-3 transition-all duration-500 ease-in-out font-bold `}>{company}</p>
               <p className={` text-center text-4xl w-40  py-3 transition-all duration-500 ease-in-out font-bold`}>{tech}</p>
               </div>
-              <div className={`text-center flip text-white hover:bg-white hover:text-black hover:border-black transition-all duration-300 py-12 px-10  border-2 border-white rounded-xl w-80 sm:w-96 ${flip ? "hidden" : "block"}`}>
+              <div className={`text-center flip text-white hover:bg-white hover:text-black hover:border-black transition-all duration-300 py-12 px-10  border-2 border-white rounded-xl w-72 sm:w-96 ${flip ? "hidden" : "block"}`}>
               <p className="text-center text-5xl sm:text-6xl font-bold  bg-logistic font-serif">In Progress</p>
               </div>
               </div>
