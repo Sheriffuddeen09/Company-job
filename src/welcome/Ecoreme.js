@@ -7,7 +7,7 @@ import 'aos/dist/aos.css'
 function Ecoreme(){
     const [welcomes, setWelcomes] = useState([]);
     const [index, setIndex] = useState(0);
-    const [flip, setFlip] = useState(false)
+    const [flip, setFlip] = useState(true)
 
     useEffect(() =>{
       AOS.init({duration:2000})
