@@ -51,10 +51,10 @@ function Navbar() {
               
             </button>
             </div>
-            <div onClick={handleHide} className={`block showMenu sm:hidden fixed top-0 left-0 w-full h-full bg-menu ${hide ? 'blockdd' :'hide'}`}> 
+            <div onClick={handleHide} className={`block z-10 showMenu sm:hidden fixed top-0 left-0 w-full h-full bg-menu ${hide ? 'blockdd' :'hide'}`}> 
             
             <section className='gap-2 flex-col flex bg-black w-72 fixed right-0 p-4 text-black h-full text-end'>
-            <div className='flex-row justify-between flex items-center gap-2 -mb-8'>
+            <div className='flex-row justify-between flex items-center gap-2'>
             <p className="font-serif text-white"> ECOREME</p>
         <button className='rotate-45 translate-y-2' onClick={handleHide}>
 
@@ -87,7 +87,7 @@ function Navbar() {
             </div>
             </div>
             </nav>
-            <div  onClick={handlemenu}  className={` transition-all duration-3000 ease-in-out fixed top-0 right-0 w-full h-full bg-menu ${menu ? "blocked" :"hide"}`}> 
+            <div  onClick={handlemenu}  className={`z-10 transition-all duration-3000 ease-in-out fixed top-0 right-0 w-full h-full bg-menu ${menu ? "blocked" :"hide"}`}> 
 
                 <section className='gap-2 flex-col transition-all duration-2000 ease-in-out flex bg-black w-80 fixed right-0 p-4 text-black h-full text-end '>
                 <button className='relative top-4 left-32 mb-14' onClick={handlemenu} >

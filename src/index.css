@@ -478,3 +478,6 @@ top: 0;*/
     transform: rotateY(0);
   }
 }
+.opacitys{
+  background-color: rgb(0, 0, 0, .3);
+}
