@@ -62,25 +62,17 @@ function Ecoreme(){
               <p className={` text-center text-4xl w-40  py-3 transition-all duration-500 ease-in-out cursor-pointer font-bold`}>{main}</p>
               </div>
               </Link>
-              <div onClick={handleFlip} className={`cursor-pointer ${flip ? "hidden" : "block"}`}>
-              <div onClick={handleFlip} className="p-7 text-center  text-white hover:bg-white hover:text-black hover:border-black transition-all duration-300  border-2 border-white rounded-xl w-80 sm:w-96">
-              <p className={` text-center text-6xl mt-2 w-40  py-3 transition-all duration-500 ease-in-out font-bold`}>{company}</p>
+              <div onClick={handleFlip} className={`flip cursor-pointer `}>
+              <div className={`p-7 text-center  text-white hover:bg-white hover:text-black hover:border-black transition-all duration-300 flip border-2 border-white rounded-xl w-80 sm:w-96 ${flip ? "block" : "hidden"}`}>
+              <p className={` text-center text-6xl mt-2 w-40  py-3 transition-all duration-500 ease-in-out font-bold `}>{company}</p>
               <p className={` text-center text-4xl w-40  py-3 transition-all duration-500 ease-in-out font-bold`}>{tech}</p>
               </div>
+              <div className={`text-center flip text-white hover:bg-white hover:text-black hover:border-black transition-all duration-300 py-12 px-10  border-2 border-white rounded-xl w-80 sm:w-96 ${flip ? "hidden" : "block"}`}>
+              <p className="text-center text-5xl sm:text-6xl font-bold  bg-logistic font-serif">In Progress</p>
               </div>
               </div>
               </div>
-
-              <section className={`fixed top-0 left-0 w-full h-full bg-flip  flip  ${flip ? "block" : "hidden"}`}>
-             
-              <div className="bg-white text-black mx-auto my-60 rounded-xl w-80 sm:w-96 sm:h-96 w-60 z-10 flex flex-col items-center justify-items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" onClick={handleFlip} class="size-7 cursor-pointer text-black relative top-2 sm:left-40 left-32 font-bold ">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-            </svg>
-
-                 <p className="text-center p-20 text-5xl sm:text-7xl font-bold  bg-logistic font-serif">In Progress</p>
               </div>
-              </section>
             </main>
           );
         })}

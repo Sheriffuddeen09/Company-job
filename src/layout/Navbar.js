@@ -16,7 +16,7 @@ function Navbar() {
 
     return (
 
-        <header className=" fixed bg-black w-full z-10  shadow-2xl p-3 sm:p-6 ">
+        <header className=" bg-black w-full z-10  shadow-2xl p-3 sm:p-6 ">
             <nav className='flex flex-row justify-between items-center mx-2 sm:mx-7'>
               <div className='inline-flex items-center gap-2'>
               <p className="font-serif text-white font-bold text-3xl"> ECOREME</p>
