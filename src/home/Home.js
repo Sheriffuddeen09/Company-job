@@ -1,5 +1,5 @@
-import Slider from "./component/Slider"
-import Ecoreme from "./welcome/Ecoreme"
+import Slider from "./Slider"
+import Ecoreme from "./Ecoreme"
 
 function Home (){
 

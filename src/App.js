@@ -1,7 +1,12 @@
 import { Route, Routes } from "react-router-dom"
 import Navbar from "./layout/Navbar"
-import Home from "./Home"
-import Logistics from "./Logistics"
+import Home from "./home/Home"
+import Logistics from "./logistic/Logistics"
+import Careers from "./careers/Careers"
+import About from "./about/About"
+import Contact from "./contact/Contact"
+import EcoLogistic from "./ecologistics/EcoLogistic"
+import Footers from "./layout/Footer"
 function App() {
 
 
@@ -21,13 +26,37 @@ function App() {
               </div>
           
           } />
-           <Route path="/tech" element={
+           <Route path="/career" element={
+              <div className="overflow-hidden">
+                <Careers />
+              </div>
+          
+          } />
+           <Route path="/about" element={
+              <div className="overflow-hidden">
+                <About />
+              </div>
+          
+          } />
+           <Route path="/contact" element={
+              <div className="overflow-hidden">
+                <Contact />
+              </div>
+          
+          } />
+           <Route path="/logistics" element={
+              <div className="overflow-hidden">
+                <EcoLogistic />
+              </div>
+          
+          } />
+           <Route path="/t" element={
               <div className="overflow-hidden">
               </div>
           
           } />
       </Routes>
-     
+     <Footers />
     </div>
   )
 }
