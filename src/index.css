@@ -159,62 +159,43 @@
     }
    }
 
-  .home::after{
+  .career::after{
     content: '';
     position: absolute;
     bottom: 8px;
     height: 1.5px;
-    width: 7%;
+    width: 8%;
     left: 8px;
     background-color: white;
     transition: 0.3s ease-in-out;
     transform: scaleX(0);
   }
-  .home:hover::after{
+  .career:hover::after{
     transform: scaleX(1);
     
   }
-  .heavy{
+  .about{
     position: relative;
   }
-  .heavy::after{
+  .about::after{
     content: '';
     position: absolute;
     bottom: 8px;
     height: 1.5px;
-    width: 86%;
+    width: 74%;
     left: 8px;
     background-color: white;
     transition: 0.3s ease-in-out;
     transform: scaleX(0);
   }
-  .heavy:hover::after{
+  .about:hover::after{
     transform: scaleX(1);
     
   }
-  .dragon{
+  .contact{
     position: relative;
   }
-  .dragon::after{
-    content: '';
-    position: absolute;
-    bottom: 8px;
-    height: 1.5px;
-    width: 78%;
-    left: 8px;
-    background-color: white;
-    transition: 0.3s ease-in-out;
-    transform: scaleX(0);
-  }
-  .dragon:hover::after{
-    transform: scaleX(1);
-    
-  }
-
-  .start{
-    position: relative;
-  }
-  .start::after{
+  .contact::after{
     content: '';
     position: absolute;
     bottom: 8px;
@@ -225,15 +206,15 @@
     transition: 0.3s ease-in-out;
     transform: scaleX(0);
   }
-  .start:hover::after{
+  .contact:hover::after{
     transform: scaleX(1);
     
   }
 
-  .human{
+  .logistic{
     position: relative;
   }
-  .human::after{
+  .logistic::after{
     content: '';
     position: absolute;
     bottom: 8px;
@@ -244,7 +225,26 @@
     transition: 0.3s ease-in-out;
     transform: scaleX(0);
   }
-  .human:hover::after{
+  .logistic:hover::after{
+    transform: scaleX(1);
+    
+  }
+
+  .tech{
+    position: relative;
+  }
+  .tech::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    height: 1.5px;
+    width: 92%;
+    left: 8px;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    transform: scaleX(0);
+  }
+  .tech:hover::after{
     transform: scaleX(1);
     
   }

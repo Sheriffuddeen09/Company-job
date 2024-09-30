@@ -11,7 +11,7 @@ function App() {
 
 
   return (
-    <div className="flex flex-col justify-between "> 
+    <div className=""> 
     <div>
       <Navbar />
       <Routes>
