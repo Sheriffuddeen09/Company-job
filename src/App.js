@@ -5,13 +5,14 @@ import Logistics from "./logistic/Logistics"
 import Careers from "./careers/Careers"
 import About from "./about/About"
 import Contact from "./contact/Contact"
-import EcoLogistic from "./ecologistics/EcoLogistic"
+import EcoLogistic from "./ecologistic/EcoLogistic"
 import Footers from "./layout/Footer"
 function App() {
 
 
   return (
-    <div> 
+    <div className="flex flex-col justify-between "> 
+    <div>
       <Navbar />
       <Routes>
             <Route path="/" element={
@@ -44,7 +45,7 @@ function App() {
               </div>
           
           } />
-           <Route path="/logistics" element={
+           <Route path="/logistic" element={
               <div className="overflow-hidden">
                 <EcoLogistic />
               </div>
@@ -56,6 +57,7 @@ function App() {
           
           } />
       </Routes>
+      </div>
      <Footers />
     </div>
   )

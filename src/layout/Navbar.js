@@ -27,13 +27,13 @@ function Navbar() {
                 <Link to={'/about'} className={`text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out cursor-pointer home`}>ABOUT
                 </Link>
 
-                <Link to={'/about'} className="text-white contact text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out cursor-pointer">CONTACT
+                <Link to={'/contact'} className="text-white contact text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out cursor-pointer">CONTACT
                 </Link>
                 <Link to={'/logistic'} className="text-white text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out cursor-pointer logic">ECOREME LOGISTICS
                 
                 </Link>
-                <Link to={'/tech'} className="text-white text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out cursor-pointer tech">ECOREME TECHNOLOGIES
-                </Link>
+                <p to={'/tech'} className="text-white text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out cursor-pointer tech">ECOREME TECHNOLOGIES
+                </p>
             </div>
             </div>
             <div>
@@ -86,8 +86,8 @@ function Navbar() {
                 <li className={` bg-line w-60 mx-auto `}> </li>
                 </li>
                 <li className='-mb-5'>
-                <Link to={'/tech'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>ECOREME TECHNOLOGIES</p>
-                </Link>
+                <p to={'/tech'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>ECOREME TECHNOLOGIES</p>
+                </p>
                 <li className={` bg-line w-60 mx-auto `}> </li>
                 </li>
             </section>
@@ -123,8 +123,8 @@ function Navbar() {
                 <li className={` bg-line w-60 mx-auto `}> </li>
                 </li>
                 <li className='-mb-5'>
-                <Link to={'/tech'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>ECOREME TECHNOLOGIES</p>
-                </Link>
+                <p to={'/tech'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>ECOREME TECHNOLOGIES</p>
+                </p>
                 <li className={` bg-line w-60 mx-auto `}> </li>
                 </li>
 </section>
