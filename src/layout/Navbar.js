@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import logos from './images/ECOREME White PNG Logo.png'
 function Navbar() {
 
     //const homepage = useLocation().pathname
@@ -19,7 +20,7 @@ function Navbar() {
             <nav className='flex flex-row justify-between items-center mx-2 sm:mx-7'>
               <div className='inline-flex items-center gap-2'>
                 <Link to={'/'}>
-              <p className="font-serif text-white font-bold text-3xl"> ECOREME</p>
+              <img src={logos} alt='logo' width={140} height={80}/>
               </Link>
             </div>
             <div className='hidden sm:block'> 
@@ -49,7 +50,7 @@ function Navbar() {
             <div onClick={handleHide} className='sm:hidden block'>
             <button onClick={handleHide}>
             <div onClick={handleHide}
-            class="absolute top-8 -mt-0.5 h-0.5 w-5 rounded bg-white transition-all duration-500 before:absolute before:h-0.5 before:w-5 before:-translate-x-2.5 -translate-x-12  before:-translate-y-1 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-5 after:-translate-x-2.5 after:translate-y-1 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
+            class="absolute top-7 -mt-0.5 h-0.5 w-5 rounded bg-white transition-all duration-500 before:absolute before:h-0.5 before:w-5 before:-translate-x-2.5 -translate-x-12  before:-translate-y-1 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-5 after:-translate-x-2.5 after:translate-y-1 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
           </div>
               
             </button>
@@ -59,7 +60,7 @@ function Navbar() {
             <section className='gap-2 flex-col flex bg-black w-72 fixed right-0 p-4 text-black h-full text-end'>
             <div className='flex-row justify-between flex items-center gap-2'>
             <Link to={'/'}>
-            <p className="font-serif text-white"> ECOREME</p>
+            <img src={logos} alt='logo' width={140} height={80}/>
             </Link>
         <button className='rotate-45 translate-y-2' onClick={handleHide}>
 
