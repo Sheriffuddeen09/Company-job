@@ -58,7 +58,9 @@ function App() {
           } />
       </Routes>
       </div>
+      <div>
      <Footers />
+     </div>
     </div>
   )
 }

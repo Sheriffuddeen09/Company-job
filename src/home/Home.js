@@ -9,7 +9,7 @@ return (
     <Slider />
     </div>
 
-    <div className="mt-80 translate-y-3 -mb-96">
+    <div className="sm:mt-80 mt-96 sm:translate-y-3 translate-y-96 sm:-mb-96 -mb-16">
         <Ecoreme />
     </div>
     </div>
