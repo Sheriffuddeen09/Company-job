@@ -67,83 +67,90 @@ function Navbar() {
 
             <div
             class="cursor-pointer showrotate transition-all duration-500 before:absolute before:h-0.5 before:w-4 before:-translate-x-4 before:translate-y-2 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-4 after:-translate-x-4 after:translate-y-2 after:rotate-75 before:rotate-90 after:rounded after:bg-white after:transition-all after:duration-500 after:content-[''] -translate-y-1 -translate-x-2 ">
-          </div>
-          </button>
-          </div>
+            </div>
+            </button>
+            </div>
             <li className='-mb-5'>
+            <Link to={'/about'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>ABOUT</p>
+            </Link>
+            <li className={` bg-line w-60 mx-auto `}> </li>
+            </li>
+            <li className='-mb-5'>
+            <Link to={'/contact'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>CONTACT</p>
+            </Link>
+            <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto `}> </li>
 
-                <Link to={'/about'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>ABOUT</p>
-                </Link>
-                <li className={` bg-line w-60 mx-auto `}> </li>
-                </li>
-                <li className='-mb-5'>
-                <Link to={'/contact'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>CONTACT</p>
-                </Link>
-                <li className={` bg-line w-60 mx-auto `}> </li>
-                </li>             
-                <li className='-mb-5'>
-                <Link to={'/career'} className={`text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out cursor-pointer home`}><p className='-translate-x-2 -mb-3'>CAREERS</p>
-                </Link>
-                <li className={` bg-line w-60 mx-auto `}> </li>
-                </li>
-                <li className='-mb-5'>
-                <Link to={'/logic'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>ECOREME LOGISTICS</p>
-                </Link>
-                <li className={` bg-line w-60 mx-auto `}> </li>
-                </li>
-                <li className='py-5'>
-                <p className={`text-white text-sm  rounded-xl Link-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 mb-3'>ECOREME TECHNOLOGIES</p>
-                </p>
-                <li className={` bg-line w-60 mx-auto `}> </li>
-                </li>
+            </li>
+            <li className='-mb-5'>
+            <Link to={'/career'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>CAREERS</p>
+            </Link>
+            <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto `}> </li>
+
+            </li>
+            <li className='-mb-'>
+            <Link to={'/logic'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>ECOREME LOGISTICS</p>
+            </Link>
+            <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto `}> </li>
+
+            </li>
+            <li className='-mb-'>
+            <p className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>ECOREME TECHNOLOGIES</p>
+            </p>
+            <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto mt-5`}> </li>
+
+            </li>
             </section>
             </div>
             </div>
             </nav>
             <div  onClick={handlemenu}  className={`z-10 transition-all duration-3000 ease-in-out fixed top-0 right-0 w-full h-full bg-menu ${menu ? "blocked" :"hide"}`}> 
 
-                <section className='gap-2 flex-col transition-all duration-2000 ease-in-out flex bg-black w-80 fixed right-0 p-4 text-black h-full text-end '>
-                <div className='flex-row justify-between flex items-center mt-4 gap-2'>
-                <Link to={'/'}>
-                <img src={logos} alt='logo' width={140} height={80}/>
-                </Link>
-                <button className='rotate-45 translate-y-2' onClick={handleHide}>
+            <section className=' text-white gap-2 flex-col transition-all duration-2000 ease-in-out flex bg-black w-80 fixed right-0 p-4 text-black h-full text-end '>
+            <div className='flex-row justify-between flex items-center mt-4 gap-2'>
+            <Link to={'/'}>
+            <img src={logos} alt='logo' width={140} height={80}/>
+            </Link>
+            <button className='rotate-45 translate-y-2' onClick={handleHide}>
 
-                <div
-                class="cursor-pointer showrotate transition-all duration-500 before:absolute before:h-0.5 before:w-4 before:-translate-x-4 before:translate-y-2 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-4 after:-translate-x-4 after:translate-y-2 after:rotate-75 before:rotate-90 after:rounded after:bg-white after:transition-all after:duration-500 after:content-[''] -translate-y-1 -translate-x-2 ">
-              </div>
-              </button>
-              </div>
+            <div
+            class="cursor-pointer showrotate transition-all duration-500 before:absolute before:h-0.5 before:w-4 before:-translate-x-4 before:translate-y-2 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-4 after:-translate-x-4 after:translate-y-2 after:rotate-75 before:rotate-90 after:rounded after:bg-white after:transition-all after:duration-500 after:content-[''] -translate-y-1 -translate-x-2 ">
+          </div>
+          </button>
+          </div>
 
               
-                <li className='-mb-5'>
-                <Link to={'/about'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-5 -mb-3'>ABOUT</p>
-                </Link>
-                <li className={` bg-line w-60 mx-auto `}> </li>
-                </li>
-                <li className='-mb-5'>
-                <Link to={'/contact'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-5 -mb-3'>CONTACT</p>
-                </Link>
-                <li className='-mb-5'>
-                <Link to={'/career'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-5 -mb-3'>CAREERS</p>
-                </Link>
-                <li className={` bg-line w-60 mx-auto `}> </li>
+               
+        <li className='-mb-5'>
+        <Link to={'/about'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>ABOUT</p>
+        </Link>
+        <li className={` bg-line w-60 mx-auto `}> </li>
+        </li>
+        <li className='-mb-5'>
+        <Link to={'/contact'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>CONTACT</p>
+        </Link>
+        <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto `}> </li>
 
-                </li>
-                <li className={` bg-line w-60 mx-auto `}> </li>
-                </li>             
-                <li className='-mb-5'>
-                <Link to={'/logic'} className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-5 -mb-3'>ECOREME LOGISTICS</p>
-                </Link>
-                <li className={` bg-line w-60 mx-auto `}> </li>
-                </li>
-                <li className='mt-5'>
-                <p className={`text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-5 mb-2'>ECOREME TECHNOLOGIES</p>
-                </p>
-                <li className={` bg-line w-60 mx-auto `}> </li>
-                </li>
-</section>
-</div>
+        </li>
+        <li className='-mb-5'>
+        <Link to={'/career'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>CAREERS</p>
+        </Link>
+        <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto `}> </li>
+
+        </li>
+        <li className='mb-0'>
+        <Link to={'/logic'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>ECOREME LOGISTICS</p>
+        </Link>
+        <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto `}> </li>
+
+        </li>
+        <li className='-mb-5'>
+        <p className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>ECOREME TECHNOLOGIES</p>
+        </p>
+        <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto mt-5 `}> </li>
+
+        </li>
+        </section>
+        </div>
         </header>
     )
 
