@@ -1,8 +1,8 @@
-import Solution from "../solution/Solution"
-import RangeText from "../rate/RangeText"
-import Company from "../component/Company"
-import LogTech from "../template/LogTech"
-import Reviews from "../review/Reviews"
+import Solution from "./Solution"
+import RangeText from "./RangeText"
+import Company from "./Company"
+import LogTech from "./LogTech"
+import Reviews from "./Reviews"
 function Logistics (){
 
 return (

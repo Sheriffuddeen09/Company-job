@@ -5,7 +5,6 @@ import Logistics from "./logistic/Logistics"
 import Careers from "./careers/Careers"
 import About from "./about/About"
 import Contact from "./contact/Contact"
-import EcoLogistic from "./ecologistic/EcoLogistic"
 import Footers from "./layout/Footer"
 function App() {
 
@@ -42,12 +41,6 @@ function App() {
            <Route path="/contact" element={
               <div className="overflow-hidden">
                 <Contact />
-              </div>
-          
-          } />
-           <Route path="/logistic" element={
-              <div className="overflow-hidden">
-                <EcoLogistic />
               </div>
           
           } />
