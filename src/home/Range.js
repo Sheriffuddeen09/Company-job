@@ -32,7 +32,7 @@ function Range (){
     const contentFour = (
         <div>
         <ScrollTrigger onEnter={() => setValue(true)} onExit={()=> setValue(false)}>
-        {value && <CountUp start={0} end={12} duration={2} delay={0} />}
+        {value && <CountUp start={0} end={100} duration={2} delay={0} />}
         </ScrollTrigger>
         </div>
     )
@@ -44,13 +44,13 @@ function Range (){
                 <div className="bg-gradient-to-t from-black h-72 sm:w-72 w-60 rounded-xl 
                 justify-center items-center 
                 text-white to-green-700 flex flex-col" data-aos="fade-up">
-                    <p className=" mt-6 text-center font-bold"> Durability<br /> Technology</p> 
+                    <p className=" mt-6 text-center font-bold"> Speed</p> 
                     <h1 className="inline-flex text-6xl font-bold"> {contentOne}%</h1>
                 </div> 
                 <div className="bg-white border-2 mt-4 h-72 sm:w-72 w-60 md:-translate-y-2 rounded-xl 
                 justify-center items-center 
                 text-black to-green-700 flex flex-col" data-aos="fade-up">
-                <p className="mt-6 text-center font-bold"> Logistic Availablle</p>
+                <p className="mt-6 text-center font-bold">Pickup/Delivery <br /> Orders</p>
                 <h1 className="inline-flex text-6xl font-bold"> {contentTwo}/7</h1>
                 </div> 
             </div> 
@@ -58,13 +58,13 @@ function Range (){
             <div className="bg-gradient-to-t from-green-400 to-white border-2 mt-4 h-72 sm:w-72 w-60 md:-translate-y-2 rounded-xl 
                 justify-center items-center 
                 text-black to-green-700 flex flex-col" data-aos="fade-up">
-                <p className="mt-6 text-center font-bold"> Time Accurate</p>
-                <h1 className="inline-flex text-6xl font-bold"> {contentFour}B+</h1>
+                <p className="mt-6 text-center font-bold"> Customer Service </p>
+                <h1 className="inline-flex text-6xl font-bold"> {contentFour}%</h1>
                 </div> 
                 <div className="bg-gradient-to-t from-blue-300 h-72 sm:w-72 w-60 rounded-xl 
                 justify-center items-center 
                 text-black to-red-200 flex flex-col" data-aos="fade-up">
-                    <p className=" mt-6 text-center font-bold"> Flexibility<br /> Technology</p> 
+                    <p className=" mt-6 text-center font-bold"> Flexibility<br /> Security</p> 
                     <h1 className="inline-flex text-6xl font-bold"> {contentThree}%</h1>
                 </div> 
                
