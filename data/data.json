@@ -1,5 +1,55 @@
-{
-    "homes":[
+
+
+
+{"homes":[
+    {
+        "id":1,
+        "images":"image/satelites.webp",
+        "title":"RECENT WATCH",
+        "body":"STARLINK MISSION",
+        "click":"REWATCH" 
+    },
+    {
+        "id":2,
+        "images":"image/spacelinkb.jpg",
+        "title":"RECENT LAUNCH",
+        "body":"GALILEO L13 MISSION",
+       "click": "REWATCH"
+    },
+    {
+        "id":3,
+        "images":"image/spacerocket.jpg",
+        "title":"RECENT MISSION",
+        "body":"POLARIS DAWN",
+       "click": "REWATCH"
+    },
+    {
+        "images":"image/flight.webp",
+        "title":"RECENT WATCH",
+        "body":"ADVANCING HUMAN SPACEFLIGHT",
+       "click": "LEARN MORE"
+    },
+    {
+        "images":"image/accelerate.jpg",
+        "title":"",
+        "body":"TO MAKE LIFE MULTIPLANETARY",
+       "click": "LEARN MORE"
+    }
+],
+"welcomes":[
+    
+    {
+        "images":"themes/theme1.avif",
+        "welcome":"Welcome to Ecoreme ",
+        "title":"Choose your path to success",
+        "company":"Ecoreme",
+        "main":"Logistics",
+        "tech":"Technologies"
+       
+    }
+],
+
+    "homs":[
         {
             "id":1,
             "images":"image/satelites.webp",
@@ -34,7 +84,7 @@
            "click": "LEARN MORE"
         }
     ],
-    "welcomes":[
+    "welcoms":[
         
         {
             "images":"themes/theme1.avif",
@@ -139,7 +189,8 @@
     "startup":[
         {
             "id":1,
-            "body":"we are companies or ventures that are focused on a multiple product or service that the Company want to bring to market. we deal with entrepreneur that give the organization believe would be the solution to a long-standing problem. The problem can be industry-specific or general, but we are seeking to address an issue they feel has not been remedied satisfactorily. Ecoreme will typically begin with next to develop the organization as far as Technolog / Resources go."
+            "body":"Reliable Logistics at Your Doorstep! Need fast, secure, and hassle-free PICKUP or DELIVERY in Lagos?.",
+            "main":"Ecoreme Logistics offers seamless service for all your shipping needs! Whether it's a single package pr bulk orders, we ensure timely and efficient service at competitive rates. Trust us to handle your deliveries with care, every time"
         }
     ],
     "logistics":[
@@ -299,25 +350,27 @@
     ],
     "solutions":[
         {
-            "image":"image/case.png",
-            "title":"Ecoreme Solutions",
-            "body":"Our patented business solutions are unique and can be incorporated into almost any type of company.",
-            "number":"Ecoreme Clients",
-            "numberBody":"Intrinsically integrate diverse action items for team building best practices. Globally supply covalent ROI via e-business markets, assertively."
+            "image":"image/customer.jpg",
+            "title":"Customer Service Excellence",
+            "body":"We prioritize personalized support to ensure a smooth and satisfying experience for every client. Our dedicated team is alwaysready to address concerns and provide timely solutions.",
+            "icon":"image/rate.png",
+            "numbertitle":"Affordable Rates",
+            "numberBody":"We offer competitive pricing without compromising the quality of service. Our cost-effective solutions help busimesses manage logistics within budget."
         },
         {
-            "image":"image/dice.png",
-            "title":"Improve with Ecoreme",
-            "body":"No matter how well your business runs, there is always room for improvement, and Ecoreme are the experts for this.",
-            "number":"Ecoreme Projects",
-            "numberBody":"Intrinsically integrate diverse action items for team building best practices. Globally supply covalent ROI via e-business markets, assertively."
+            "image":"Security",
+            "body":"Your shipments are safeguarded with advanced tracking and security measures. We ensure that your cargo reaches its destination intact and on time.",
+            "icon":"image/compliance.png",
+            "numbertitle":"Compliance",
+            "numberBody":"Our operations adhere to all local and international regulations. We ensure ful compliance with industry standards and customs requirements."
         },
         {
-            "image":"image/volume.png",
-            "title":"Ecoreme And Growth",
-            "body":"Under the wings of Ecoreme, you will witness a business growth in a short amount of time. A week is all you need.",
-             "number":"Ecoreme Solutions",
-            "numberBody":"Intrinsically integrate diverse action items for team building best practices. Globally supply covalent ROI via e-business markets, assertively."
+            "image":"image/high.png",
+            "title":"Highly Available",
+            "body":"Our services are operations 24/7 to meet your logistics needs anytime. We guarantee consistent availability, no matter the time or location.",
+            "icon":"image/flexibility.webp",
+            "numbertitle":"Flexibility",
+            "numberBody":"We adapt to your specific requirements, offering tailored solutions for various logistics challenges. Our flexible approach ensures seamless operations in changing conditions."
         }
     ],
     "companys":[
