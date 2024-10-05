@@ -21,6 +21,7 @@ function RangeText (){
             <div className="sm:w-96 w-60 text-black my-6 text-sm">
             <p>{range.body}</p>
             <p className="-mt-5">{range.main}</p>
+            <p className="-mt-5">{range.trust}</p>
             <p className="-mt-5">Call or Whatsapp: <span className="text-blue-400 ">09062830059</span></p>
             </div>
         ))
