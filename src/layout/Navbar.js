@@ -17,14 +17,14 @@ function Navbar() {
     return (
 
         <header className=" bg-black w-full z-10  shadow-2xl p-3 sm:p-6 ">
-            <nav className='flex flex-row justify-between items-center mx-2 sm:mx-7'>
+            <nav className='flex flex-row justify-between items-center mx-2 lg:mx-7'>
               <div className='inline-flex items-center gap-2'>
                 <Link to={'/'}>
               <img src={logos} alt='logo' width={140} height={80}/>
               </Link>
             </div>
             <div className='hidden sm:block'> 
-            <div className='gap-12 -translate-x-7 mx-0 font-bold inline-flex '> 
+            <div className='lg:gap-12 gap-4 -translate-x-7 mx-0 font-bold inline-flex '> 
                 
                 <Link to={'/about'} className={`text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out cursor-pointer about`}>ABOUT
                 </Link>
