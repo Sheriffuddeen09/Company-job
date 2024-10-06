@@ -56,7 +56,7 @@ function RangeText (){
     )
 
 return (
-    <div className="flex flex-row items-center justify-center bg-gray-800 pt-7 px-7 pb-0 -mb-10 sm:p-7 flex-wrap gap-44 lg:gap-10">
+    <div className="flex flex-row items-center justify-center bg-gray-800 p-7 flex-wrap gap-44 lg:gap-10">
     {content}
     <Range />
     </div>
