@@ -481,3 +481,14 @@ top: 0;*/
 .opacitys{
   background-color: rgb(0, 0, 0, .3);
 }
+.underline:hover{
+  text-decoration: underline;
+  transition: all 2s ease-in-out;
+  color: rgb(141, 141, 245);
+  text-decoration-color: rgb(175, 175, 235);
+  }
+  .underline{
+    transition: all 4s ease-in-out;
+    text-decoration: none;
+    }
+    
