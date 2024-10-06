@@ -53,7 +53,7 @@ function Growth(){
 
         <div className="bg-white mx-5 p-7 rounded-xl" data-aos="fade-right">
             {content}
-            <hr />
+            <hr className="mb-5"/>
             {contents}
         </div>
     )
