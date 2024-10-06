@@ -27,16 +27,16 @@ function Contact (){
     )
 
     const form = (
-        <div className="bg-white p-3 sm:p-6 rounded-xl translate-x-3 mb-20">
+        <div className="bg-white p-3 sm:p-6 text-black rounded-xl translate-x-3 mb-20">
             <form className="flex flex-col text-white text-xl">
-                <label className="">Full Name</label>
-                <input value={name} onChange={(e) => setName(e.target.value)} placeholder="Please input your full-name "
+                <label className="text-black">Full Name</label>
+                <input value={name} onChange={(e) => setName(e.target.value)}
                 className="border mt-3 sm:w-96 w-64 rounded outline-green-200 border-blue-200 px-2 py-2"/>
-                 <label className="mt-4">Email Address</label>
-                <input value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Please input your Email-address "
+                 <label className="mt-4 text-black">Email Address</label>
+                <input value={email} onChange={(e) => setEmail(e.target.value)}
                 className="border mt-3 sm:w-96 w-64 rounded outline-green-200 border-blue-200 px-2 py-2"/>
-                 <label className="mt-4">Message</label>
-                <textarea value={message} onChange={(e) => setMessage(e.target.value)} placeholder="what are your concern "
+                 <label className="mt-4 text-black">Message</label>
+                <textarea value={message} onChange={(e) => setMessage(e.target.value)} 
                 className="border mt-3 sm:w-96 h-32 w-64 rounded outline-green-200 border-blue-200 px-2 py-2"/>
                 <button onClick={handleSumbit} className="sm:w-96 w-64 h-10 text-white rounded mt-5 bg-green-600">Send</button>
             </form>

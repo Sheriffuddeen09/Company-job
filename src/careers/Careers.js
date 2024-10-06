@@ -22,7 +22,7 @@ function Careers (){
         <p className="text-sm sm:w-96 w-64">An experienced rider, if you are a professional rider with extensive knowledge of lagos roads (both Mainland and island ) we invite you to apply. Please send your CV to:</p>
         </div>
 
-         <a href="mailto:logistics.recruitment@ecoreme.com" className="mt-4 text-black  abouthover text-sm sm:text-xl border -translate-x-10 sm:translate-x-0 sm:h-16 border-2 border-black p-3">Click to send Email</a>
+         <a href="mailto:logistics.recruitment@ecoreme.com" className="mt-4 text-black  abouthover text-sm sm:text-xl border -translate-x-11 sm:translate-x-0 sm:h-16 border-2 border-black p-3">Click to send Email</a>
    </div>
    </section>
     )
