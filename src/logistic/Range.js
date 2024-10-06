@@ -50,7 +50,7 @@ function Range (){
                 <div className="bg-white border-2 mt-4 h-72 sm:w-72 w-72 md:-translate-y-2 rounded-xl 
                 justify-center items-center 
                 text-black to-green-700 flex flex-col" data-aos="fade-up">
-                <p className="mt-6 text-center font-bold">Pickup/Delivery <br /> Orders</p>
+                <p className="mt-6 text-center font-bold">Pickup / Delivery <br /> Orders</p>
                 <h1 className="inline-flex text-6xl font-bold"> {contentTwo}/7</h1>
                 </div> 
             </div> 
