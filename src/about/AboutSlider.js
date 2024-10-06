@@ -57,9 +57,11 @@ function AboutSlider(){
           }
           return (
             <article key={id} className={position}>
-              <img src={images} alt={'imagePicture'} className="opacity-40 w-full -translate-y-20" style={{height:"650px"}}/>
+              <img src={images} alt={'imagePicture'} className="opacity-40 w-full -translate-y-20 hidden sm:block" style={{height:"650px"}}/>
+              <img src={images} alt={'imagePicture'} className="opacity-40 w-full -translate-y-20 sm:hidden block" style={{height:"450px"}}/>
               <div className="relative bottom-96 translate-x-3 sm:translate-x-14">
-              <p className=" text-white my-3 text-xl">{title}</p>
+              <p className=" text-white mt-16 text-4xl font-bold hidden sm:block">{title}</p>
+              <p className=" text-white mt-24 text-4xl font-bold sm:hidden block">{title}</p>
               </div>
             </article>
           );

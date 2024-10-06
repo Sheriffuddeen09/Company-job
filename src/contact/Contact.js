@@ -38,7 +38,7 @@ function Contact (){
                  <label className="mt-4">Message</label>
                 <textarea value={message} onChange={(e) => setMessage(e.target.value)} placeholder="what are your concern "
                 className="border mt-3 sm:w-96 h-32 w-64 rounded outline-green-200 border-blue-200 px-2 py-2"/>
-                <button className="sm:w-96 w-64 h-10 text-white rounded mt-5 bg-green-600">Send</button>
+                <button onClick={handleSumbit} className="sm:w-96 w-64 h-10 text-white rounded mt-5 bg-green-600">Send</button>
             </form>
         </div>
     )
