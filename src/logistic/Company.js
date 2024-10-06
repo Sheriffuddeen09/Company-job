@@ -24,7 +24,7 @@ const content = (
         {
             company.map((com) =>(
                 <div key={com.id}>
-                   <img src={com.image} alt="imagepicture" className="sm:w-40 bg-white rounded-xl w-60 h-32" /> 
+                   <img src={com.image} alt="imagepicture" className="sm:w-40 bg-white rounded-xl w-72 h-32" /> 
                 </div>
             ))
         }

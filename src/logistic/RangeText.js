@@ -31,7 +31,7 @@ function RangeText (){
     </>
     const content = (
 
-        <div className="bg-white rounded-xl sm:px-12 pt-7 px-8"   data-aos="zoom-in">
+        <div className="bg-white rounded-xl sm:px-12 pt-7 px-5"   data-aos="zoom-in">
             <h1 className="text-black my-4 sm:text-5xl text-4xl">Ecoreme Logistics</h1>
                 {range}
                 <div className="hidden sm:block">
@@ -44,9 +44,9 @@ function RangeText (){
                 </button>
                 </div>
                 <div className="sm:hidden block">
-                <button className="flex items-center w-64  px-2 py-2 rounded-xl text-white text-sm mx-auto inline-flex gap-1 sm:gap-2 sm:mt-10 sm:mb-20 justify-center bg-green-600 rounded mt-4 mb-10" >
+                <button className="flex items-center w-64  px-2 py-2 rounded-xl text-white text-sm mx-auto inline-flex gap-1 sm:gap-2 sm:mt-10 sm:mb-20 justify-center bg-green-600 rounded mt-2 mb-10" >
                     
-                    Click to Order For Pickup/Delivery<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 mt-2">
+                    Click to Order For Pickup/Delivery<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
   <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
 </svg>
 
