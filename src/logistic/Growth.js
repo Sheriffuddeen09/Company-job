@@ -5,6 +5,8 @@ function Growth(){
 
     const [solutions, setSolutions] = useState([])
 
+
+    
     useEffect(() =>{
 
         solutionFetch().then(json =>{
