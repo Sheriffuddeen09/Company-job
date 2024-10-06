@@ -158,13 +158,15 @@
      transform: rotate(360deg);
     }
    }
-
+.career{
+  position: relative;
+}
   .career::after{
     content: '';
     position: absolute;
     bottom: 8px;
     height: 1.5px;
-    width: 8%;
+    width: 80%;
     left: 8px;
     background-color: white;
     transition: 0.3s ease-in-out;
@@ -460,7 +462,7 @@ top: 0;*/
   background-color: #000000b3;
 }
 .bg-line{
-  background-color: rgb(49, 48, 48);
+  background-color: #313030;
   height: 0.5px;
 }
 .bg-flip{
@@ -482,13 +484,20 @@ top: 0;*/
   background-color: rgb(0, 0, 0, .3);
 }
 .underline:hover{
-  text-decoration: underline;
-  transition: all 2s ease-in-out;
-  color: rgb(141, 141, 245);
-  text-decoration-color: rgb(175, 175, 235);
+text-decoration: underline;
+transition: all 2s ease-in-out;
+color: rgb(141, 141, 245);
+text-decoration-color: rgb(175, 175, 235);
+}
+.underline{
+  transition: all 4s ease-in-out;
+  text-decoration: none;
   }
-  .underline{
-    transition: all 4s ease-in-out;
-    text-decoration: none;
-    }
-    
+  .abouthover:hover{
+
+    background-color: white;
+    color: black;
+  }
+  .abouthover{
+    transition: all 2s ease-in-out;
+  }

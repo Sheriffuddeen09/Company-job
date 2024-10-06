@@ -2,12 +2,16 @@ import axios from "axios";
 
 
 const Api = axios.create({
- //baseURL:"http://localhost:3400/"
-baseURL:"https://company-json.onrender.com"
+baseURL:"http://localhost:3400/"
+//baseURL:"https://company-json.onrender.com"
 })
 
 export const homesFetch = async () =>{
     const res = await Api.get("/homes")
+    return res.data
+}
+export const RidersFetch = async () =>{
+    const res = await Api.get("/rider")
     return res.data
 }
 export const welcomeFetch = async () =>{
