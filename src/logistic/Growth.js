@@ -1,12 +1,9 @@
 import { useEffect, useState } from "react"
 import { solutionFetch } from "../apiFetch/axios"
-import ScrollTrigger from "react-scroll-trigger"
-import CountUp from "react-countup"
 
 function Growth(){
 
     const [solutions, setSolutions] = useState([])
-    const [value, setValue] = useState([])
 
     useEffect(() =>{
 
