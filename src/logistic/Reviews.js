@@ -1,24 +1,15 @@
-import { useEffect, useState } from "react"
-import { reviewsFetch } from "../apiFetch/axios"
+import { useState } from "react"
+import { reviews } from "../Data"
 import Review from "./Review"
 
 const Reviews = () =>{
 
-    const [reviews, setReviews] = useState([])
     const [view, setview] = useState(false)
 
     const handleView = () =>{
 
         setview(!view)
     }
-    useEffect(() =>{
-
-        reviewsFetch().then(json =>{
-
-            setReviews(json)
-            return json
-        })
-    },[])
 
 const content = (
     <div className="grid sm:grid-cols-3 grid-cols-1 justify-items-center text-white ">
@@ -42,7 +33,7 @@ const content = (
 )
     return (
         <div>
-            <div className="sm:px-20 px-3 mb-8">
+            <div className="sm:px-20 px-3 mb-8 translate-x-6">
             <p className="text-white bg-blue-400 rounded-xl w-24 text-center mb-4">REVIEWS</p>
             <h1 className="text-start text-white text-2xl sm:text-5xl mb-4">Thousands of Ecoreme reviews</h1>
             <p className="text-white w-60 sm:w-5/12 mb-4">Explore reader feedback praising our ebook for its clarity, practicality, and transformative impact on their design skills.</p>
@@ -51,7 +42,7 @@ const content = (
             <div className={`${view ? "block" : "hidden"}`}>
             <Review />
             </div>
-            <p onClick={handleView} className={`cursor-pointer border-2 mx-auto border-white rounded-2xl p-2 w-40 text-white text-center ${view ? "hidden" : "block"}`}>Load more reviews</p>
+            <p onClick={handleView} className={`cursor-pointer mb-20 border-2 mx-auto border-white rounded-2xl p-2 w-40 text-white text-center ${view ? "hidden" : "block"}`}>Load more reviews</p>
         </div>
     )
 }

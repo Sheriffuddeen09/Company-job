@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react"
-import { homesFetch } from "../apiFetch/axios"
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+import { homesdata } from "../Data";
 //import Input from "./Input";
 
 function Slider(){
-    const [homes, setHomes] = useState([]);
     const [index, setIndex] = useState(0);
   /*
     const [hide, setHide] = useState(false)
@@ -13,23 +12,16 @@ function Slider(){
         setHide(!hide)
     }
   */
-    useEffect(() =>{
-
-        homesFetch().then(json =>{
-            setHomes(json)
-            return json
-        })
-
-    }, [])
+   
     useEffect(() => {
-      const lastIndex = homes.length - 1;
+      const lastIndex = homesdata.length - 1;
       if (index < 0) {
         setIndex(lastIndex);
       }
       if (index > lastIndex) {
         setIndex(0);
       }
-    }, [index, homes]);
+    }, [index, homesdata]);
 
 
     useEffect(() =>{
@@ -43,7 +35,7 @@ function Slider(){
 
     const content = <>
     
-    {homes.map((home, homeIndex) => {
+    {homesdata.map((home, homeIndex) => {
           const { id, images, body, title, click } = home;
           let position = "nextSlide";
           if (homeIndex === index) {
@@ -51,7 +43,7 @@ function Slider(){
           }
           if (
             homeIndex === index - 1 ||
-            (index === 0 && homeIndex === homes.length - 1)
+            (index === 0 && homeIndex === homesdata.length - 1)
           ) {
             position = "lastSlide";
           }

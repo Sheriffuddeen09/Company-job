@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react"
-import { welcomeFetch } from "../apiFetch/axios"
 import { Link } from "react-router-dom";
 import AOS from "aos"
+import { welcomes } from "../Data";
 import 'aos/dist/aos.css'
 
 function Ecoreme(){
-    const [welcomes, setWelcomes] = useState([]);
     const [index, setIndex] = useState(0);
     const [flip, setFlip] = useState(true)
 
@@ -17,14 +16,7 @@ function Ecoreme(){
       setFlip(!flip)
     }
 
-    useEffect(() =>{
-
-        welcomeFetch().then(json =>{
-            setWelcomes(json)
-            return json
-        })
-
-    }, [])
+    
     useEffect(() => {
       const lastIndex = welcomes.length - 1;
       if (index < 0) {

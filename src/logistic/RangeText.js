@@ -1,23 +1,11 @@
-import { useEffect, useState } from "react";
 import Range from "./Range"
-import { startupFetch } from "../apiFetch/axios";
-
+import { startup } from "../Data";
 function RangeText (){
 
-    const [ranges, setRanges] = useState([]);
-
-    useEffect(() =>{
-
-        startupFetch().then(json =>{
-            setRanges(json)
-            return json
-        })
-
-    }, [])
 
     const range = <>
     {
-        ranges.map((range) =>(
+        startup.map((range) =>(
             <div className="sm:w-96 w-60 text-black my-6" style={{
                 fontSize:"15px"
             }}>
@@ -56,7 +44,7 @@ function RangeText (){
     )
 
 return (
-    <div className="flex flex-row items-center justify-center bg-gray-800 p-7 flex-wrap gap-44 lg:gap-10">
+    <div className="flex flex-row items-center justify-center bg-gray-800 pt-7 px-7 pb-0 -mb-10 sm:p-7 flex-wrap gap-44 lg:gap-10">
     {content}
     <Range />
     </div>

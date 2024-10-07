@@ -493,6 +493,7 @@ text-decoration-color: rgb(175, 175, 235);
   transition: all 4s ease-in-out;
   text-decoration: none;
   }
+  
   .abouthover:hover{
 
     background-color: white;

@@ -1,19 +1,6 @@
-import { useEffect, useState } from "react"
-import { solutionFetch } from "../apiFetch/axios"
+import { solutions } from "../Data"
 
 function Growth(){
-
-    const [solutions, setSolutions] = useState([])
-
-
-    
-    useEffect(() =>{
-
-        solutionFetch().then(json =>{
-            setSolutions(json)
-            return json
-        })
-    },[])
 
     
     const content = (

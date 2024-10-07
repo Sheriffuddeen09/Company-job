@@ -1,41 +1,6 @@
 
-import { useEffect, useState } from "react"
-import { logFetch, oneTechFetch, TechFetch, twoTechFetch} from "../apiFetch/axios"
-
+import { technologys, onetechs, twotechs, logs} from "../Data"
 function Technology(){
-    const [techs, setTechs] = useState([])
-    const [onetechs, setOneTechs] = useState([])
-    const [twotechs, setTwoTechs] = useState([])
-        useEffect(() =>{
-    
-            TechFetch().then(json =>{
-                setTechs(json)
-                return json
-            })
-        },[])
-    
-        useEffect(() =>{
-    
-            oneTechFetch().then(json =>{
-                setOneTechs(json)
-                return json
-            })
-        },[])
-        useEffect(() =>{
-    
-            twoTechFetch().then(json =>{
-                setTwoTechs(json)
-                return json
-            })
-        },[])
-        const [logs, setLogs] = useState([])
-        useEffect(() =>{
-    
-            logFetch().then(json =>{
-                setLogs(json)
-                return json
-            })
-        },[])
     
         const textcontent = (
             <div>
@@ -44,7 +9,6 @@ function Technology(){
                         <div className="text-center">
                             <h1 className="font-bold text-2xl">{log.dedicate}</h1>
                             <h1 className=" w-8/12 my-3 text-center mx-auto">{log.service}</h1>
-                            <h1 className="font-bold ">{log.services}</h1>
                             <h1 className="text-xl text-gray-500">{log.view}</h1>
                             <h1 className="text-sm text-gray-500">{log.sign} <span className=" text-green-500">0 of</span></h1>
                             <h1 className="text-sm text-gray-500 mb-20">{log.liner}</h1>
@@ -58,7 +22,7 @@ function Technology(){
         const content = (
             <div className="grid grid-cols-3 mx-20">
                 {
-                    techs.map((log) =>(
+                    technologys.map((log) =>(
                         <div className="p-4 -mb-40">
                             <div className="">
                                 <img src={log.image} alt="imagepic" className="w-80 h-52 rounded-xl"/>

@@ -1,18 +1,10 @@
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import ButtonAccordion from "./ButtonAccordion"
-import { AccordFetch } from "../apiFetch/axios"
-
+import { faqs } from "../Data"
 const AccordionsButton = () =>{
 
-    const [accords, setAccords] = useState([])
-    useEffect(() =>{
-        AccordFetch().then(json =>{
-            setAccords(json)
-            return json
-        })
-    },[])
 
     useEffect(() =>{
         AOS.init({duration: 2000})
@@ -20,7 +12,7 @@ const AccordionsButton = () =>{
 
     
     const content = (
-        accords.map((faq) =>{
+        faqs.map((faq) =>{
             return <ButtonAccordion key={faq.id} faq={faq} />
         })
     )

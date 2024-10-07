@@ -1,44 +1,11 @@
-import { useEffect, useState } from "react"
-import { logFetch, oneFetch, templateFetch, twoFetch } from "../apiFetch/axios"
+import { onelogistics } from "../Data"
+import { logistics } from "../Data"
+import { twologistics } from "../Data"
+import { logs } from "../Data"
 
 
 function Logistic(){
 
-    const [logistics, setLogistics] = useState([])
-    const [onelogistics, oneSetLogistics] = useState([])
-    const [twologistics, twoSetLogistics] = useState([])
-    useEffect(() =>{
-
-        templateFetch().then(json =>{
-            setLogistics(json)
-            return json
-        })
-    },[])
-
-    useEffect(() =>{
-
-        oneFetch().then(json =>{
-            oneSetLogistics(json)
-            return json
-        })
-    },[])
-
-    useEffect(() =>{
-
-        twoFetch().then(json =>{
-            twoSetLogistics(json)
-            return json
-        })
-    },[])
-
-    const [logs, setLogs] = useState([])
-    useEffect(() =>{
-
-        logFetch().then(json =>{
-            setLogs(json)
-            return json
-        })
-    },[])
 
     const textcontent = (
         <div>
@@ -47,11 +14,10 @@ function Logistic(){
                     <div className="sm:text-center">
                         <h1 data-aos="fade-right" className="font-bold text-center -translate-y-20 sm:translate-y-0 -mb-5 sm:mb-0 sm:text-2xl">{log.dedicate}</h1>
                         <h1 data-aos="zoom-in" className=" sm:w-8/12 my-3 p-2 mx-auto">{log.service}</h1>
-                        <h1 data-aos="zoom-in" className="font-bold text-center ">{log.services}</h1>
                         <h1 data-aos="fade-right" className="text-xl text-gray-500 text-center">{log.view}</h1>
                         <h1 data-aos="zoom-out" className="text-sm text-gray-500 text-center">{log.sign} <span className=" text-green-500">0 of</span></h1>
                         <h1  data-aos="fade-left" className="text-sm text-gray-500 text-center mb-20">{log.liner}</h1>
-                        <p data-aos="zoom-in" className="bg-green-500 w-60 p-3 rounded-sm mx-auto text-white">Create an Account</p>
+                        <p data-aos="zoom-in" className="bg-green-500 w-60 p-3 rounded-sm mx-auto text-white text-center -mt-14 mb-4 sm:-mt-8">Create an Account</p>
                         <p data-aos="flip-right" className="text-center">Already have an account? <span className="text-green-400 my-3">Sign in</span></p>
                     </div>
                 ))
@@ -149,11 +115,11 @@ function Logistic(){
     )
 
     return (
-        <div className="bg-white mx-5 rounded-xl my-3 py-10">
+        <div className="bg-white mx-3 rounded-xl my-3 py-10 ">
             <div className="hidden lg:block">
             {content}
             </div>
-            <div className="sm:hidden block">
+            <div className="sm:hidden block ">
             {onecontent}
             </div>
             <div className="lg:hidden hidden md:block">

@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react"
-import { RidersFetch } from "../apiFetch/axios"
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-//import Input from "./Input";
+import { rider } from "../Data";
 
 function AboutSlider(){
-    const [rider, setRider] = useState([]);
     const [index, setIndex] = useState(0);
   /*
     const [hide, setHide] = useState(false)
@@ -13,14 +11,7 @@ function AboutSlider(){
         setHide(!hide)
     }
   */
-    useEffect(() =>{
-
-        RidersFetch().then(json =>{
-            setRider(json)
-            return json
-        })
-
-    }, [])
+    
     useEffect(() => {
       const lastIndex = rider.length - 1;
       if (index < 0) {

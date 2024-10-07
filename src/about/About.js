@@ -6,8 +6,7 @@ function About (){
 
     const content = (
         <section className='flex flex-row flex-wrap justify-around items-center '>
-             <div className='-translate-x-8'>
-            <h1 className='sm:text-7xl text-4xl mb-4 text-green-300 font-bold'>Connect With </h1>
+             <div className='sm:translate-x-4 -translate-x-8'>
             <img src={Image} alt='logo' width={180} height={250}/>
             <h1 className='sm:text-7xl text-4xl mt-2 text-white font-bold'>Logistics</h1>
         </div>
@@ -24,7 +23,7 @@ function About (){
             <div className="mb-96">
             <AboutSlider />
             </div>
-            <div className="sm:mt-60 mt-96 sm:translate-y-60 z-10 translate-y-28 sm:mb-80 mb-36">
+            <div className="sm:mt-60 mt-96 sm:translate-y-60 z-10 translate-y-28 sm:mb-80 mb-40">
                 {content}
             </div>
         </div>

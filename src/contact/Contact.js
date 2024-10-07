@@ -43,7 +43,7 @@ function Contact (){
         </div>
     )
     return (
-        <section className="flex flex-row sm:mx-20 items-center mt-8 sm:mt-20 flex-wrap">
+        <section className="flex flex-row lg:mx-20 md:mx-8 sm:flex-nowrap items-center mt-8 sm:mt-20 flex-wrap">
             {content}
             {form}
         </section>
