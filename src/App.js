@@ -1,3 +1,4 @@
+
 import { Route, Routes } from "react-router-dom"
 import Navbar from "./layout/Navbar"
 import Home from "./home/Home"
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <div className=""> 
-    <div>
+       <div>
       <Navbar />
       <Routes>
             <Route path="/" element={
@@ -44,7 +45,7 @@ function App() {
               </div>
           
           } />
-           <Route path="/t" element={
+           <Route path="/tech" element={
               <div className="overflow-hidden">
               </div>
           
@@ -53,8 +54,8 @@ function App() {
       </div>
       <div>
      <Footers />
-     </div>
-    </div>
+     </div>   
+      </div>
   )
 }
 
