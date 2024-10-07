@@ -23,7 +23,7 @@ function About (){
             <div className="mb-96">
             <AboutSlider />
             </div>
-            <div className="sm:mt-60 mt-96 sm:translate-y-60 z-10 translate-y-28 sm:mb-80 mb-40">
+            <div className="sm:mt-60 mt-96 sm:translate-y-60 z-10 translate-y-28 sm:mb-80 mb-48">
                 {content}
             </div>
         </div>
