@@ -434,7 +434,7 @@ top: 0;*/
 }
 .bg-logistic{
   background-color: transparent;
-  animation: logistic 3s ease-in-out ;
+  animation: logistic 3s ease-in-out infinite;
 
 }
 
