@@ -12,7 +12,7 @@ function RangeText (){
             <p>{range.body}</p>
             <p className="mt-2">{range.main}</p>
             <p className="mt-2">{range.trust}</p>
-            <p className="mt-2 inline-flex">Call or WhatsApp: <a href="tel:09062830059" className="text-blue-300 underline">09062830059</a>
+            <p className="mt-2 inline-flex">Call or WhatsApp: <a href="tel:09062830059" className="text-blue-300 translate-x-1 underline">09062830059</a>
             </p>
             </div>
         ))
