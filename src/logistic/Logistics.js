@@ -8,11 +8,8 @@ function Logistics (){
 return (
     <div className="flex flex-col">
         <RangeText />
-    <div className="">
+     <div className="mt-8">
     <Solution />
-    </div>
-   
-    <div className="mt-4">
     </div>
     </div>
 )
