@@ -38,7 +38,7 @@ function Range (){
     )
 
     return (
-        <div className="lg:flex-row flex-col gap-4 -mb-20 sm:mb-10 items-center flex "  data-aos="fade-up">
+        <div className="lg:flex-row flex-col gap-4 -mb-32 sm:mb-10 items-center flex "  data-aos="fade-up">
     
     <div className=" md:flex-row md:items-center lg:flex-col flex-col gap-5 flex -translate-y-40 lg:translate-y-5">
                 <div className="bg-gradient-to-t from-black h-72 sm:w-72 w-72 rounded-xl 
