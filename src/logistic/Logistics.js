@@ -8,7 +8,7 @@ function Logistics (){
 return (
     <div className="flex flex-col">
         <RangeText />
-     <div className="my-14">
+     <div className="mt-14 mb-20">
     <Solution />
     </div>
     </div>
