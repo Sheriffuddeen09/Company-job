@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react"
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import { homesdata } from "../Data";
-//import Input from "./Input";
+import { rider } from "../Data";
 
-function Slider(){
+function AboutSlider(){
     const [index, setIndex] = useState(0);
   /*
     const [hide, setHide] = useState(false)
@@ -12,16 +11,16 @@ function Slider(){
         setHide(!hide)
     }
   */
-   
+    
     useEffect(() => {
-      const lastIndex = homesdata.length - 1;
+      const lastIndex = rider.length - 1;
       if (index < 0) {
         setIndex(lastIndex);
       }
       if (index > lastIndex) {
         setIndex(0);
       }
-    }, [index, homesdata]);
+    }, [index, rider]);
 
 
     useEffect(() =>{
@@ -35,25 +34,25 @@ function Slider(){
 
     const content = <>
     
-    {homesdata.map((home, homeIndex) => {
-          const { id, images, body, title, click } = home;
+    {rider.map((home, homeIndex) => {
+          const { id, images,title } = home;
           let position = "nextSlide";
           if (homeIndex === index) {
             position = "activeSlide";
           }
           if (
             homeIndex === index - 1 ||
-            (index === 0 && homeIndex === homesdata.length - 1)
+            (index === 0 && homeIndex === rider.length - 1)
           ) {
             position = "lastSlide";
           }
           return (
             <article key={id} className={position}>
-              <img src={images} alt={'imagePicture'} className="opacity-40 w-full -translate-y-20" style={{height:"650px"}}/>
+              <img src={images} alt={'imagePicture'} className="opacity-40 w-full -translate-y-20 hidden sm:block" style={{height:"650px"}}/>
+              <img src={images} alt={'imagePicture'} className="opacity-40 w-full -translate-y-20 sm:hidden block" style={{height:"450px"}}/>
               <div className="relative bottom-96 translate-x-3 sm:translate-x-14">
-              <p className=" text-white mb-3 mt-10 text-xl">{title}</p>
-              <p className="sm:w-5/12 my-3 text-white text-3xl sm:text-5xl font-bold">{body}</p>
-              <p className={`text-white text-center border-2 border-white mt-2 w-40  py-3 transition-all duration-500 ease-in-out hover:bg-white hover:text-black cursor-pointer font-bold`}>{click}</p>
+              <p className=" text-white mt-16 text-4xl font-bold hidden sm:block">{title}</p>
+              <p className=" text-white mt-24 text-4xl font-bold sm:hidden block">{title}</p>
               </div>
             </article>
           );
@@ -74,4 +73,4 @@ return(
 )
 }
 
-export default Slider
+export default AboutSlider

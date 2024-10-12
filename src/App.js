@@ -1,3 +1,4 @@
+
 import { Route, Routes } from "react-router-dom"
 import Navbar from "./layout/Navbar"
 import Home from "./home/Home"
@@ -5,14 +6,13 @@ import Logistics from "./logistic/Logistics"
 import Careers from "./careers/Careers"
 import About from "./about/About"
 import Contact from "./contact/Contact"
-import EcoLogistic from "./ecologistic/EcoLogistic"
 import Footers from "./layout/Footer"
 function App() {
 
 
   return (
     <div className=""> 
-    <div>
+       <div>
       <Navbar />
       <Routes>
             <Route path="/" element={
@@ -45,13 +45,7 @@ function App() {
               </div>
           
           } />
-           <Route path="/logistic" element={
-              <div className="overflow-hidden">
-                <EcoLogistic />
-              </div>
-          
-          } />
-           <Route path="/t" element={
+           <Route path="/tech" element={
               <div className="overflow-hidden">
               </div>
           
@@ -60,8 +54,8 @@ function App() {
       </div>
       <div>
      <Footers />
-     </div>
-    </div>
+     </div>   
+      </div>
   )
 }
 

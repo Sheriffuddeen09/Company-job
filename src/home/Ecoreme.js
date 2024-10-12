@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react"
-import { welcomeFetch } from "../apiFetch/axios"
 import { Link } from "react-router-dom";
 import AOS from "aos"
+import { welcomes } from "../Data";
 import 'aos/dist/aos.css'
 
 function Ecoreme(){
-    const [welcomes, setWelcomes] = useState([]);
     const [index, setIndex] = useState(0);
     const [flip, setFlip] = useState(true)
 
@@ -17,14 +16,7 @@ function Ecoreme(){
       setFlip(!flip)
     }
 
-    useEffect(() =>{
-
-        welcomeFetch().then(json =>{
-            setWelcomes(json)
-            return json
-        })
-
-    }, [])
+    
     useEffect(() => {
       const lastIndex = welcomes.length - 1;
       if (index < 0) {
@@ -52,7 +44,7 @@ function Ecoreme(){
           return (
             <main key={id}>
               <img src={images} alt={'imagePicture'} className="opacity-40 bg-black h-full sm:block hidden opacity-10 w-full" />
-              <div className="relative bottom-96 pt-1 pb-8 sm:p sm:-translate-y-80 -translate-y-32 sm:bg-none bg-gradient-to-r from-black to-blue-900 ">
+              <div className="relative lg:bottom-96 md:bottom-52 pt-1 pb-8 sm:p sm:-translate-y-80 -translate-y-32 sm:bg-none bg-gradient-to-r from-black to-blue-900 ">
               <p className="sm:my-3 mt-14 text-white z-10 text-3xl text-center sm:text-6xl  font-bold">{welcome}</p>
               <p className=" text-white my-3 text-center text-4xl z-10">{title}</p>
               <div className="flex flex-row flex-wrap justify-center gap-10 sm:mt-20 mt-10">
