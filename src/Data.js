@@ -276,23 +276,23 @@ export const welcomes=[
         {
             image:customer,
             title:"Customer Service Excellence",
-            body:"We prioritize personalized support to ensure a smooth and satisfying experience for every client. Our dedicated team is alwaysready to address concerns and provide timely solutions.",
+            body:"We prioritize personalized support to ensure a smooth and satisfying experience for every client. Our dedicated team is always ready to address concerns and provide timely solutions.",
             "icon":customerb,
             "numbertitle":"Affordable Rates",
-            "numberBody":"We offer competitive pricing without compromising the quality of service. Our cost-effective solutions help busimesses manage logistics within budget."
+            "numberBody":"We offer competitive pricing without compromising the quality of service. Our cost-effective solutions help businesses manage logistics within budget."
         },
         {
             image:customerc,
             title:"Security",
-            body:"Your shipments are safeguarded with advanced tracking and security measures. We ensure that your cargo reaches its destination intact and on time.",
+            body:"Your shipments are safeguarded with adequate security measures. We ensure that your cargo reaches its destination intact and on time.",
             "icon":customerd,
             "numbertitle":"Compliance",
-            "numberBody":"Our operations adhere to all local and international regulations. We ensure ful compliance with industry standards and customs requirements."
+            "numberBody":"Our operations adhere to industry regulations, promoting efficient and lawful service delivery. We also ensure proper handling of packages and maintain trust with customers and regulatory authorities."
         },
         {
             image:customere,
             title:"Highly Available",
-            body:"Our services are operations 24/7 to meet your logistics needs anytime. We guarantee consistent availability, no matter the time or location.",
+            body:"We ensure continuous, uninterrupted operations to meet your logistics needs.This reliability allows businesses to meet customer demands efficiently with no delays in deliveries. ",
             "icon":customerf,
             "numbertitle":"Flexibility",
             "numberBody":"We adapt to your specific requirements, offering tailored solutions for various logistics challenges. Our flexible approach ensures seamless operations in changing conditions."
