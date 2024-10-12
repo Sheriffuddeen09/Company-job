@@ -1,17 +1,10 @@
 import { useEffect, useState } from "react"
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { homesdata } from "../Data";
-//import Input from "./Input";
 
 function Slider(){
     const [index, setIndex] = useState(0);
-  /*
-    const [hide, setHide] = useState(false)
-  
-    const handleHide = () =>{
-        setHide(!hide)
-    }
-  */
+
    
     useEffect(() => {
       const lastIndex = homesdata.length - 1;

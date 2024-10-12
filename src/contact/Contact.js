@@ -2,7 +2,7 @@
 function Contact (){
 
     const contents = (
-        <div className="grid grid-cols-1 sm:grid-cols-3 justify-items-center gap-10 sm:my-14 sm:mx-10 my-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 justify-items-center text-center gap-10 sm:my-14 sm:mx-10 my-6">
             <div>
                 <p className="bg-white w-28 h-28 rounded-full inline-flex items-center justify-items-center ">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-12 translate-x-2">
@@ -43,8 +43,11 @@ function Contact (){
         return (
             <section className="">
                 <h1 className="sm:text-6xl  text-5xl text-white mt-4 sm:mt-20 text-center">Contact Us</h1>
+                <p className="text-center mx-auto text-white w-72 text-xl sm:w-4/12 mt-6">Connecting Businesses with Clients through Efficient Logistics Solutions</p>
+                <div className='mb-28 sm:mb-40'>
                 {contents}
-                <p className="text-center mx-auto text-white w-72 text-xl sm:w-3/12 mb-28 sm:mb-40">Connecting Businesses with Clients through Efficient Logistics Solutions</p>
+                </div>
+                
             </section>
         )
     }
