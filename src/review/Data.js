@@ -10,9 +10,9 @@ import themes from './themes/theme1.avif'
 import logistic from './image/fundament.webp'
 import logisticb from './image/supply.jpg'
 import logisticc from './image/onlinetech.jpg'
-import tech from './image/logic.jpg'
-import techb from './image/tech.webp'
-import techc from './image/feedback.jpg'
+import logisticc from './image/logic.jpg'
+import logisticc from './image/tech.webp'
+import logisticc from './image/feedback.jpg'
 import customer from './image/customer.jpg'
 import customerb from './image/rate.png'
 import customerc from './image/security.png'
@@ -24,25 +24,7 @@ import companyb from './image/global.png'
 import companyc from './image/tiny.png'
 import companyd from './image/micro.png'
 import companye from './image/afex.png'
-import reviewa from './review/backend.jpg'
-import reviewb from './review/python.png'
-import reviewc from './review/product.jpg'
-import reviewd from './review/gg.jpg'
-import reviewe from './review/unlimited.png'
-import reviewf from './review/web.jpg'
-import reviewg from './review/theme2.jpg'
-import reviewh from './review/theme3.jpg'
-import reviewi from './review/theme4.jpg'
-import stara from './review/stars.png'
-import starb from './review/stars.png'
-import starc from './review/stars.png'
-import stard from './review/stars.png'
-import stare from './review/stars.png'
-import starf from './review/stars.png'
-import starg from './review/stars.png'
-import starh from './review/stars.png'
-import stari from './review/stars.png'
-import face from './review/face.png'
+
 export const homesdata = [
     {
         id:1,
@@ -120,7 +102,7 @@ export const welcomes=[
         {
             id:1,
             image:logistic,
-            logistic:'Logistic',
+            logistic:Logistic,
             type:"Transport",
             type2:"Acquired",
             type3:"Stored",
@@ -193,7 +175,7 @@ export const welcomes=[
         {
             id:1,
             image:logistic,
-            logistic:'Logistic',
+            logistic:Logistic,
             type:"Transport",
             type2:"Acquired",
             type3:"Stored",
@@ -206,7 +188,7 @@ export const welcomes=[
         {
             id:1,
             image:logistic,
-            logistic:'Logistic',
+            logistic:Logistic,
             type:"Transport",
             type2:"Acquired",
             type3:"Stored",
@@ -216,7 +198,7 @@ export const welcomes=[
         },
         {
             id:1,
-            logistic:'Logistic',
+            logistic:Logistic,
             image:logisticb,
             type:"Transport",
             type2:"Acquired",
@@ -319,8 +301,8 @@ export const welcomes=[
             id:1,
             image:companye
         }
-    ]
-    export const faqs = [
+    ],
+    "faqs": [
         {
             id: 1,
             title: "What do you do at Ecoreme",
@@ -352,84 +334,80 @@ export const welcomes=[
         title: "How can I track my Resourses?",
         body: "A tracking link will be assigned to your Stored/Acquired Resources once your booking has been confirmed. With this, you are able to track the status of your order from your dashboard."
     }
-]
-export const reviews = [
+],
+"reviews":[
     {
         id:1,
-        "star":stara,
-        image:reviewa,
+        "star":"review/stars.png",
+        image:"review/backend.jpg",
         "user":"Smith David",
         body:"Very Good service all trust them on their delivery and other service. They are Dedicate to timing in delivery to their customer. I suggest everyone to choose this courier service",
-        "icon":face
+        "icon":"review/face.png"
     },
     {
         id:2,
-        "star":starb,
-        image:reviewd,
+        "star":"review/stars.png",
+        image:"review/gg.jpg",
         "user":"Paul Olive",
         body:"Very Good service ever",
-        "icon":face
+        "icon":"review/face.png"
     },
     {
         id:3,
-        image:reviewb,
-        "star":starc,
+        image:"review/python.png",
+        "star":"review/stars.png",
         "user":"Abdul-Salam Ola",
         body:"I selected this vendor based on their google rating 4.5+. But honestly speaking their service deserved more than that rating.",
-        "icon":face
+        "icon":"review/face.png"
     },
     {
         id:4,
-        image:reviewc,
-        "star":stard,
+        image:"review/backend.jpg",
+        "star":"review/stars.png",
         "user":"Smith David",
         body:"The main thing I like best about supply chain management is that it is a broad discipline and touches on many parts of a company",
-        "icon":face
+        "icon":"review/face.png"
     },
     {
         id:5,
-        image:reviewe,
-        "star":stare,
+        image:"review/unlimited.png",
+        "star":"review/stars.png",
         "user":"Fawas Olatunji",
         body:"Ecoreme was competent in doing anything. They just stand on their trust",
-        "icon":face
+        "icon":"review/face.png"
     },
     {
         id:6,
-        image:reviewf,
-        "star":starf,
+        image:"review/image-1.jpeg",
+        "star":"review/stars.png",
         "user":"Mutmainat Ojulari",
         body:"Ecoreme Logistics is best and professional moving company.",
-        "icon":face
+        "icon":"review/face.png"
     }
-]
-export const review = [
+],
+"review":[
     {
         id:1,
-        image:reviewg,
-        "star":starg,
+        image:"review/image-3.jpeg",
+        "star":"review/stars.png",
         "user":"Chika Ugo",
         body:"There is no doubt that logistics plays a vital role in our economy and its importance is only increasing as businesses become more globalized. Without efficient logistics, it would be impossible for business to move products around the world a timely and cost-effective manner",
-        "icon":face
+        "icon":"review/face.png"
     },
     {
         id:2,
-        "star":starh,
-        image:reviewh,
+        "star":"review/stars.png",
+        image:"review/image-2.jpeg",
         "user":"Elizabeth Gloria",
         body:"I had used the service of Ecoreme and Movers 2 weeks back to parcel my 2 wheeler from Lagos to Benin. Quiet happy with their service",
-        "icon":face
+        "icon":"review/face.png"
     },
     {
         id:3,
-        image:reviewi,
-        "star":stari,
+        image:"review/web.jpg",
+        "star":"review/stars.png",
         "user":"Peter Akon",
         body:"Lovely service rendering",
-        "icon":face
+        "icon":"review/face.png"
     }
-<<<<<<< HEAD
 ]
-=======
-]
->>>>>>> 89d4fe143368bedc75e0650c89028219a5868a70

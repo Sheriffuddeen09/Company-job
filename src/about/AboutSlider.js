@@ -74,3 +74,16 @@ return(
 }
 
 export default AboutSlider
+<<<<<<< HEAD
+=======
+
+/*
+
+<div className='wrapper'>
+            <ul className='dynamic mt-3 translate-x-32 text-4xl hidden lg:block'>
+            <ol className=" mx-auto"><main className=" mx-auto  ">{welcome}</main></ol>
+            </ul>
+    </div>
+
+    */
+>>>>>>> 89d4fe143368bedc75e0650c89028219a5868a70
