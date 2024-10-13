@@ -1,8 +1,6 @@
-import slidera from './image/satelites.webp'
-import sliderb from './image/spacelinkb.jpg'
-import sliderc from './image/spacerocket.jpg'
-import sliderd from './image/flight.webp'
-import slidere from './image/accelerate.jpg'
+import slidera from './image/rider.png'
+import sliderb from './image/shipment.jpg'
+import sliderc from './image/mover.webp'
 import sliderf from './image/rider.png'
 import sliderg from './image/shipment.jpg'
 import sliderh from './image/mover.webp'
@@ -47,34 +45,22 @@ export const homesdata = [
     {
         id:1,
         images:slidera,
-        title:"RECENT WATCH",
-        body:"STARLINK MISSION",
-        click:"REWATCH" 
+        title:"ECOREME LOGISTICS",
+        body:"LOGISTICS RIDER",
+        click:"LEARN MORE" 
     },
     {
         id:2,
-        images:sliderb,
-        title:"RECENT LAUNCH",
-        body:"GALILEO L13 MISSION",
-       click: "REWATCH"
-    },
-    {
-        id:3,
         images:sliderc,
-        title:"RECENT MISSION",
-        body:"POLARIS DAWN",
-       click: "REWATCH"
-    },
-    {
-        images:sliderd,
-        title:"RECENT WATCH",
-        body:"ADVANCING HUMAN SPACEFLIGHT",
+        title:"ECOREME LOGISTICS",
+        body:"BULK DELIVERIES",
        click: "LEARN MORE"
     },
     {
-        images:slidere,
-        title:"",
-        body:"TO MAKE LIFE MULTIPLANETARY",
+        id:3,
+        images:sliderb,
+        title:"ECOREME LOGISTICS",
+        body:"SHIPMENT",
        click: "LEARN MORE"
     }
 ]

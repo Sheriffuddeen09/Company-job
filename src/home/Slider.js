@@ -42,7 +42,8 @@ function Slider(){
           }
           return (
             <article key={id} className={position}>
-              <img src={images} alt={'imagePicture'} className="opacity-40 w-full -translate-y-20" style={{height:"650px"}}/>
+             <img src={images} alt={'imagePicture'} className="opacity-40 w-full -translate-y-20 hidden sm:block" style={{height:"650px"}}/>
+             <img src={images} alt={'imagePicture'} className="opacity-40 w-full -translate-y-20 sm:hidden block" style={{height:"450px"}}/>
               <div className="relative bottom-96 translate-x-3 sm:translate-x-14">
               <p className=" text-white mb-3 mt-10 text-xl">{title}</p>
               <p className="sm:w-5/12 my-3 text-white text-3xl sm:text-5xl font-bold">{body}</p>

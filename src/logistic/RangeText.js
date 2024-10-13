@@ -1,5 +1,6 @@
 import Range from "./Range"
 import { startup } from "../Data";
+import { Link } from "react-router-dom";
 function RangeText (){
 
 
@@ -33,6 +34,7 @@ function RangeText (){
                 </button>
                 </div>
                 <div className="sm:hidden block">
+                <Link to={'https://bit.ly/Ecologis'}>
                 <button className="flex items-center w-64  px-2 py-3 rounded-xl text-white text-sm mx-auto inline-flex gap-1 sm:gap-2 sm:mt-10 sm:mb-20 justify-center bg-green-600 rounded mt-2 mb-10" >
                     
                     Click to Order For Pickup/Delivery<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
@@ -40,6 +42,7 @@ function RangeText (){
 </svg>
 
                 </button>
+                </Link>
                 </div>
         </div>
     )
