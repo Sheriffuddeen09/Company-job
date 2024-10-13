@@ -112,8 +112,8 @@ export const welcomes=[
         {
             id:1,
             body:"Reliable Logistics at Your Doorstep! Need fast, secure, and hassle-free PICKUP or DELIVERY in Lagos?.",
-            main:"Ecoreme Logistics offers seamless service for all your shipping needs! Whether it's a single package pr bulk orders, we ensure timely and efficient service at competitive rates.",
-            trust:" Trust us to handle your deliveries with care, every time"
+            main:"Ecoreme Logistics offers seamless service for all your shipping needs! Whether it's a single package or bulk orders, we ensure timely and efficient service at competitive rates.",
+            trust:" Trust us to handle your deliveries with care, every time."
         }
     ]
     export const logistics =[

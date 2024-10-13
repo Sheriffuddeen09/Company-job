@@ -6,7 +6,7 @@ function RangeText (){
     const range = <>
     {
         startup.map((range) =>(
-            <div className="sm:w-96 w-60 text-black my-6" style={{
+            <div className="sm:w-96 w-60 text-black text-justify my-6" style={{
                 fontSize:"15px"
             }}>
             <p>{range.body}</p>
