@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { homesdata } from "../Data";
+import { Link } from "react-router-dom";
 
 function Slider(){
     const [index, setIndex] = useState(0);
@@ -47,7 +48,9 @@ function Slider(){
               <div className="relative bottom-96 translate-x-3 sm:translate-x-14">
               <p className=" text-white mb-3 mt-10 text-xl">{title}</p>
               <p className="sm:w-5/12 my-3 text-white text-3xl sm:text-5xl font-bold">{body}</p>
+             <Link to={'/about'}>
               <p className={`text-white text-center border-2 border-white mt-2 w-40  py-3 transition-all duration-500 ease-in-out hover:bg-white hover:text-black cursor-pointer font-bold`}>{click}</p>
+              </Link>
               </div>
             </article>
           );
