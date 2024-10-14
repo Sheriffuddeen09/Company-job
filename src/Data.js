@@ -1,6 +1,7 @@
 import slidera from './image/rider.png'
 import sliderb from './image/shipment.jpg'
 import sliderc from './image/mover.webp'
+import sliderd from './image/techn.jpg'
 import sliderf from './image/rider.png'
 import sliderg from './image/shipment.jpg'
 import sliderh from './image/mover.webp'
@@ -9,7 +10,7 @@ import logistic from './image/fundament.webp'
 import logisticb from './image/supply.jpg'
 import logisticc from './image/onlinetech.jpg'
 import tech from './image/logic.jpg'
-import techb from './image/tech.webp'
+import techb from './image/techn.jpg'
 import techc from './image/feedback.jpg'
 import customer from './image/customer.jpg'
 import customerb from './image/rate.png'
@@ -49,19 +50,26 @@ export const homesdata = [
         body:"LOGISTICS RIDER",
         click:"LEARN MORE" 
     },
-    {
+     {
         id:2,
         images:sliderc,
         title:"ECOREME LOGISTICS",
         body:"BULK DELIVERIES",
-       click: "LEARN MORE"
+        click: "LEARN MORE",
+        id:3
     },
-    {
-        id:3,
+        {
         images:sliderb,
         title:"ECOREME LOGISTICS",
         body:"SHIPMENT",
-       click: "LEARN MORE"
+        click:"LEARN MORE"
+    },
+        {
+        id:4,
+        images:sliderd,
+        title:"ECOREME TECHNOLOGIES",
+        body:"INFOTECH SERVICES",
+        clicked:"LEARN MORE"
     }
 ]
 export const rider = [

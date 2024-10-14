@@ -30,7 +30,7 @@ function Slider(){
     const content = <>
     
     {homesdata.map((home, homeIndex) => {
-          const { id, images, body, title, click } = home;
+          const { id, images, title, click, body, clicked} = home;
           let position = "nextSlide";
           if (homeIndex === index) {
             position = "activeSlide";
@@ -49,9 +49,12 @@ function Slider(){
               <p className=" text-white mb-3 mt-10 text-xl">{title}</p>
               <p className="sm:w-5/12 my-3 text-white text-3xl sm:text-5xl font-bold">{body}</p>
              <Link to={'/about'}>
-              <p className={`text-white text-center border-2 border-white mt-2 w-40  py-3 transition-all duration-500 ease-in-out hover:bg-white hover:text-black cursor-pointer font-bold`}>{click}</p>
+              <p className={`text-white text-center border border- mt-4 w-40  py-3 transition-all duration-500 ease-in-out hover:bg-white hover:text-black cursor-pointer font-bold `}>{click}</p>
               </Link>
+              <p className={`text-white text-center relative -top-11 mt-2 w-40  py-3 transition-all duration-500 ease-in-out hover:bg-white hover:text-black cursor-pointer font-bold`}>{clicked}</p>
+              
               </div>
+              
             </article>
           );
         })}
