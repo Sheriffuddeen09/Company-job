@@ -17,7 +17,7 @@ function Careers (){
             <p className="text-center text-4xl">Our Openings</p>
             <div className="flex flex-row flex-wrap justify-around items-center">
         <div className="text-black  text-xl sm:text-3xl sm:w-5/12 mx-0 sm:mx-20 my-5 sm:my-20 w-60 ">
-            <h1 className="mb-4">Lagos,NG</h1>
+            <h1 className="mb-4">Lagos NG</h1>
                 <p className="font-bold text-xl">Professional Rider</p>
         <p className="text-sm sm:w-96 w-64 text-justify">If you are a professional rider with extensive knowledge of lagos roads (both Mainland and Island) we invite you to apply. </p>
         <p className="text-sm mt-3">Please send your CV to: <a href="mailto:logistics.recruitment@ecoreme.com" className="mt-1 text-blue-300 font-bold  abouthover text-sm">logistics.recruitment@ecoreme.com</a></p>

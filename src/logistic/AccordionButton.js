@@ -18,7 +18,7 @@ const AccordionsButton = () =>{
     )
         return (
     <div className=" mb-14 mx-5 mt-2">
-            <div className="pb-10 bg-white rounded-xl mb-14">
+            <div className="pb-10 px-2 bg-white rounded-xl mb-14">
             <h2 className='pt-12 sm:text-4xl text-2xl pb-6 px-14 ml-6'> Guideline on How it Work </h2>
            {content}
             </div>

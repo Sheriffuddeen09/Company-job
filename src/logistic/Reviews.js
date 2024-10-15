@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 89d4fe143368bedc75e0650c89028219a5868a70
 import { useState } from "react"
 import { reviews } from "../Data"
 import Review from "./Review"
