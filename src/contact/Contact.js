@@ -43,7 +43,7 @@ function Contact (){
         return (
             <section className="">
                 <h1 className="sm:text-6xl  text-5xl text-white mt-4 sm:mt-20 text-center">Contact Us</h1>
-                <p className="text-center mx-auto text-white w-72 text-xl sm:w-4/12 mt-6">Connecting Businesses with Clients through Efficient Logistics Solutions</p>
+                <p className="text-center mx-auto text-white w-72 text-xl sm:w-4/12 mt-6">Connecting Businesses with Customers through Efficient Logistics Solutions</p>
                 <div className='mb-28 sm:mb-40'>
                 {contents}
                 </div>

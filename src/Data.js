@@ -50,6 +50,13 @@ export const homesdata = [
         body:"LOGISTICS RIDER",
         click:"LEARN MORE" 
     },
+        {
+        id:4,
+        images:sliderd,
+        title:"ECOREME TECHNOLOGIES",
+        body:"INFOTECH SERVICES",
+        clicked:"LEARN MORE"
+    },
      {
         id:2,
         images:sliderc,
@@ -63,13 +70,6 @@ export const homesdata = [
         title:"ECOREME LOGISTICS",
         body:"SHIPMENT",
         click:"LEARN MORE"
-    },
-        {
-        id:4,
-        images:sliderd,
-        title:"ECOREME TECHNOLOGIES",
-        body:"INFOTECH SERVICES",
-        clicked:"LEARN MORE"
     }
 ]
 export const rider = [
@@ -105,7 +105,7 @@ export const welcomes=[
     export const startup = [
         {
             id:1,
-            body:"Reliable Logistics at Your Doorstep! Need fast, secure, and hassle-free PICKUP or DELIVERY in Lagos?.",
+            body:"Reliable Logistics at Your Doorstep! Need fast, secure, and hassle-free PICKUP or DELIVERY in Lagos?",
             main:"Ecoreme Logistics offers seamless service for all your shipping needs! Whether it's a single package or bulk orders, we ensure timely and efficient service at competitive rates.",
             trust:" Trust us to handle your deliveries with care, every time."
         }
