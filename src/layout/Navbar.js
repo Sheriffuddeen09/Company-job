@@ -23,7 +23,7 @@ function Navbar() {
               <img src={logos} alt='logo' width={140} height={80}/>
               </Link>
             </div>
-            <div className='hidden lg:block'> 
+            <div className='hidden md:hidden lg:block'> 
             <div className='lg:gap-12 gap-2 font-bold inline-flex '> 
                 
                 <Link to={'/about'} className={`text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer about`}>ABOUT
@@ -40,7 +40,7 @@ function Navbar() {
                 </p>
             </div>
             </div>
-            <div className='hidden md:block'> 
+            <div className='hidden md:block lg:hidden'> 
             <div className='lg:gap-12 gap-2 font-bold inline-flex ' style={{fontSize:"12px"}}> 
                 
                 <Link to={'/about'} className={`text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer about`}>ABOUT
