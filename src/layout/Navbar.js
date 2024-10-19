@@ -17,33 +17,50 @@ function Navbar() {
     return (
 
         <header className=" bg-black w-full z-10  shadow-2xl px-3 py-4 sm:p-6 ">
-            <nav className='flex flex-row justify-between items-center mx-2 lg:mx-7'>
+            <nav className='flex flex-row justify-between items-center lg:mx-7'>
               <div className='inline-flex items-center gap-2'>
                 <Link to={'/'}>
               <img src={logos} alt='logo' width={140} height={80}/>
               </Link>
             </div>
-            <div className='hidden sm:block'> 
-            <div className='lg:gap-12 gap-4 -translate-x-7 mx-0 font-bold inline-flex '> 
+            <div className='hidden lg:block'> 
+            <div className='lg:gap-12 gap-2 font-bold inline-flex '> 
                 
-                <Link to={'/about'} className={`text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out cursor-pointer about`}>ABOUT
+                <Link to={'/about'} className={`text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer about`}>ABOUT
                 </Link>
 
-                <Link to={'/contact'} className="text-white contact text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out cursor-pointer">CONTACT
+                <Link to={'/contact'} className="text-white contact text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer">CONTACT
                 </Link>
-                <Link to={'/career'} className={`text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out cursor-pointer career`}>CAREERS
+                <Link to={'/career'} className={`text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer career`}>CAREERS
                 </Link>
-                <Link to={'/logic'} className="text-white text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out cursor-pointer logistic">ECOREME LOGISTICS
+                <Link to={'/logic'} className="text-white text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer logistic">ECOREME LOGISTICS
                 
                 </Link>
-                <p className="text-white text-sm text-white text-sm  rounded-xl p-2 transition-all duration-500 ease-in-out cursor-pointer tech">ECOREME TECHNOLOGIES
+                <p className="text-white text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer tech">ECOREME TECHNOLOGIES
+                </p>
+            </div>
+            </div>
+            <div className='hidden md:block'> 
+            <div className='lg:gap-12 gap-2 font-bold inline-flex ' style={{fontSize:"12px"}}> 
+                
+                <Link to={'/about'} className={`text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer about`}>ABOUT
+                </Link>
+
+                <Link to={'/contact'} className="text-white contact text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer">CONTACT
+                </Link>
+                <Link to={'/career'} className={`text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer career`}>CAREERS
+                </Link>
+                <Link to={'/logic'} className="text-white text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer logistic">ECOREME LOGISTICS
+                
+                </Link>
+                <p className="text-white text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer tech">ECOREME TECHNOLOGIES
                 </p>
             </div>
             </div>
             <div>
              <div className='hidden sm:block'> 
             <button onClick={handlemenu} className=''>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"  class="size-8 -translate-x-10 text-white translate-y-1">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"  class="size-8 -translate-x- text-white translate-y-1">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
             </button>
