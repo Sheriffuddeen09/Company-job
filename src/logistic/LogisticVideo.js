@@ -8,7 +8,7 @@ function LogisticVideo (){
         <div >
                <Video autoPlay
             poster={logo}
-                 onCanPlayThrough={() => console.log('video')} className=" w-full bg-white" >
+                 onCanPlayThrough={() => console.log('video')} className=" w-full" >
                     <source src={media} type="video/webm"  width={400} className='w-full bg-white' />
                 </Video>
         </div>
