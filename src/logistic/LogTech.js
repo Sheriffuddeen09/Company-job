@@ -16,7 +16,7 @@ function LogTech(){
 
             <div className={`transition-all duration-500 ease-in-out hover:bg-[#626267] ${toggle === 1 ? 'toggle' : 'nonetoggle'}`}> </div>
             </p>
-            <p  onClick={() =>handleToggle(2)} className="rounded-xl p-2 transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer ">Technology <div className={`transition-all duration-500 ease-in-out hover:bg-[#626267] ${toggle === 2 ? 'toggle' : 'nonetoggle'}`}> </div></p>
+            <p  onClick={() =>handleToggle(2)} className="rounded-xl p-2 transition-all duration-500 ease-in-out hover:bg-[#626267] cursor-pointer ">Technologies <div className={`transition-all duration-500 ease-in-out hover:bg-[#626267] ${toggle === 2 ? 'toggle' : 'nonetoggle'}`}> </div></p>
             </div>
             <div className={`${toggle === 1 ? "block" : "hidden"}`}>
             <Logistic />
