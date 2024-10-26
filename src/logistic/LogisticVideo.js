@@ -5,7 +5,7 @@ import logo from '../image/ECOREME White PNG Logo.png'
 function LogisticVideo (){
 
     return (
-        <div >
+        <div>
             <div className=''>               
                 <Video autoPlay
                     poster={logo}
