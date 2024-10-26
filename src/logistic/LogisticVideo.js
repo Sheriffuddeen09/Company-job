@@ -6,18 +6,11 @@ function LogisticVideo (){
 
     return (
         <div >
-            <div className='hidden sm:block'>               
+            <div className=''>               
                 <Video autoPlay
                     poster={logo}
                     onCanPlayThrough={() => console.log('video')} className=" w-full" >
                     <source src={media} type="video/webm"  width={400} className='w-full bg-white' />
-                </Video>
-                </div>
-            <div className='sm:hidden block'>
-                <Video autoPlay
-            poster={logo}
-                 onCanPlayThrough={() => console.log('video')} className=" w-full" >
-                    <source src={media} type="video/webm"  width={400} height={600} className='w-full bg-white' />
                 </Video>
                 </div>
         </div>
