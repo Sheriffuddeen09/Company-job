@@ -502,3 +502,22 @@ text-decoration-color: rgb(175, 175, 235);
   .abouthover{
     transition: all 2s ease-in-out;
   }
+  .loading{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: green;
+    border: 2px solid rgb(83, 83, 84);
+    animation: rotat 2s ease-in-out infinite;
+  }
+  @keyframes rotat {
+  
+    from {
+      transform: translateX(0px);
+    }
+  
+    to{
+      transform: translateX(60px);
+    }
+  }
