@@ -36,7 +36,7 @@ function Contact (){
     
                 </p>
                 <p className="text-white text-2xl font-bold mt-4 mb-2">Website</p>
-                <Link to='www.ecoreme.com'  className="text-white font-bold text-xl mt-4 underline">www.ecoreme.com</Link>
+                <Link to='http://www.ecoreme.com/'  className="text-white font-bold text-xl mt-4 underline">www.ecoreme.com</Link>
             </div>
         </div>
     )
