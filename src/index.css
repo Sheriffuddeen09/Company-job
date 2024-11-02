@@ -158,10 +158,10 @@
      transform: rotate(360deg);
     }
    }
-.career{
+.careers{
   position: relative;
 }
-  .career::after{
+  .careers::after{
     content: '';
     position: absolute;
     bottom: 8px;
@@ -172,7 +172,7 @@
     transition: 0.3s ease-in-out;
     transform: scaleX(0);
   }
-  .career:hover::after{
+  .careers:hover::after{
     transform: scaleX(1);
     
   }
@@ -213,10 +213,10 @@
     
   }
 
-  .logistic{
+  .logistics{
     position: relative;
   }
-  .logistic::after{
+  .logistics::after{
     content: '';
     position: absolute;
     bottom: 8px;
@@ -227,7 +227,7 @@
     transition: 0.3s ease-in-out;
     transform: scaleX(0);
   }
-  .logistic:hover::after{
+  .logistics:hover::after{
     transform: scaleX(1);
     
   }

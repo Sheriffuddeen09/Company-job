@@ -16,8 +16,8 @@ function Careers (){
         <section className="bg-white pt-6 pb-20 px-2 sm:pb-20 sm:pt-6" >
             <p className="text-center text-4xl">Our Openings</p>
         <div className="text-black  text-xl sm:text-3xl sm:w-full mx-0 sm:mx-20 my-5 sm:mt-20 mx-3 ">
-            <h1 className="mb-4">Lagos, NG - Urgently Needed</h1>
-            <div className="flex justify-between  items-center flex-row  mb-3 ">
+            <h1 className="mb-6">Lagos, NG - Urgently Needed</h1>
+            <div className="flex sm:gap-52 gap-2  items-center flex-row  mb-3 ">
                 <p className="font-bold text-2xl ">Professional Rider</p>
                 <p className="text-green-400 border sm:-translate-x-40 border-2 w-24 hover:bg-green-200 text-xl border-green-400 p- text-center rounded-xl">Open</p>
             </div>
@@ -39,7 +39,7 @@ function Careers (){
        </div>   
         <hr className="my-5" />
        <div className="text-black  text-xl sm:text-3xl sm:w-full mx-0 sm:mx-20  mx-3">
-            <div className="flex justify-between items-center flex-row  mb-3 ">
+            <div className="flex sm:gap-52 gap-2  items-center flex-row  mb-3 ">
                 <p className="font-bold text-2xl "> Marketers</p>
                 <p className="text-green-400 border sm:-translate-x-40 border-2 w-24 hover:bg-green-200 text-xl border-green-400 p- text-center rounded-xl">Open</p>
             </div>
@@ -66,7 +66,7 @@ function Careers (){
        <hr className="my-6" />
 
        <div className="text-black  text-xl sm:text-3xl sm:w-full mx-0 sm:mx-20 mb-6 mx-3 ">
-            <div className="flex justify-between  items-center flex-row  mb-3 ">
+            <div className="flex sm:gap-52 gap-2  items-center flex-row  mb-3 ">
                 <p className="font-bold text-2xl ">Customer Service Representative</p>
                 <p className="text-green-400 border sm:-translate-x-40 border-2 w-24 hover:bg-green-200 text-xl border-green-400 p- text-center rounded-xl">Open</p>
             </div>

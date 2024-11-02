@@ -31,9 +31,9 @@ function Navbar() {
 
                 <Link to={'/contact'} className="text-white contact text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer">CONTACT
                 </Link>
-                <Link to={'/career'} className={`text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer career`}>CAREERS
+                <Link to={'/careers'} className={`text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer careers`}>CAREERS
                 </Link>
-                <Link to={'/logic'} className="text-white text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer logistic">ECOREME LOGISTICS
+                <Link to={'/logistics'} className="text-white text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer logistic">ECOREME LOGISTICS
                 
                 </Link>
                 <p className="text-white text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer tech">ECOREME TECHNOLOGIES
@@ -48,9 +48,9 @@ function Navbar() {
 
                 <Link to={'/contact'} className="text-white contact text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer">CONTACT
                 </Link>
-                <Link to={'/career'} className={`text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer career`}>CAREERS
+                <Link to={'/careers'} className={`text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer careers`}>CAREERS
                 </Link>
-                <Link to={'/logic'} className="text-white text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer logistic">ECOREME LOGISTICS
+                <Link to={'/logistics'} className="text-white text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer logistic">ECOREME LOGISTICS
                 
                 </Link>
                 <p className="text-white text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer tech">ECOREME TECHNOLOGIES
@@ -98,13 +98,13 @@ function Navbar() {
 
             </li>
             <li className='-mb-5'>
-            <Link to={'/career'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>CAREERS</p>
+            <Link to={'/careers'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>CAREERS</p>
             </Link>
             <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto `}> </li>
 
             </li>
             <li className='-mb-'>
-            <Link to={'/logic'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>ECOREME LOGISTICS</p>
+            <Link to={'/logistics'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>ECOREME LOGISTICS</p>
             </Link>
             <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto `}> </li>
 
@@ -148,13 +148,13 @@ function Navbar() {
 
         </li>
         <li className='-mb-5'>
-        <Link to={'/career'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>CAREERS</p>
+        <Link to={'/careers'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>CAREERS</p>
         </Link>
         <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto `}> </li>
 
         </li>
         <li className='mb-0'>
-        <Link to={'/logic'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>ECOREME LOGISTICS</p>
+        <Link to={'/logistics'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>ECOREME LOGISTICS</p>
         </Link>
         <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto `}> </li>
 

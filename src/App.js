@@ -31,7 +31,7 @@ function App() {
               </div>
           
           } />
-          <Route path="/logic" element={
+          <Route path="/logistics" element={
               <div className="overflow-hidden">
              <Suspense fallback={<div className="flex flex-col items-center justify-center my-56">
                   <img src={logo} width={70} height={70} alt="logo" />
@@ -44,7 +44,7 @@ function App() {
               </div>
           
           } />
-           <Route path="/career" element={
+           <Route path="/careers" element={
               <div className="overflow-hidden">
                 <Careers />
               </div>
