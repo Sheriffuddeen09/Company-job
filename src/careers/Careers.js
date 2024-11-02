@@ -19,7 +19,7 @@ function Careers (){
             <h1 className="mb-6">Lagos, NG - Urgently Needed</h1>
             <div className="flex sm:gap-52 gap-2  items-center flex-row  mb-3 ">
                 <p className="font-bold text-2xl ">Professional Rider</p>
-                <p className="text-green-400 border sm:-translate-x-40 border-2 w-24 hover:bg-green-200 text-xl border-green-400 p- text-center rounded-xl">Open</p>
+                <p className="text-green-400 border sm:-translate-x-40 border-2 w-16 hover:bg-green-200 text-sm border-green-400 p- text-center rounded-xl">Open</p>
             </div>
         <p className="text-sm sm:w-96 w-64 text-justify">If you are a professional rider with extensive knowledge of Lagos roads (both Mainland and Island), If you are a professional rider who meets the following requirements? <br />
         We invite you to apply.
@@ -27,7 +27,7 @@ function Careers (){
          <div className="text-sm">
             <p className="text-xl mt-3 -mb-3">Requirements</p>
             <br />
-            - Males
+            - Males,
             <br />
             - Residing in Lagos.
             <br />
@@ -41,7 +41,7 @@ function Careers (){
        <div className="text-black  text-xl sm:text-3xl sm:w-full mx-0 sm:mx-20  mx-3">
             <div className="flex sm:gap-52 gap-2  items-center flex-row  mb-3 ">
                 <p className="font-bold text-2xl "> Marketers</p>
-                <p className="text-green-400 border sm:-translate-x-40 border-2 w-24 hover:bg-green-200 text-xl border-green-400 p- text-center rounded-xl">Open</p>
+                <p className="text-green-400 border sm:-translate-x-40 border-2 w-16 hover:bg-green-200 text-sm border-green-400 p- text-center rounded-xl">Open</p>
             </div>
             <p className="text-sm sm:w-96 w-64 text-justify">Are you a dynamic marketer who meets the       following requirements?. Join us as we expand our reach and connect with clients across the region. <br />
             We invite you to apply.
@@ -49,7 +49,7 @@ function Careers (){
          <div className="text-sm">
             <p className="text-xl mt-3 -mb-3">Requirements</p>
             <br />
-            - Males
+            - Males,
             <br />
             - Good communication skills.
             <br />
@@ -68,15 +68,15 @@ function Careers (){
        <div className="text-black  text-xl sm:text-3xl sm:w-full mx-0 sm:mx-20 mb-6 mx-3 ">
             <div className="flex sm:gap-52 gap-2  items-center flex-row  mb-3 ">
                 <p className="font-bold text-2xl ">Customer Service Representative</p>
-                <p className="text-green-400 border sm:-translate-x-40 border-2 w-24 hover:bg-green-200 text-xl border-green-400 p- text-center rounded-xl">Open</p>
+                <p className="text-green-400 border sm:-translate-x-40 border-2 w-16 hover:bg-green-200 text-sm border-green-400 p- text-center rounded-xl">Open</p>
             </div>
-        <p className="text-sm sm:w-96 w-64 text-justify">IAre you passionate about delivering excellent customer service? Join our dynamic team and play a vital role in enhancing our customers’ experience. <br />
+        <p className="text-sm sm:w-96 w-64 text-justify">Are you passionate about delivering excellent customer service? Join our dynamic team and play a vital role in enhancing our customers’ experience. <br />
         We invite you to apply.
          </p>
          <div className="text-sm">
             <p className="text-xl mt-3 -mb-3">Requirements</p>
             <br />
-            - A female.
+            - A female,
             <br />
             - Good communication skills.
             <br />
