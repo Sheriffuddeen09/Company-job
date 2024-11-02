@@ -27,7 +27,7 @@ function Careers (){
          <div className="text-sm">
             <p className="text-xl mt-3 -mb-3">Requirements</p>
             <br />
-            - Males,
+            - Males.
             <br />
             - Residing in Lagos.
             <br />
@@ -49,7 +49,7 @@ function Careers (){
          <div className="text-sm">
             <p className="text-xl mt-3 -mb-3">Requirements</p>
             <br />
-            - Males,
+            - Males.
             <br />
             - Good communication skills.
             <br />
@@ -76,7 +76,7 @@ function Careers (){
          <div className="text-sm">
             <p className="text-xl mt-3 -mb-3">Requirements</p>
             <br />
-            - A female,
+            - A female.
             <br />
             - Good communication skills.
             <br />
