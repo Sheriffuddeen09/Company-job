@@ -18,7 +18,7 @@ function Careers (){
         <div className="text-black  text-xl sm:text-3xl sm:w-full mx-0 sm:mx-20 my-5 sm:mt-20 mx-3 ">
             <h1 className="mb-6">Lagos, NG - Urgently Needed</h1>
             <div className="flex sm:gap-52 gap-2  items-center flex-row  mb-3 ">
-                <p className="font-bold text-2xl ">Professional Rider</p>
+                <p className="font-bold text-2xl ">Professional Riders</p>
                 <p className="text-green-400 border sm:-translate-x-40 border-2 w-16 hover:bg-green-200 text-sm border-green-400 p- text-center rounded-xl">Open</p>
             </div>
         <p className="text-sm sm:w-96 w-64 text-justify">If you are a professional rider with extensive knowledge of Lagos roads (both Mainland and Island), If you are a professional rider who meets the following requirements? <br />
