@@ -48,7 +48,7 @@ function Ecoreme(){
               <p className="sm:my-3 mt-14 text-white z-10 text-3xl text-center sm:text-6xl  font-bold">{welcome}</p>
               <p className=" text-white my-3 text-center text-4xl z-10">{title}</p>
               <div className="flex flex-row flex-wrap justify-center gap-10 sm:mt-20 mt-10">
-                <Link to={'/logic'}>
+                <Link to={'/logistics'}>
                 <div className="p-7 text-center border-2 text-white hover:bg-white hover:text-black hover:border-black transition-all dura3on-1000 border-white rounded-xl w-72 sm:w-96 hover:bg-white hover:text-black">
               <p className={` text-center text-6xl mt-2 w-40  py-3 transition-all duration-500 ease-in-out cursor-pointer font-bold`}>{company}</p>
               <p className={` text-center text-4xl w-40  py-3 transition-all duration-500 ease-in-out cursor-pointer font-bold`}>{main}</p>
