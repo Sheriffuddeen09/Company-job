@@ -16,14 +16,11 @@ function Careers (){
         <section className="bg-white pt-6 pb-20 px-2 sm:pb-20 sm:pt-6" >
             <p className="text-center text-4xl">Our Openings</p>
         <div className="text-black  text-xl sm:text-3xl sm:w-full mx-0 sm:mx-20 my-5 sm:mt-20 mx-3 ">
-            <h1 className="mb-6">Lagos, NG - Urgently Needed</h1>
+            <h1 className="mb-6">Lagos, NG </h1>
             <div className="flex sm:gap-52 gap-2  items-center flex-row  mb-3 ">
-                <p className="font-bold text-2xl ">Professional Riders</p>
+                <p className="font-bold text-2xl ">Professional Riders Urgently Needed</p>
                 <p className="text-green-400 border sm:-translate-x-40 border-2 w-16 hover:bg-green-200 text-sm border-green-400 p- text-center rounded-xl">Open</p>
             </div>
-        <p className="text-sm sm:w-96 w-64 text-justify">If you are a professional rider with extensive knowledge of Lagos roads (both Mainland and Island), If you are a professional rider who meets the following requirements? <br />
-        We invite you to apply.
-         </p>
          <div className="text-sm">
             <p className="text-xl mt-3 -mb-3">Requirements</p>
             <br />
@@ -35,7 +32,7 @@ function Careers (){
             <br />
             - Previous experience as a dispatch rider is a plus.
         </div>
-
+        <p className="font-bold text-sm mt-3">Salary: <span className='font-light text-sm'>Attractive</span></p>
        </div>   
         <hr className="my-5" />
        <div className="text-black  text-xl sm:text-3xl sm:w-full mx-0 sm:mx-20  mx-3">
@@ -68,7 +65,7 @@ function Careers (){
        <div className="text-black  text-xl sm:text-3xl sm:w-full mx-0 sm:mx-20 mb-6 mx-3 ">
             <div className="flex sm:gap-52 gap-2  items-center flex-row  mb-3 ">
                 <p className="font-bold text-2xl ">Customer Service Representative</p>
-                <p className="text-green-400 border sm:-translate-x-40 border-2 w-16 hover:bg-green-200 text-sm border-green-400 p- text-center rounded-xl">Open</p>
+                <p className="text-red-400 border sm:-translate-x-40 border-2 w-16 hover:bg-red-200 text-sm border-red-400 p- text-center rounded-xl">Closed</p>
             </div>
         <p className="text-sm sm:w-96 w-64 text-justify">Are you passionate about delivering excellent customer service? Join our dynamic team and play a vital role in enhancing our customers’ experience. <br />
         We invite you to apply.
@@ -102,7 +99,6 @@ function Careers (){
     return (
         <section>
             {content}
-
             {job}
         </section>
     )
