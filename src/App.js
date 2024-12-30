@@ -6,6 +6,8 @@ import Contact from "./contact/Contact"
 import Footers from "./layout/Footer"
 import logo from './image/ecologo.png'
 import { lazy, Suspense } from "react"
+import Article2023 from "./article/Article2023"
+import Article2024 from "./article/Article2024"
 
 const About = lazy(() => import('./about/About'))
 const Logistics = lazy(() => import('./logistic/Logistics'))
@@ -71,6 +73,18 @@ function App() {
           } />
            <Route path="/tech" element={
               <div className="overflow-hidden">
+              </div>
+          
+          } />
+           <Route path="/article/2023" element={
+              <div className="overflow-hidden">
+                <Article2023 />
+              </div>
+          
+          } />
+           <Route path="/article/2024" element={
+              <div className="overflow-hidden">
+                <Article2024 />
               </div>
           
           } />

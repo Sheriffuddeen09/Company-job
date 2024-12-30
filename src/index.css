@@ -226,6 +226,24 @@
     
   }
 
+  .article{
+    position: relative;
+  }
+  .article::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    height: 1.5px;
+    width: 57%;
+    left: 8px;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    transform: scaleX(0);
+  }
+  .article:hover::after{
+    transform: scaleX(1);
+    
+  }
   .tech{
     position: relative;
   }
