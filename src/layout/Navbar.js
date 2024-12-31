@@ -50,7 +50,7 @@ function Navbar() {
                 </Link>
                 <p className="text-white text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer tech">ECOREME TECHNOLOGIES
                 </p>
-        <p onClick={handleArticles} className={`  className="text-white text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer article flex flex-row gap-4 items-center `}><p className=''>ARTICLES</p>
+        {/* <p onClick={handleArticles} className={`  className="text-white text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer article flex flex-row gap-4 items-center `}><p className=''>ARTICLES</p>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='size-4'>
         <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
       </svg>
@@ -68,7 +68,7 @@ function Navbar() {
           </Link>
           </div>
           </div>
-        </div>
+        </div> */}
             </div>
             </div>
             <div className='hidden md:block lg:hidden'> 
@@ -86,7 +86,7 @@ function Navbar() {
                 </Link>
                 <p className="text-white text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer tech">ECOREME TECHNOLOGIES
                 </p>
-                <p onClick={handleArticles} className={`text-white text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer article flex flex-row gap-4 items-center `}><p className=''>ARTICLES</p>
+                {/* <p onClick={handleArticles} className={`text-white text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer article flex flex-row gap-4 items-center `}><p className=''>ARTICLES</p>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='size-4'>
         <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
       </svg>
@@ -104,7 +104,7 @@ function Navbar() {
           </Link>
           </div>
           </div>
-        </div>
+        </div> */}
             </div>
             </div>
             <div>
@@ -165,16 +165,16 @@ function Navbar() {
             <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto mt-5`}> </li>
 
             </li>
-            <li className='-mb-2' onClick={handleArticle}>
+           {/*  <li className='-mb-2' onClick={handleArticle}>
         <p className={` text-white text-sm flex flex-row justify-end items-center rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-8'>ARTICLES</p>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='size-4 -translate-x-6'>
         <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-      </svg>
+      </svg> 
         </p>
-        <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto mt-2 ${article ? "hidden" : "block"}`}> </li>
+        <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto mt-2`}> </li>
 
         </li>
-        <div  className={`flex flex-column justify-end -translate-x-4  ${article ? "block" : "hidden"}`}>
+        {/* <div  className={`flex flex-column justify-end -translate-x-4  ${article ? "block" : "hidden"}`}>
           <div className=' rounded px-6 py-1  text-black text-start'>
           <div onClick={handleHide}>
           <Link to={'/article/2023'}  className={`mb-6 text-sm text-white rounded w-full p-1 transition-all duration-500 ease-in-out hover:bg-gray-500  hover:text-white cursor-pointer`}>
@@ -186,8 +186,8 @@ function Navbar() {
               ARTICLE 2024
           </Link>
           </div>
-          </div>
-        </div>
+          </div> 
+        </div>*/}
             </section>
             </div>
             </div>
@@ -238,7 +238,7 @@ function Navbar() {
         <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto mt-5 `}> </li>
 
         </li>
-        <li className='-mb-2' onClick={handleArticle}>
+        {/* <li className='-mb-2' onClick={handleArticle}>
         <p className={` text-white text-sm flex flex-row justify-end items-center rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-8'>ARTICLES</p>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='size-4 -translate-x-6'>
         <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
@@ -260,7 +260,7 @@ function Navbar() {
           </Link>
           </div>
           </div>
-        </div>
+        </div> */}
         </section>
         </div>
         </header>
