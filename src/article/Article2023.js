@@ -18,12 +18,12 @@ function Article2023(){
     const content = (
         <section className="text-white sm:mb-20 mb-5 sm:px-4 sm:px-3 ">
             <section>
-            <h1 className="font-bold text-white lg:w-10/12 lg:text-4xl md:w-96 md:text-2xl text-xl">
+            <h1 className="font-bold text-white -mb-2 sm:mb-0 lg:w-10/12 lg:text-4xl md:w-96 md:text-2xl text-xl">
             HALAL WEALTH CREATION FORMULA(S).
             </h1>
             <Link to={' https://www.youtube.com/watch?v=gXBc9-CPfDo'}>
-            <img src={save} alt="imagesave" className='relative w-72 sm:w-10/12 mt-10 rounded '/>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="absolute left-20 lg:top-96 md:top-72 md:left-40 lg:left-96 translate-x-20 border top-60 border-black rounded-full border-4 size-10 sm:size-16">
+            <img src={save} alt="imagesave" className='relative left-2 w-72 sm:w-10/12 flex justify-center items-center flex-column mt-10 rounded '/>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="absolute left-16 lg:top-96 md:top-72 md:left-40 lg:left-96 translate-x-20 border top-60 border-black rounded-full border-4 size-10 sm:size-16">
             <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
             </svg>
             </Link>
@@ -37,8 +37,8 @@ function Article2023(){
             </section>
             <section>
             <h2 className='text-sm sm:text-xl mb-3'>ISE OMO ALASE JE, OWO OMO ALASELA </h2>
-            <img src={savemoney} alt="imagesave" className='w-72 sm:w-10/12 rounded '/>
-            <p className='text-white mt-3 mb-10' style={{fontSize:"12px"}} >cited by Dr Kazeem Salam (Yoruba proverb for the wise)</p>
+            <img src={savemoney} alt="imagesave" className='relative left-2 w-72 sm:w-10/12 rounded '/>
+            <p className='text-white mt-3 mb-10' style={{fontSize:"11px"}} >cited by Dr Kazeem Salam (Yoruba proverb for the wise)</p>
             <h1 className='text-white mb-5 lg:w-10/12 md:w-96 w-80 text-sm'>* WORKING FOR SALARY/WAGES IS FOR EATING FOOD AND PAYING BILLS ONLY (most times), BUT BUSINESS/PROFIT IS TO MAKE YOU RICH AND WEALTHY! Be wise!
             </h1>
             <div className='translate-x-2'>
@@ -78,7 +78,7 @@ function Article2023(){
         <section>
             <p className='text-white my-5 lg:w-10/12 md:w-96 w-72 text-sm text-justify'>Some of the ways to raise money for a business idea or for business expansion.</p>
             
-    <div className='grid lg:grid-cols-5 lg:mx-28 md:mx-10 md:-translate-x-6 lg:-translate-x-16 my-5 md:grid-cols-3 grid-cols-2 gap-3 text-center mx-5 -translate-x-3'>
+    <div className='grid lg:grid-cols-5 lg:mx-28 md:mx-10 md:-translate-x-6 lg:-translate-x-16 my-5 md:grid-cols-3 grid-cols-2 gap-3 text-center mx-5 -translate-x-'>
         <div>
         <img src={partner} alt="imagesave" className='w-60 h-20 lg:w-32 md:w-32 rounded '/>
             <p style={{fontSize:"10px"}}>Partnership</p> 
@@ -121,7 +121,7 @@ function Article2023(){
         </div>
     </div>
         <p className='text-white my-3 lg:w-10/12 md:w-96 w-72 text-sm text-justify'>(Learn about each method and know the best ways to tap into them.)</p>
-<div className='lg:translate-x-12 md:translate-x-4'>
+<div className='lg:translate-x-12 md:translate-x-3'>
         <p className='text-white mb-2 lg:w-9/12 md:w-96 w-72 text-sm text-justify'>
         * When starting a business, please think big. Dream of your business becoming a big business one day. This will help you to have a better plan for your business before you start.
         </p>
@@ -183,7 +183,7 @@ function Article2023(){
     )
 
     const downcontent = (
-        <section className='block sm:hidden mb-10 p-4'>
+        <section className='block sm:hidden mb-10 py-4 sm:p-4 px-6'>
             <div className='bg-white p-4 w-64 rounded'>
             <h2 className="font-bold text-2xl my-2">Articles</h2>
             <hr/>
@@ -214,7 +214,7 @@ function Article2023(){
     )
 
     return (
-        <section className='flex flex-row justify-around md:mx-10  lg:mx-24 p-4'>
+        <section className='flex flex-row justify-around md:mx-10  lg:mx-24 sm:p-4 p-2'>
             <div>
             {content}
             {downcontent}
