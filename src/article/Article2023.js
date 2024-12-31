@@ -16,7 +16,7 @@ function Article2023(){
 
 
     const content = (
-        <section className="text-white sm:mb-20 mb-5 sm:px-4 px-3 ">
+        <section className="text-white sm:mb-20 mb-5 sm:px-4 sm:px-3 ">
             <section>
             <h1 className="font-bold text-white lg:w-10/12 lg:text-4xl md:w-96 md:text-2xl text-xl">
             HALAL WEALTH CREATION FORMULA(S).

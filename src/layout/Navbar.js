@@ -175,7 +175,7 @@ function Navbar() {
 
         </li>
         <div  className={`flex flex-column justify-end -translate-x-4  ${article ? "block" : "hidden"}`}>
-          <div className=' w-36 h-16 rounded px-6 py-1  text-black text-start'>
+          <div className=' rounded px-6 py-1  text-black text-start'>
           <div onClick={handleHide}>
           <Link to={'/article/2023'}  className={`mb-6 text-sm text-white rounded w-full p-1 transition-all duration-500 ease-in-out hover:bg-gray-500  hover:text-white cursor-pointer`}>
               ARTICLE 2023
