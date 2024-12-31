@@ -76,13 +76,13 @@ function App() {
               </div>
           
           } />
-           <Route path="/article/2023" element={
+           <Route path="/articles/2023" element={
               <div className="overflow-hidden">
                 <Article2023 />
               </div>
           
           } />
-           <Route path="/article/2024" element={
+           <Route path="/articles/2024" element={
               <div className="overflow-hidden">
                 <Article2024 />
               </div>
