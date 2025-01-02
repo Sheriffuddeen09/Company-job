@@ -553,3 +553,16 @@ text-decoration-color: rgb(175, 175, 235);
     }
   }
 
+.scales{
+  animation: scale 2s ease-in-out infinite;
+  translate: 50px;
+}
+
+@keyframes scale {
+from{
+  transform: scale(1.1);
+}  
+to{
+  transform: scale(1.2);
+}
+}

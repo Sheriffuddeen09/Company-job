@@ -15,15 +15,40 @@ import connections from '../image/connection.jpg'
 function Article2023(){
 
 
+    const downcontent = (
+        <section className='block sm:hidden -mb-5 mt-2 py-4 sm:p-4 px-2'>
+            <div className=' p-1 w-64 rounded text-white'>
+            <p><strong>Host</strong>: <span style={{fontSize:"12px"}}>Taofiq Akinpeju </span></p>
+            <p><strong>Speakers</strong>: <span style={{fontSize:"12px"}}>Kayode Quadri | Dr Kazeem Salam | Ust. Taofeeq AbdusSalaam </span></p>
+            <p><strong>Summarised by </strong>: <span style={{fontSize:"12px"}}>Abu Muhammad Oladitan Saliu.</span></p>
+            <p> <strong>Date </strong> : <span style={{fontSize:"12px"}}>17th December, 2022. </span></p>
+            </div>
+        </section>
+    )
+
+
     const content = (
         <section className="text-white sm:mb-20 mb-5 sm:px-4 sm:px-3 ">
             <section>
             <h1 className="font-bold text-white -mb-2 sm:mb-0 lg:w-10/12 lg:text-4xl md:w-96 md:text-2xl text-xl">
             HALAL WEALTH CREATION FORMULA(S).
             </h1>
-            <Link to={' https://www.youtube.com/watch?v=gXBc9-CPfDo'}>
+            <div className='block sm:hidden'>
+            {downcontent}
+            </div>
+            <Link to={'https://www.youtube.com/watch?v=gXBc9-CPfDo'}>
             <img src={save} alt="imagesave" className='relative left-2 w-72 sm:w-10/12 flex justify-center items-center flex-column mt-10 rounded '/>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="absolute left-16 lg:top-96 md:top-72 md:left-40 lg:left-96 translate-x-20 border top-60 border-black rounded-full border-4 size-10 sm:size-16">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="absolute hidden sm:block left-16 lg:top-96 md:top-72 md:left-40 lg:left-96 translate-x-20 border-2 top-96 border-black rounded-full size-20 sm:size-20 scales" style={{
+                width:"50px",
+                height:"50px"
+            }}>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="absolute sm:hidden block left-24 lg:top-96 md:top-72 md:left-40 lg:left-96 translate-x-20 mt-4 border-2 top-96 border-black rounded-full size-20 sm:size-20 scales" style={{
+                width:"40px",
+                height:"40px",
+                
+            }}>
             <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
             </svg>
             </Link>
@@ -32,13 +57,13 @@ function Article2023(){
             <section>
                 <h2 className='text-white mb-0 lg:w-10/12 md:w-96 w-80 '>I'm happy to offer you a minified summary and personal additional notes to one of the finest events held about generating halal income this year. I see it as a duty because Muslims really need it. </h2>
                 <p className='text-white text-sm mt-4 sm:mb-7 mb-5'>Let's start...</p>
-                <p className='text-white sm:mb-10 mb-5 lg:w-10/12 md:w-96 w-80 '>I congratulate you for finding this piece of work and wanting to read it. It's worth the time. You will be better off. That's what the rich devote their time to read.
+                <p className='text-white sm:mb-10 mb-5 lg:w-10/12 md:w-96 w-80 '>I congratulate you for finding this piece of work and wanting to read it. It's worth the time. You will be better off.
                 </p>
             </section>
             <section>
-            <h2 className='text-sm sm:text-xl mb-3'>ISE OMO ALASE JE, OWO OMO ALASELA </h2>
+            <h2 className='text-sm sm:text-xl mb-3 text-blue-200'>ISE OMO ALASE JE, OWO OMO ALASELA </h2>
             <img src={savemoney} alt="imagesave" className='relative left-2 w-72 sm:w-10/12 rounded '/>
-            <p className='text-white mt-3 mb-10' style={{fontSize:"11px"}} >cited by Dr Kazeem Salam (Yoruba proverb for the wise)</p>
+            <p className='text-white mt-3 mb-10' style={{fontSize:"11px"}} >Cited by Dr Kazeem Salam (Yoruba proverb for the wise)</p>
             <h1 className='text-white mb-5 lg:w-10/12 md:w-96 w-80 text-sm'>* WORKING FOR SALARY/WAGES IS FOR EATING FOOD AND PAYING BILLS ONLY (most times), BUT BUSINESS/PROFIT IS TO MAKE YOU RICH AND WEALTHY! Be wise!
             </h1>
             <div className='translate-x-2'>
@@ -76,7 +101,7 @@ function Article2023(){
         </div>
         </section>
         <section>
-            <p className='text-white my-5 lg:w-10/12 md:w-96 w-72 text-sm text-justify'>Some of the ways to raise money for a business idea or for business expansion.</p>
+            <p className='text-white my-5 lg:w-10/12 md:w-96 w-72 text-2xl text-blue-200 text-justify'>Some of the ways to raise money for a business idea or for business expansion.</p>
             
     <div className='grid lg:grid-cols-5 lg:mx-28 md:mx-10 md:-translate-x-6 lg:-translate-x-16 my-5 md:grid-cols-3 grid-cols-2 gap-3 text-center mx-5 -translate-x-'>
         <div>
@@ -133,17 +158,17 @@ function Article2023(){
 
         Whatever you become in life, be the best at it, leave this world better than the way you met it and never die except as a true muslim.
         </p>
-        <p className='text-white mb-2 lg:w-9/12 md:w-96 w-72 text-sm text-justify'>
-        * Don't forget: 
-        ..ISE OMO ALASE JE, OWO OMO ALASELA! Remember also: 
-        "Complaint has never changed anything, but proper action always does" - Oladitan Saliu
-        Wishing you all a successful, happy, pious and fun-filled life.
-        Ultimately, may Allah grant us all Al-jannah Al-Firdaws.
-
-        🙏🏾Please pardon me wherever I might have erred, all perfection belongs to Allah.
-        📲 Remember to share. It's a choice. But you can choose to benefit others and earn some rewards. I've done my quota.
-        🤝 Congratulations and bye for now. Later in shaa Allah.
-        🪴 Ma'a as-salaamah...
+        <p className='text-white mb-3 lg:w-9/12 md:w-96 w-72 text-sm text-justify'>
+        <h2 className='text-sm sm:text-sm font-bold mb-3 text-blue-200'>📜 Don't forget: </h2> 
+        <p className='mb-3'>..ISE OMO ALASE JE, OWO OMO ALASELA!</p>
+        <h2 className='text-sm sm:text-sm font-bold mb-1'>📜 Remember also: </h2>  
+        <p className='mb-5'>"Complaint has never changed anything, but proper action always does" - Oladitan Saliu</p>
+        <p className='mb-4'>☘Wishing you all a successful, happy, pious and fun-filled life.</p>
+        <p className='mb-4'>🌲Ultimately, may Allah grant us all Al-jannah Al-Firdaws.</p>
+        <p className='mb-4'>🙏🏾Please pardon me wherever I might have erred, all perfection belongs to Allah.</p>
+        <p className='mb-4'>📱📲Remember to share. It's a choice. But you can choose to benefit others and earn some rewards. I've done my quota.</p>
+        <p className='mb-4'>🤝 Congratulations and bye for now. Later in shaa Allah.</p>
+        <p className='mb-4'>🪴 Ma'a as-salaamah...</p>
         </p>
             
     </div>
@@ -161,63 +186,14 @@ function Article2023(){
             <p><strong>Summarised by </strong>: <span style={{fontSize:"12px"}}>Abu Muhammad Oladitan Saliu.</span></p>
             <p> <strong>Date </strong> : <span style={{fontSize:"12px"}}>17th December, 2022. </span></p>
             </div>
-            <div className='bg-white p-4 w-64 my-6 rounded'>
-            <h2 className='font-bold text-xl my-2'>Subscribe for Update </h2>
-            <hr />
-            <input type='text' placeholder='Email Address' className='w-52 border py-1 px-2 rounded border'/>
-            <div className='mt-4'>
-            <div className='inline-flex gap-2 items-center'>
-            <input type='checkbox' />
-                <p style={{fontSize:"12px"}}>Legal income </p>
-            </div>
-            </div>
-            <div>
-            <div className='inline-flex gap-2 mt-2 items-center'>
-                <input type='checkbox' />
-                <p style={{fontSize:"12px"}}>Halal money </p>
-            </div>
-            </div>
-            <button className='text-white bg-red-600 py-1 px-4 my-4 rounded-xl'>Subscribe</button>
-            </div>
         </section>
     )
 
-    const downcontent = (
-        <section className='block sm:hidden mb-10 py-4 sm:p-4 px-6'>
-            <div className='bg-white p-4 w-64 rounded'>
-            <h2 className="font-bold text-2xl my-2">Articles</h2>
-            <hr/>
-            <p><strong>Host</strong>: <span style={{fontSize:"12px"}}>Taofiq Akinpeju </span></p>
-            <p><strong>Speakers</strong>: <span style={{fontSize:"12px"}}>Kayode Quadri | Dr Kazeem Salam | Ust. Taofeeq AbdusSalaam </span></p>
-            <p><strong>Summarised by </strong>: <span style={{fontSize:"12px"}}>Abu Muhammad Oladitan Saliu.</span></p>
-            <p> <strong>Date </strong> : <span style={{fontSize:"12px"}}>17th December, 2022. </span></p>
-            </div>
-            <div className='bg-white p-4 w-64 my-6 rounded'>
-            <h2 className='font-bold text-xl my-2'>Subscribe for Update </h2>
-            <hr />
-            <input type='text' placeholder='Email Address' className='w-52 border py-1 px-2 rounded border'/>
-            <div className='mt-4'>
-            <div className='inline-flex gap-2 items-center'>
-            <input type='checkbox' />
-                <p style={{fontSize:"12px"}}>Legal income </p>
-            </div>
-            </div>
-            <div>
-            <div className='inline-flex gap-2 mt-2 items-center'>
-                <input type='checkbox' />
-                <p style={{fontSize:"12px"}}>Halal money </p>
-            </div>
-            </div>
-            <button className='text-white bg-red-600 py-1 px-4 my-4 rounded-xl'>Subscribe</button>
-            </div>
-        </section>
-    )
-
+   
     return (
         <section className='flex flex-row justify-around md:mx-10  lg:mx-24 sm:p-4 p-2'>
             <div>
             {content}
-            {downcontent}
             </div>
             {sidecontent}
         </section>
