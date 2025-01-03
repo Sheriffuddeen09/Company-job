@@ -20,8 +20,8 @@ function Article2023(){
             <div className=' p-1 w-64 rounded text-white'>
             <p><strong>Host</strong>: <span style={{fontSize:"12px"}}>Taofiq Akinpeju </span></p>
             <p><strong>Speakers</strong>: <span style={{fontSize:"12px"}}>Kayode Quadri | Dr Kazeem Salam | Ust. Taofeeq AbdusSalaam </span></p>
-            <p><strong>Summarised by </strong>: <span style={{fontSize:"12px"}}>Abu Muhammad Oladitan Saliu.</span></p>
-            <p> <strong>Date </strong> : <span style={{fontSize:"12px"}}>17th December, 2022. </span></p>
+            <p><strong>Summarised by</strong>: <span style={{fontSize:"12px"}}>Abu Muhammad Oladitan Saliu</span></p>
+            <p> <strong>Date</strong>: <span style={{fontSize:"12px"}}>17th December, 2022</span></p>
             </div>
         </section>
     )
@@ -31,7 +31,7 @@ function Article2023(){
         <section className="text-white sm:mb-20 mb-5 sm:px-4 sm:px-3 ">
             <section>
             <h1 className="font-bold text-white -mb-2 sm:mb-0 lg:w-10/12 lg:text-4xl md:w-96 md:text-2xl text-xl">
-            HALAL WEALTH CREATION FORMULA(S).
+            HALAL WEALTH CREATION FORMULA(S)
             </h1>
             <div className='block sm:hidden'>
             {downcontent}
@@ -101,7 +101,7 @@ function Article2023(){
         </div>
         </section>
         <section>
-            <p className='text-white my-5 lg:w-10/12 md:w-96 w-72 text-2xl text-blue-200 text-justify'>Some of the ways to raise money for a business idea or for business expansion.</p>
+            <p className='my-5 lg:w-10/12 md:w-96 w-72 text-2xl text-blue-200 text-justify'>Some of the ways to raise money for a business idea or for business expansion.</p>
             
     <div className='grid lg:grid-cols-5 lg:mx-28 md:mx-10 md:-translate-x-6 lg:-translate-x-16 my-5 md:grid-cols-3 grid-cols-2 gap-3 text-center mx-5 -translate-x-'>
         <div>
@@ -158,7 +158,7 @@ function Article2023(){
 
         Whatever you become in life, be the best at it, leave this world better than the way you met it and never die except as a true muslim.
         </p>
-        <p className='text-white mb-3 lg:w-9/12 md:w-96 w-72 text-sm text-justify'>
+        <p className='text-white mb-3 lg:w-9/12 md:w-96 w-72 text-sm mt-5 text-justify'>
         <h2 className='text-sm sm:text-sm font-bold mb-3 text-blue-200'>📜 Don't forget: </h2> 
         <p className='mb-3'>..ISE OMO ALASE JE, OWO OMO ALASELA!</p>
         <h2 className='text-sm sm:text-sm font-bold mb-1'>📜 Remember also: </h2>  
@@ -183,8 +183,8 @@ function Article2023(){
             <hr/>
             <p><strong>Host</strong>: <span style={{fontSize:"12px"}}>Taofiq Akinpeju </span></p>
             <p><strong>Speakers</strong>: <span style={{fontSize:"12px"}}>Kayode Quadri | Dr Kazeem Salam | Ust. Taofeeq AbdusSalaam </span></p>
-            <p><strong>Summarised by </strong>: <span style={{fontSize:"12px"}}>Abu Muhammad Oladitan Saliu.</span></p>
-            <p> <strong>Date </strong> : <span style={{fontSize:"12px"}}>17th December, 2022. </span></p>
+            <p><strong>Summarised by</strong>: <span style={{fontSize:"12px"}}>Abu Muhammad Oladitan Saliu</span></p>
+            <p> <strong>Date</strong>: <span style={{fontSize:"12px"}}>17th December, 2022</span></p>
             </div>
         </section>
     )
