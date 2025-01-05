@@ -56,7 +56,7 @@ function ArticleNuggets() {
         <p className=''>
         <a href='#section1' className='text-blue-400 font-bold hover:underline hover:text-blue-400 font-bold'>
         SECTION 1 <span style={{ fontSize: '10px', fontWeight:"lighter", color:"black"}}>(SPIRITUALITY)</span> </a>||   
-        <a href='#section2' className='text-blue-400 font-bold hover:underline hover:text-blue-400 font-bold'> SECTION 2 <span style={{ fontSize: '10px', fontWeight:"lighter", color:"black"}}>(GENERAL LIFE HACKS)ers</span></a> || <a href='#section3' className='text-blue-400 font-bold hover:underline hover:text-blue-400 font-bold'>
+        <a href='#section2' className='text-blue-400 font-bold hover:underline hover:text-blue-400 font-bold'> SECTION 2 <span style={{ fontSize: '10px', fontWeight:"lighter", color:"black"}}>(GENERAL LIFE HACKS)</span></a> || <a href='#section3' className='text-blue-400 font-bold hover:underline hover:text-blue-400 font-bold'>
         SECTION 3 <span style={{ fontSize: '10px', fontWeight:"lighter", color:"black"}}>(FINANCIAL FREEDOM)</span> </a>
         </p>
         <p className=''>
@@ -89,7 +89,7 @@ function ArticleNuggets() {
         <p className=''>
         <a href='#section1' className='text-blue-400 font-bold hover:underline hover:text-blue-400 font-bold'>
         SECTION 1 <span style={{ fontSize: '8px', fontWeight:"lighter", color:"black"}}>(SPIRITUALITY)</span> </a>||   
-        <a href='#section2' className='text-blue-400 font-bold hover:underline hover:text-blue-400 font-bold'> SECTION 2 </a><span style={{ fontSize: '8px', fontWeight:"lighter", color:"black"}}>(GENERAL LIFE HACKS)ers</span> <br /> <a href='#section3' className='text-blue-400 font-bold hover:underline hover:text-blue-400 font-bold'>
+        <a href='#section2' className='text-blue-400 font-bold hover:underline hover:text-blue-400 font-bold'> SECTION 2 </a><span style={{ fontSize: '8px', fontWeight:"lighter", color:"black"}}>(GENERAL LIFE HACKS)</span> <br /> <a href='#section3' className='text-blue-400 font-bold hover:underline hover:text-blue-400 font-bold'>
         SECTION 3 <span style={{ fontSize: '8px', fontWeight:"lighter", color:"black"}}>(FINANCIAL FREEDOM)</span> </a> || <a href='#section4' className='text-blue-400 font-bold hover:underline hover:text-blue-400 font-bold'>
         SECTION 4 <span style={{ fontSize: '8px', fontWeight:"lighter", color:"black"}}>(STAYING HEALTHY)</span>
         </a>
@@ -120,7 +120,7 @@ function ArticleNuggets() {
       <section className='my-5'>
         <p className='mb-2  mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>I'm super excited to be able to share this with you.</p>
         <p className='mb-7  mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>Before we get too busy, let's get some mental boost.</p>
-                <p className=' mb-0 lg:w-10/12 md:w-96 w-72 text-justify articles '>🌲 This write-up is divided into five sections for easy consumption. You can take a break after
+                <p className=' mb-0 lg:w-10/12 md:w-96 w-72 text-justify articles '> This write-up is divided into five sections for easy consumption. You can take a break after
                 each section. </p>
 
                 <p className=' articles mt-4 sm:mb-7 mb-5 lg:w-10/12 md:w-96 w-72 text-justify'>I know this writeup will take my time, but in times like this, humanity comes first. So test your
@@ -288,14 +288,19 @@ function ArticleNuggets() {
             <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>
             The good news is that you can achieve financial success whether you are an employee or a business owner.
             </p>
-            <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify sm:translate-x-4'>
-            ● As an employee, focus on continuously improving your skills to increase your earning
+            <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify sm:translate-x-4'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 -mt-0.5 text-black">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+            </svg>
+            As an employee, focus on continuously improving your skills to increase your earning
             potential. Invest wisely with the help of expert advice, explore side businesses you
             understand, and allow your wealth to grow over time.
 
             </p>
-            <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify sm:translate-x-4'>
-            ●  As a business owner, strategically position yourself and your business for success.
+            <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify sm:translate-x-4'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 -mt-0.5 text-black">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+            </svg> As a business owner, strategically position yourself and your business for success.
             Offer exceptional products or services, and sharpen your business skills, particularly in
             marketing and sales. Expand your operations thoughtfully and remain patient as your
             business grows.
