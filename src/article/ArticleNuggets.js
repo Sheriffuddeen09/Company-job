@@ -298,7 +298,7 @@ function ArticleNuggets() {
 
             </p>
             <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify sm:translate-x-4'>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 -mt-0.5 text-black">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 -mt-0.5 text-black">
               <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
             </svg> As a business owner, strategically position yourself and your business for success.
             Offer exceptional products or services, and sharpen your business skills, particularly in
@@ -405,55 +405,78 @@ function ArticleNuggets() {
             <h2 id='section4' className='articles sm:text-xl mb-3 mt-10 text-blue-600 font-bold font-bold'> SECTION 4 (STAYING HEALTHY)
             </h2>
             <img src={healthy} alt="imagesave" className=' my-5 heights w-72 sm:w-10/12 rounded '/>
-            <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>
-            ● I’ll begin this section with this: <br/>
+            <p className='sm:translate-x-4 mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 -mt-0.5 text-black">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+            </svg>I’ll begin this section with this: <br/>
             The best time to start taking responsibility for your sound health is when you become conscious
             of your existence. The second best time is NOW. You need to prioritise your health.
             </p>
 
-             <p className=' -mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>
-             ● It's like a popular poem that you should:
+            <p className='sm:translate-x-4 mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 -mt-0.5 text-black">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+            </svg>It's like a popular poem that you should:
              </p>
              <br />
-             <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>
-             ● Prioritize eating healthy foods and gradually eliminate unhealthy options from your diet.
+             <p className='sm:translate-x-4 mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 -mt-0.5 text-black">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+            </svg>Prioritize eating healthy foods and gradually eliminate unhealthy options from your diet.
 
             </p>
-            <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>
-            ● Stay well-hydrated by drinking sufficient water and include a good portion of vegetables
+            <p className='sm:translate-x-4 mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 -mt-0.5 text-black">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+            </svg>Stay well-hydrated by drinking sufficient water and include a good portion of vegetables
             in your meals.
             </p>
-            <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>
-            ● If you're not allergic, seafood can be a great addition to your diet as it offers numerous health benefits.
+            <p className='sm:translate-x-4 mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 -mt-0.5 text-black">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+            </svg> If you're not allergic, seafood can be a great addition to your diet as it offers numerous health benefits.
 
 
             </p>
-        <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>
-        ● Incorporate fruits into your diet as frequently as possible. However, it’s advisable to
+            <p className='sm:translate-x-4 mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 -mt-0.5 text-black">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+            </svg>Incorporate fruits into your diet as frequently as possible. However, it’s advisable to
         consult professionals for personalized recommendations, as this can be crucial for
         meeting your specific dietary needs.
         </p>
-        <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>
-        ● You chose honey over sugar, seeking a healthier alternative. But how would you feel if the
+        <p className='sm:translate-x-4 mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 -mt-0.5 text-black">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+            </svg>
+            You chose honey over sugar, seeking a healthier alternative. But how would you feel if the
         honey turned out to be adulterated with sugar? Choose your vendors wisely!
 
         </p>
-        <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>
-        ● One good thing is that there are always healthier and more nutritious alternatives to the
+        <p className='sm:translate-x-4 mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 -mt-0.5 text-black">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+            </svg>
+             One good thing is that there are always healthier and more nutritious alternatives to the
         harmful foods and drinks you consume. Explore these options, and if you're unsure, seek advice
         from a medical professional.
 
         </p>
-        <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>
-        ● Engaging in regular exercise and undergoing routine medical checkups are beneficial
+        <p className='sm:translate-x-4 mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 -mt-2 text-black">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+            </svg> Engaging in regular exercise and undergoing routine medical checkups are beneficial
         practices. The frequency of both, however, depends on factors such as your current health
         status, risk factors, and age. Therefore, it is advisable to consult your doctor for personalized
         guidance.
 
 
         </p>
-        <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>
-        ● Your health challenge can be conquered by Allah's grace. So don't hide it.
+        <p className='sm:translate-x-4 mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 -mt-0.5 text-black">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+            </svg>
+            Your health challenge can be conquered by Allah's grace. So don't hide it.
 
         </p>
 
@@ -476,19 +499,28 @@ function ArticleNuggets() {
 
 
         </p>
-        <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>
-        ● Get fresh air, surround yourself with people who love and care for you, and pursue the work
+        <p className='sm:translate-x-4 mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify '>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 -mt-0.5 text-black">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+            </svg>
+            Get fresh air, surround yourself with people who love and care for you, and pursue the work
         you are passionate about. By Allah's grace, all of these will contribute to your well-being and
         happiness.
 
         </p>
-        <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>
-        ● Exercise caution before entrusting your health to any practitioner.
+        <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify sm:translate-x-4'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 -mt-0.5 text-black">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+            </svg>
+             Exercise caution before entrusting your health to any practitioner.
 
         </p>
 
-        <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles text-justify'>
-        ● Listen to your body’s signals and understand what works best for you, as you are a unique
+        <p className=' mb-3 lg:w-10/12 md:w-96 w-72 articles inline-flex  text-justify sm:translate-x-4'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 -mt-0.5 text-black">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+            </svg>
+             Listen to your body’s signals and understand what works best for you, as you are a unique
         individual.
 
         </p>
