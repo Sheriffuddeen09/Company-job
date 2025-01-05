@@ -88,17 +88,17 @@ Date: <span style={{ fontSize: '12px', color:"gray"}}>17th December, 2022</span>
   const downcontent = (
     <section className="block sm:hidden -mb-5 mt-2 py-4 sm:p-4 px-3  content">
       <div className="p-1 w-64 rounded articles text-blue-600">
-        <p className='articles text-blue-600'>
-          Host: <span style={{ fontSize: '12px',color:"gray" }}>Taofiq Akinpeju</span>
+        <p className=' text-black text-sm'>
+          Host: <span style={{ fontSize: '10px',color:"gray" }}>Taofiq Akinpeju</span>
         </p>
-        <p className='articles text-blue-600'>
-          Speakers: <span style={{ fontSize: '12px',color:"gray"}}>Kayode Quadri | Dr Kazeem Salam | Ust. Taofeeq AbdusSalaam</span>
+        <p className=' text-black text-sm'>
+          Speakers: <span style={{ fontSize: '10px',color:"gray"}}>Kayode Quadri | Dr Kazeem Salam | Ust. Taofeeq AbdusSalaam</span>
         </p>
-        <p className='articles text-blue-600'>
-          Summarised by: <span style={{ fontSize: '12px',color:"gray"}}>Abu Muhammad Oladitan Saliu</span>
+        <p className=' text-black text-sm'>
+          Summarised by: <span style={{ fontSize: '10px',color:"gray"}}>Abu Muhammad Oladitan Saliu</span>
         </p>
-        <p className='articles text-blue-600'>
-          Date: <span style={{ fontSize: '12px',color:"gray"}}>17th December, 2022</span>
+        <p className=' text-black text-sm'>
+          Date: <span style={{ fontSize: '10px',color:"gray"}}>17th December, 2022</span>
         </p>
        
       </div>
@@ -124,24 +124,24 @@ Date: <span style={{ fontSize: '12px', color:"gray"}}>17th December, 2022</span>
           <img
             src={video}
             alt="imagesave"
-            className="absolute top-96 lg:mt-5 md:mt-3 lg:left-96 left-24 md:left-56 translate-x-16 sm:w-12 sm:h-12 w-8 h-8 scales rounded"
+            className="absolute top-80 mt-8 lg:mt-5 md:mt-3 lg:left-96 left-24 md:left-56 translate-x-16 sm:w-12 sm:h-12 w-8 h-8 scales rounded"
           />
         </Link>
         <p className="text-sm articles text-blue-600 mt-3 sm:mb-10 mb-5 text-center">Complete video</p>
       </section>
       <section>
-                <h2 className='articles text-blue-600 mb-0 lg:w-10/12 md:w-96 w-80 '>I'm happy to offer you a minified summary and personal additional notes to one of the finest events held about generating halal income this year. I see it as a duty because Muslims really need it. </h2>
+                <h2 className='articles text-blue-600 mb-0 lg:w-10/12 md:w-96 '>I'm happy to offer you a minified summary and personal additional notes to one of the finest events held about generating halal income this year. I see it as a duty because Muslims really need it. </h2>
                 <p className='articles text-blue-600 text-sm mt-4 sm:mb-7 mb-5'>Let's start...</p>
-                <p className='articles text-blue-600 sm:mb-10 mb-5 lg:w-10/12 md:w-96 w-80 '>I congratulate you for finding this piece of work and wanting to read it. It's worth the time. You will be better off.
+                <p className='articles text-blue-600 sm:mb-10 mb-5 lg:w-10/12 md:w-96 '>I congratulate you for finding this piece of work and wanting to read it. It's worth the time. You will be better off.
                 </p>
             </section>
             <section>
             <h2 className='text-sm sm:text-xl mb-3 text-blue-600'>ISE OMO ALASE JE, OWO OMO ALASELA </h2>
             <img src={savemoney} alt="imagesave" className='relative heights left-2 w-72 sm:w-10/12 rounded '/>
-            <p className='articles text-blue-600 mt-3 mb-10' style={{fontSize:"11px"}} >Cited by Dr Kazeem Salam (Yoruba proverb for the wise)</p>
-            <h1 className='articles text-blue-600 mb-5 lg:w-10/12 md:w-96 w-80 text-sm'>* WORKING FOR SALARY/WAGES IS FOR EATING FOOD AND PAYING BILLS ONLY (most times), BUT BUSINESS/PROFIT IS TO MAKE YOU RICH AND WEALTHY! Be wise!
+            <p className='articles text-blue-600 mt-3 mb-10 text-center' style={{fontSize:"11px"}} >Cited by Dr Kazeem Salam (Yoruba proverb for the wise)</p>
+            <h1 className='articles font-bold mb-5 lg:w-10/12 md:w-96 text-sm '>* WORKING FOR SALARY/WAGES IS FOR EATING FOOD AND PAYING BILLS ONLY (most times), BUT BUSINESS/PROFIT IS TO MAKE YOU RICH AND WEALTHY! Be wise!
             </h1>
-            <div className='translate-x-2'>
+            <div className='sm:translate-x-2 px-1'>
             <p className='articles text-blue-600 mb-5 lg:w-10/12 md:w-96 w-72 text-justify'>However, migrating from being an employee to an employer should be gradual. I will advise you to gather enough money, education (financial education), experience, materials and confidence needed before you switch. It's also true that not all businesses need a lot of experience and money to start, you will learn and acquire more funds as you progress. Don't allow anything to hold you back if you're convinced and determined. Your readiness, having a sound business idea and proper planning, all crowned with prayer are more important than the capital for a business to be successful. Even having a sound idea with proper planning will attract the right funding.
             </p>
             <p className='articles text-blue-600 mb-2 lg:w-10/12 md:w-96 w-72 text-sm'>
@@ -178,7 +178,7 @@ Date: <span style={{ fontSize: '12px', color:"gray"}}>17th December, 2022</span>
         <section>
             <p className='my-5 lg:w-10/12 md:w-96 w-72 text-2xl text-blue-600 text-justify'>Some of the ways to raise money for a business idea or for business expansion.</p>
             
-    <div className='grid lg:grid-cols-5 lg:mx-28 md:mx-10 md:-translate-x-6 lg:-translate-x-16 my-5 md:grid-cols-3 grid-cols-2 gap-3 text-center mx-5 -translate-x-'>
+    <div className='grid lg:grid-cols-5 lg:mx-28 md:mx-10 md:-translate-x-6 lg:-translate-x-16 my-5 md:grid-cols-3 grid-cols-2 gap-3 text-center '>
         <div>
         <img src={partner} alt="imagesave" className='w-60 h-20 lg:w-32 md:w-32 rounded '/>
             <p className='articles text-blue-600' style={{fontSize:"10px"}}>Partnership</p> 
@@ -221,7 +221,7 @@ Date: <span style={{ fontSize: '12px', color:"gray"}}>17th December, 2022</span>
         </div>
     </div>
         <p className='articles text-blue-600 my-3 lg:w-10/12 md:w-96 w-72 text-sm text-justify'>(Learn about each method and know the best ways to tap into them.)</p>
-<div className='lg:translate-x-12 md:translate-x-3'>
+<div className='lg:translate-x-12 md:translate-x-3 px-1'>
         <p className='articles text-blue-600 mb-2 lg:w-9/12 md:w-96 w-72 text-sm text-justify'>
         * When starting a business, please think big. Dream of your business becoming a big business one day. This will help you to have a better plan for your business before you start.
         </p>

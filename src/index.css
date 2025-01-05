@@ -21,8 +21,25 @@
   @media (min-width: 768px) {
   .heights{
     height: 450px;
+
+  }
+  .articles {
+    font-family: "Sofia", sans-serif;
+    font-size: 15px; /* Adjust to 18px if needed */
+    line-height: 1.2; /* Adjust for readability if needed */
+    color: rgb(59, 59, 59);
   }
   }
+
+  @media (min-width: 312px) {
+    .articles {
+      font-family: "Sofia", sans-serif;
+      font-size: 15px; /* Adjust to 18px if needed */
+      line-height: 1.2; /* Adjust for readability if needed */
+      color: rgb(59, 59, 59);
+      
+    }
+    }
   body{
     background-color: var(--body_background);
     color: white;
@@ -584,10 +601,4 @@ to{
     top: 0 !important;
     left: 0 !important;
   }
-}
-.articles {
-  font-family: "Sofia", sans-serif;
-  font-size: 15px; /* Adjust to 18px if needed */
-  line-height: 1.2; /* Adjust for readability if needed */
-  color: rgb(59, 59, 59);
 }
