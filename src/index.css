@@ -18,28 +18,27 @@
 
   }
 
-  @media (min-width: 768px) {
-  .heights{
-    height: 450px;
-
-  }
-  .articles {
-    font-family: "Sofia", sans-serif;
-    font-size: 15px; /* Adjust to 18px if needed */
-    line-height: 1.2; /* Adjust for readability if needed */
-    color: rgb(59, 59, 59);
-  }
-  }
-
-  @media (min-width: 312px) {
+  @media (min-width: 420px) and (max-width: 767px) {
     .articles {
-      font-family: "Sofia", sans-serif;
-      font-size: 15px; /* Adjust to 18px if needed */
-      line-height: 1.2; /* Adjust for readability if needed */
-      color: rgb(59, 59, 59);
-      
+      font-family: serif !important;
+      font-size: 19px !important;
+      line-height: 1.2 !important;
+      color: black !important;
     }
+  }
+  
+  @media (min-width: 768px) {
+    .heights {
+      height: 450px;
     }
+    .articles {
+      font-family: "serif";
+      font-size: 22px;
+      line-height: 1.2;
+      color: black;
+    }
+  }
+  
   body{
     background-color: var(--body_background);
     color: white;
