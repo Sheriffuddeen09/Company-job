@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "axios": "^1.7.7",
+    "companyproject": "file:",
     "hero-slider": "^3.2.1",
     "html2canvas": "^1.4.1",
     "html2pdf.js": "^0.10.2",
