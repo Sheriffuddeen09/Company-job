@@ -45,9 +45,9 @@ function Technology (){
             <article key={id} className={position}>
              <img src={image} alt={'imagePicture'} className="opacity-40 w-full -translate-y-20 hidden sm:block" style={{height:"650px"}}/>
              <img src={image} alt={'imagePicture'} className="opacity-40 w-full -translate-y-20 sm:hidden block" style={{height:"450px"}}/>
-              <div className="relative bottom-96 translate-x-3 mx-auto sm:translate-x-14">
+              <div className="relative bottom-96 mx-auto sm:translate-x-14">
               <p className="text-3xl text-white mb-10 mt-10 text-center my-6">{title}</p>
-              <p className="sm:w-8/12 my-3 text-white text-2xl mx-auto text-center sm:text-3xl font-bold">{tech}</p>
+              <p className="sm:w-8/12 my-3 text-white text-sm mx-auto w-72 text-center sm:text-3xl font-bold">{tech}</p>
               </div>
               
             </article>
@@ -66,7 +66,7 @@ return(
     <div className="mb-80">
         {content}
     </div>
-        <div className="sm:mt-60 mt-96 sm:translate-y-10 -translate-y-52 sm:mb-48 mb-40">
+        <div className="sm:mt-60 mt-96 sm:translate-y-10 -translate-y-80 sm:mb-48 -mb-40">
        <Software />
        </div>
     </div>

@@ -1,17 +1,21 @@
-# Enable Rewrite Module for Routing (React SPA)
+# Enable Rewrite Module for React Routing (SPA)
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  RewriteBase /
+
+  # Redirect HTTP to HTTPS
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Allow direct access to existing files and directories
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
+
+  # Redirect all other requests to index.html
   RewriteRule ^ index.html [L]
 </IfModule>
 
-# Redirect HTTP to HTTPS
-RewriteEngine On
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-# Enable Compression for Faster Loading
+# Enable Gzip Compression for Faster Loading
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json
 </IfModule>
