@@ -9,9 +9,17 @@ import themes from './themes/theme1.avif'
 import logistic from './image/fundament.webp'
 import logisticb from './image/onlinetech.jpg'
 import logisticc from './image/onlinetech.jpg'
-import tech from './image/logic.jpg'
-import techb from './image/techn.jpg'
+import tech from './image/techno.avif'
+import techb from './image/technol.jpg'
 import techc from './image/feedback.jpg'
+import softwarea from './image/plan.png'
+import softwareb from './image/design.png'
+import softwarec from './image/testing.jpg'
+import softwared from './image/analysis.webp'
+import softwaree from './image/coding.png'
+import softwaref from './image/deploy.png'
+import softwareg from './image/maintenance.png'
+
 import customer from './image/customer.jpg'
 import customerb from './image/rate.png'
 import customerc from './image/security.png'
@@ -23,6 +31,7 @@ import companyb from './image/global.png'
 import companyc from './image/tiny.png'
 import companyd from './image/micro.png'
 import companye from './image/afex.png'
+
 import reviewa from './review/backend.jpg'
 import reviewb from './review/python.png'
 import reviewc from './review/product.jpg'
@@ -72,6 +81,60 @@ export const homesdata = [
         click:"LEARN MORE"
     }
 ]
+export const technologys = [
+    {
+        id:1,
+        image:techb,
+        title:'Ecoreme Technology',
+        tech:'We are a tech company using cutting edge technologies to deliver innovative solutions for individuals and businesses, driving efficiency, growth, and digital transformation.'
+    },
+    {
+        id:1,
+        image:techc,
+        title:'Ecoreme Technology',
+        tech:'We are a tech company using cutting edge technologies to deliver innovative solutions for individuals and businesses, driving efficiency, growth, and digital transformation.'
+    },
+    {
+        id:1,
+        image:tech,
+        title:'Ecoreme Technology',
+        tech:'We are a tech company using cutting edge technologies to deliver innovative solutions for individuals and businesses, driving efficiency, growth, and digital transformation.'
+    },
+
+]
+
+export const software = [
+    {
+        image:softwarea,
+        title:"Planning",
+        body:"Define project scope, feasibility, and resources.",
+        "icon":softwareb,
+        "numbertitle":"Requirement Analysis",
+        "numberBody":"Gather and document user needs and system requirements."
+    },
+    {
+        image:softwarec,
+        title:"Design",
+        body:"Create system architecture, UI/UX, and database design.",
+        "icon":softwared,
+        "numbertitle":"Implementation (Coding)",
+        "numberBody":"Develop the software based on design specifications."
+    },
+    {
+        image:softwaree,
+        title:"Testing",
+        body:"Identity and fix bugs, ensure software quality. ",
+        "icon":softwaref,
+        "numbertitle":"Deployment",
+        "numberBody":"Release software for users (can be phased or full deployment)."
+    },
+    {
+        "icon":softwareg,
+        "numbertitle":"Maintenance",
+        "numberBody":"Provide updates, fix issues, and improve perfomance. ",
+    }
+]
+
 export const rider = [
     {
         id:1,
@@ -143,42 +206,6 @@ export const welcomes=[
             quality:"Time move",
             quality2:"Time arrive",
             quality3:"Online"
-        }
-
-    ]
-    export const technologys = [
-        {
-            id:1,
-            image:tech,
-            logistic:"Technologies",
-            type:"Knowledge",
-            type2:"Reproducible",
-            type3:"Phrased",
-            quality:"Set",
-            quality2:"Goal",
-            quality3:"Achieve"
-        },
-        {
-            id:1,
-            image:techb,
-            logistic:"Technologies",
-            type:"Technologies",
-            type2:"Reproducible",
-            type3:"Phrased",
-            quality:"Set",
-            quality2:"Goal",
-            quality3:"Achieve"
-        },
-        {
-            id:1,
-            logistic:"Technologies",
-            image:techc,
-            type:"Technologies",
-            type2:"Reproducible",
-            type3:"Phrased",
-            quality:"Set",
-            quality2:"Goal",
-            quality3:"Achieve"
         }
 
     ]

@@ -48,8 +48,8 @@ function Navbar() {
                 <Link to={'/logistics'} className="text-white text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer logistic">ECOREME LOGISTICS
                 
                 </Link>
-                <p className="text-white text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer tech">ECOREME TECHNOLOGIES
-                </p>
+                <Link to={'technology'} className="text-white text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer tech">ECOREME TECHNOLOGIES
+                </Link>
         {/* <p onClick={handleArticles} className={`  className="text-white text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer article flex flex-row gap-4 items-center `}><p className=''>ARTICLES</p>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='size-4'>
         <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
@@ -84,8 +84,8 @@ function Navbar() {
                 <Link to={'/logistics'} className="text-white text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer logistic">ECOREME LOGISTICS
                 
                 </Link>
-                <p className="text-white text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer tech">ECOREME TECHNOLOGIES
-                </p>
+                <Link to={'technology'} className="text-white text-white  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer tech">ECOREME TECHNOLOGIES
+                </Link>
                 {/* <p onClick={handleArticles} className={`text-white text-sm text-white text-sm  rounded-xl lg:p-2 p-1 transition-all duration-500 ease-in-out cursor-pointer article flex flex-row gap-4 items-center `}><p className=''>ARTICLES</p>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='size-4'>
         <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
@@ -160,8 +160,8 @@ function Navbar() {
 
             </li>
             <li className='-mb-' onClick={handleHide}>
-            <p className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>ECOREME TECHNOLOGIES</p>
-            </p>
+            <Link to={'technology'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-2 -mb-3'>ECOREME TECHNOLOGIES</p>
+            </Link>
             <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto mt-5`}> </li>
 
             </li>
@@ -233,8 +233,8 @@ function Navbar() {
 
         </li>
         <li className='-mb-1' onClick={handlemenu}>
-        <p className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>ECOREME TECHNOLOGIES</p>
-        </p>
+        <Link to={'technology'} className={` text-white text-sm  rounded-xl p-1 transition-all duration-500 ease-in-out hover:bg-[#000000b3]  hover:text-gray-600 cursor-pointer`}><p className='-translate-x-6 -mb-3'>ECOREME TECHNOLOGIES</p>
+        </Link>
         <li className={` bg-[#313030] h-0.5 w-60 w-60 mx-auto mt-5 `}> </li>
 
         </li>

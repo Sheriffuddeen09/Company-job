@@ -8,6 +8,7 @@ import logo from './image/ecologo.png'
 import { lazy, Suspense } from "react"
 import ArticleNuggets from "./article/ArticleNuggets"
 import ArticleHalalWealth from "./article/ArticleHalalWealth"
+import Technology from "./technology/Technology"
 
 const About = lazy(() => import('./about/About'))
 const Logistics = lazy(() => import('./logistic/Logistics'))
@@ -68,6 +69,12 @@ function App() {
            <Route path="/contact" element={
               <div className="overflow-hidden">
                 <Contact />
+              </div>
+          
+          } />
+          <Route path="/technology" element={
+              <div className="overflow-hidden">
+                <Technology />
               </div>
           
           } />

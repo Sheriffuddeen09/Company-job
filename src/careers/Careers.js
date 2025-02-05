@@ -86,7 +86,7 @@ function Careers (){
 
        </div>   
        
-       <div className="sm:mx-20 sm:mb-10 mb-5 mx-3">
+       <div className="sm:mx-20 sm:mb-10 mb-5 mx-3 text-black">
         <p className="my-2">Call/WhatsApp: <a className="text-blue-400" href="tel:09062830059">09062830059 </a></p>
         <p className="my-2">You can also forward your CV to: <a className="text-blue-400" href="mailto:recruitment.logistics@ecoreme.com">recruitment.logistics@ecoreme.com</a></p>
         <p className="my-2">Note: Use the job title you are applying for as the subject of your email.</p>
