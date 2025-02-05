@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react"
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { technologys } from "../Data";
-import { Link } from "react-router-dom";
 import Software from "./Software";
 
 function Technology (){

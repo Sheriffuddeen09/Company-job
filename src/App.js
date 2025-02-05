@@ -78,11 +78,7 @@ function App() {
               </div>
           
           } />
-           <Route path="/tech" element={
-              <div className="overflow-hidden">
-              </div>
-          
-          } />
+
            <Route path="/articles/halalwealth" element={
               <div className="overflow-hidden">
                 <ArticleHalalWealth />
