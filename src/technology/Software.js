@@ -20,7 +20,7 @@ function Software(){
         </div>
     )
     const contents = (
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 text- gap-10" data-aos="zoom-out">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 text- gap-10" data-aos="zoom-out">
             {
                 software.map((soft) =>(
                     <div className="mx-auto flex-col flex items-center">

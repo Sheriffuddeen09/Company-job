@@ -54,15 +54,14 @@ function Ecoreme(){
               <p className={` text-center text-4xl w-40  py-3 transition-all duration-500 ease-in-out cursor-pointer font-bold`}>{main}</p>
               </div>
               </Link>
-              <div onClick={handleFlip} className={`flip cursor-pointer `}>
-              <div className={`p-7 text-center -mt-5 sm:mt-0 text-white hover:bg-white hover:text-black hover:border-black transition-all duration-300 flip border-2 border-white rounded-xl w-72 sm:w-96 ${flip ? "block" : "hidden"}`}>
+
+              <Link to={'/technology'}>
+              <div className={`p-7 text-center -mt-5 sm:mt-0 text-white hover:bg-white hover:text-black hover:border-black transition-all duration-300 flip border-2 border-white rounded-xl w-72 sm:w-96 `}>
               <p className={` text-center text-6xl mt-2 w-40  py-3 transition-all duration-500 ease-in-out font-bold `}>{company}</p>
               <p className={` text-center text-4xl w-40  py-3 transition-all duration-500 ease-in-out font-bold`}>{tech}</p>
               </div>
-              <div className={`text-center flip text-white hover:bg-white hover:text-black hover:border-black transition-all duration-300 py-12 px-10  border-2 border-white rounded-xl w-72 sm:w-96 ${flip ? "hidden" : "block"}`}>
-              <p className="text-center text-5xl sm:text-6xl font-bold  bg-logistic font-serif">In Progress</p>
-              </div>
-              </div>
+              </Link>
+              
               </div>
               </div>
             </main>
