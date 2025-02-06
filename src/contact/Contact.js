@@ -26,6 +26,8 @@ function Contact (){
     
                 </p>
                 <p className="text-white text-2xl font-bold mt-4 mb-2">Email Address</p>
+                <a href='mailto:tech@ecoreme.com' className="text-white font-bold text-xl mt-4 underline">tech@ecoreme.com</a>
+                <br />
                 <a href='mailto:logistics@ecoreme.com' className="text-white font-bold text-xl mt-4 underline">logistics@ecoreme.com</a>
             </div>
             <div>
