@@ -26,7 +26,7 @@ function Contact (){
     
                 </p>
                 <p className="text-white text-2xl font-bold mt-4 mb-2">Email Address</p>
-                <a href='mailto:logistics@ecoreme.com' className="text-white font-bold text-xl mt-4 underline">tech@ecoreme.com,  <br /> logistics@ecoreme.com </a>
+                <a href='mailto:logistics@ecoreme.com' className="text-white font-bold text-xl mt-4 underline">logistics@ecoreme.com</a>
             </div>
             <div>
                 <p className="bg-white w-28 h-28 rounded-full inline-flex items-center justify-items-center ">
@@ -44,7 +44,7 @@ function Contact (){
         return (
             <section className="">
                 <h1 className="sm:text-6xl  text-5xl text-white mt-4 sm:mt-20 text-center">Contact Us</h1>
-                <p className="text-center mx-auto text-white w-72 text-xl sm:w-6/12 mt-6">We use cutting edge technologies to deliver innovative solutions for individuals and businesses, driving efficiency, growth, and digital transformation</p>
+                <p className="text-center mx-auto text-white w-72 text-xl sm:w-4/12 mt-6">Connecting Businesses with Customers through Efficient Logistics Solutions</p>
                 <div className='mb-28 sm:mb-40'>
                 {contents}
                 </div>
