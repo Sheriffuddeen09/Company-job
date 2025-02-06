@@ -140,7 +140,7 @@ export const software = [
     {
         image:softwareg,
         title:"Maintenance",
-        "numberBody":"Provide updates, fix issues, and improve perfomance. ",
+        body:"Provide updates, fix issues, and improve perfomance. ",
     }
 ]
 

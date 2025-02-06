@@ -4,7 +4,7 @@ function Software(){
 
     
     const content = (
-        <div className="grid sm:grid-cols-3 grid-cols-1 my-3 justify-items-center" data-aos="fade-up">
+        <div className="grid sm:grid-cols-3 grid-cols-1 justify-items-center" data-aos="fade-up">
             {
                 software.map((soft) =>(
                     <div className="mx-auto flex-col flex">
