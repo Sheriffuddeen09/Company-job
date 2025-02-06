@@ -108,29 +108,38 @@ export const software = [
         image:softwarea,
         title:"Planning",
         body:"Define project scope, feasibility, and resources.",
-        "icon":softwareb,
-        "numbertitle":"Requirement Analysis",
-        "numberBody":"Gather and document user needs and system requirements."
+        
+    },
+    {
+        image:softwareb,
+        title:"Requirement Analysis",
+        body:"Gather and document user needs and system requirements."
     },
     {
         image:softwarec,
         title:"Design",
         body:"Create system architecture, UI/UX, and database design.",
-        "icon":softwared,
-        "numbertitle":"Implementation (Coding)",
-        "numberBody":"Develop the software based on design specifications."
+       
+    },
+    {
+        image:softwared,
+        title:"Implementation (Coding)",
+        body:"Develop the software based on design specifications."
     },
     {
         image:softwaree,
         title:"Testing",
         body:"Identity and fix bugs, ensure software quality. ",
-        "icon":softwaref,
-        "numbertitle":"Deployment",
-        "numberBody":"Release software for users (can be phased or full deployment)."
+        
     },
     {
-        "icon":softwareg,
-        "numbertitle":"Maintenance",
+        image:softwaref,
+        title:"Deployment",
+        body:"Release software for users (can be phased or full deployment)."
+    },
+    {
+        image:softwareg,
+        title:"Maintenance",
         "numberBody":"Provide updates, fix issues, and improve perfomance. ",
     }
 ]
